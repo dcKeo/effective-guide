@@ -1,0 +1,78 @@
+enabled: true
+american-date-format: false
+calendar-is-real-life-days: false
+sync-time-with-real-world: false
+time-sync-offset: 0
+time-sync-timezone: 'system'
+time:
+  format: '$hours$:$minutes$'
+  12-hour-clock:
+    enabled: false
+    add-am-pm: false
+week-days:
+- Lunes
+- Martes
+- Miércoles
+- Jueves
+- Viernes
+- Sábado
+- Domingo
+synced-worlds:
+- none
+worlds-without-events:
+- Spawn
+winter-start: Diciembre 4
+spring-start: Marzo 4
+summer-start: Junio 4
+fall-start: Septiembre 4
+months:
+  Enero:
+    days: 31
+    day-length-in-min: 7
+    night-length-in-min: 13
+  Febrero:
+    days: 28
+    day-length-in-min: 8
+    night-length-in-min: 12
+  Marzo:
+    days: 31
+    day-length-in-min: 9
+    night-length-in-min: 11
+  Abril:
+    days: 30
+    day-length-in-min: 10
+    night-length-in-min: 10
+  Mayo:
+    days: 31
+    day-length-in-min: 11
+    night-length-in-min: 9
+  Junio:
+    days: 30
+    day-length-in-min: 12
+    night-length-in-min: 8
+  Julio:
+    days: 31
+    day-length-in-min: 13
+    night-length-in-min: 7
+  Agosto:
+    days: 31
+    day-length-in-min: 12
+    night-length-in-min: 8
+  Septiembre:
+    days: 30
+    day-length-in-min: 11
+    night-length-in-min: 9
+  Octubre:
+    days: 31
+    day-length-in-min: 10
+    night-length-in-min: 10
+  Noviembre:
+    days: 30
+    day-length-in-min: 9
+    night-length-in-min: 11
+  Diciembre:
+    days: 31
+    day-length-in-min: 8
+    night-length-in-min: 12
+
+

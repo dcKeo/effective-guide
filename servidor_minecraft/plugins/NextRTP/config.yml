@@ -1,0 +1,6 @@
+config-version: 2
+
+debug: false
+
+modules:
+  sign: true

@@ -1,0 +1,38 @@
+config-version: 1
+
+messages:
+  
+  prefix: <#888888><bold>⤷</bold> <#00b4db>RTP</#00b4db> <#888888>»</#888888>
+  
+  teleport:
+    start: <prefix> <#bbbbbb>Iniciando teletransportación.
+    delay: <prefix> <#bbbbbb>Teletransportando en <#ffffff>%nextrtp_teleport_progress_time%</#ffffff> segundos...
+    success: <prefix> <#5cb85c>Teletransporte exitoso.
+    cancelled: <prefix> <#d9534f>Teletransporte cancelado.
+    progress: <prefix> <#f0ad4e>Teletransporte actualmente en progreso.
+    cooldown: <prefix> <#d9534f>Porfavor espera <#ffffff>%nextrtp_teleport_cooldown%</#ffffff> segundos antes de intentar teletransportarte nuevamente.
+    failed: <prefix> <#d9534f>Teletransporte fallido. Intenta más tarde.
+  
+  currency:
+    no_money: <prefix> <#d9534f>Dinero insuficiente <#aaaaaa>(<#ffd700>$ %nextrtp_teleport_money%</#ffd700><#aaaaaa>)</#aaaaaa>.
+    charged: <prefix> <#bbbbbb>Se te descontó <#ffffff>$ %nextrtp_teleport_money%</#ffffff> por teletransportarte.
+  
+  sign:
+    success: <prefix> <#bbbbbb>Cartel puesto en <#ffffff><x> <y> <z></#ffffff>.
+  
+  world:
+    not_allowed: <prefix> <#d9534f>El teletransporte NO está permitido en este mundo  (<#ffffff><world_name></#ffffff>).
+  
+  command:
+    reload:
+      success: <prefix> <#5cb85c>Plugin reloaded.
+      error: <prefix> <#d9534f>Reload failed. Check console.
+    invalid_player: <prefix> <#d9534f>Player not found or offline.
+    invalid_world: <prefix> <#d9534f>World not found.
+    invalid_location: <prefix> <#d9534f>Invalid location.
+  
+  usage:
+    rtp_sudo: <prefix> <#aaaaaa>Uso:</#aaaaaa> <#ffffff>/nextrtp sudo [player]
+    rtp_world: <prefix> <#aaaaaa>Uso:</#aaaaaa> <#ffffff>/nextrtp world [world]
+    rtp_world_sudo: <prefix> <#aaaaaa>Uso:</#aaaaaa> <#ffffff>/nextrtp world [world] sudo [player]
+    rtp_location: <prefix> <#aaaaaa>Uso:</#aaaaaa> <#ffffff>/nextrtp location [location_name]

@@ -1,0 +1,8 @@
+on first join:
+    send "&e%player% ha entrado por primera vez, bienvenido a la modalidad Survival Parcelas, usa /menu para ver las funcionalidades del servidor." to all players
+    
+on join:
+    send "&8- &7(&a&l+&7) &r&f%player%" to all players
+    
+on quit:
+    send "&8- &7(&c&l-&7) &r&f%player%" to all players

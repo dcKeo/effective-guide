@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.190.144.61
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1750752583616
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750755335007
+  login: 1750751087547
+money: '0'
+last-account-name: KeitoC
+logoutlocation:
+  world: 66951e4d-afd7-4021-84c5-007b920b58d2
+  world-name: world
+  x: 0.41642250821580773
+  y: 85.0
+  z: 4.106280601406403
+  yaw: -3.10992431640625
+  pitch: 22.0136775970459
+lastlocation:
+  world: 66951e4d-afd7-4021-84c5-007b920b58d2
+  world-name: world
+  x: -29.32491464845093
+  y: 70.13353465050784
+  z: -20.109984410181553
+  yaw: -74.30340576171875
+  pitch: 24.946439743041992
