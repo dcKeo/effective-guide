@@ -1,0 +1,71 @@
+menu_title: '&#DB4444&lM&#E04B4B&le&#E55252&ln&#EA5959&lu &#F56868&lP&#FA6F6F&lr&#FF7676&li&#F96E6E&ln&#F36565&lc&#ED5D5D&li&#E75555&lp&#E14C4C&la&#DB4444&ll'
+open_command:
+  - menu
+  - inicio
+  - ayuda
+size: 45
+
+items:
+  'spawnbutton':
+    material: PLAYER_HEAD
+    slot: 11
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+    display_name: '&7🏠 &8| &b&lSpawn'
+    lore: []
+    left_click_commands:
+      - '[player] spawn'
+      - '[close]'
+
+
+  'filler_item':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 44
+    display_name: '&0'
+  'filler_item2':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 10
+      - 16
+      - 19
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 37
+      - 38
+      - 39
+      - 41
+      - 42
+      - 43
+    display_name: '&0'
+  'closeguibutton':
+    material: BARRIER
+    slot: 40
+    display_name: '&7⏏ &8| &c&lCerrar'
+    lore: []
+    left_click_commands:
+      - '[sound] ENTITY_SNOW_GOLEM_DEATH'
+      - '[close]'

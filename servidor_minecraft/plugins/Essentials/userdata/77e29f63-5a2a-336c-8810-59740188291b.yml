@@ -4,7 +4,7 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 127.190.144.61
-afk: false
+afk: true
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1750755335007
-  login: 1750751087547
+  logout: 1750760434008
+  login: 1750757136209
 money: '0'
 last-account-name: KeitoC
 logoutlocation:
   world: 66951e4d-afd7-4021-84c5-007b920b58d2
   world-name: world
-  x: 0.41642250821580773
+  x: 0.32560964091611716
   y: 85.0
-  z: 4.106280601406403
-  yaw: -3.10992431640625
-  pitch: 22.0136775970459
+  z: 0.5666526472062827
+  yaw: -3.0689074993133545
+  pitch: 87.34130859375
 lastlocation:
   world: 66951e4d-afd7-4021-84c5-007b920b58d2
   world-name: world
