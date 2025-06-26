@@ -1,52 +1,8 @@
 options:
-    prefix: &8[&aSpawn&8] &7
+    prefix: &8[&aNayeLand&8] &7
     successfully: &8[&a&l!&8] &r&a
     error: &8[&c&l!&8] &r&c
 
-# -------------------------
-# Comando /setspawn
-# -------------------------
-command /setspawn:
-    usage: /setspawn
-    permission: admin.setspawn
-    permission message: {@error}No tienes permiso para usar este comando.
-    trigger:
-        set {spawn.location} to location of player
-        send "{@prefix}&aSpawn definido correctamente."
-        play sound "entity.player.levelup" to player
-
-# -------------------------
-# Comando /spawn con permisos y bloqueo por combate
-# -------------------------
-command /spawn:
-    usage: /spawn
-    permission: essentials.spawn
-    permission message: {@error}No tienes permiso para usar /spawn.
-    trigger:
-        if {spawn.location} is not set:
-            send "{@error}El spawn aún no está definido."
-            stop
-
-        if {combate.%uuid of player%} is set:
-            send "{@error}¡No puedes usar /spawn mientras estás en combate!"
-            stop
-
-        set {_loc} to location of player
-        loop 5 times:
-            set {_t} to 6 - loop-number
-            send action bar "&aTeleportando en %{_t}% segundos. &c&l¡No te muevas!" to player
-            if location of player != {_loc}:
-                send action bar "{@error}¡Teletransporte cancelado por moverte!"
-                stop
-            wait 1 second
-
-        teleport player to {spawn.location}
-        play sound "entity.player.levelup" to player
-        send action bar "{@successfully}&aFuiste teletransportado al spawn."
-
-# -------------------------
-# Teleport al spawn en primer ingreso, respawn y entrada
-# -------------------------
 on first join:
     broadcast "&e%player% ha entrado por primera vez, bienvenido a la modalidad &aSurvival Parcelas&e, usa &6/menu &epara ver las funcionalidades del servidor."
     set join message to ""
@@ -66,3 +22,52 @@ on quit:
 on respawn:
     if {spawn.location} is set:
         set respawn location to {spawn.location}
+
+command /setspawn:
+    usage: /setspawn
+    permission: admin.spawn.setspawn
+    permission message: {@error}No tienes permiso para usar este comando.
+    trigger:
+        set {spawn.location} to location of player
+        send "{@prefix}&aSpawn definido correctamente."
+        play sound "entity.player.levelup" to player
+
+command /spawn:
+    usage: /spawn
+    permission: member.spawn.use
+    permission message: {@error}No tienes permiso para usar /spawn.
+    trigger:
+        if {spawn.location} is not set:
+            send "{@error}El spawn aún no está definido."
+            stop
+
+        if {combate.%uuid of player%} is set:
+            send "{@error}¡No puedes usar /spawn mientras estás en combate!"
+            stop
+
+        set {_loc} to location of player
+        loop 5 times:
+            set {_t} to 6 - loop-number
+            send action bar "&aTeletransportando al spawn en %{_t}% segundos. &c&l¡No te muevas!" to player
+            if location of player != {_loc}:
+                send action bar "{@error}¡Teletransporte cancelado por moverte!"
+                stop
+            wait 1 second
+
+        teleport player to {spawn.location}
+        play sound "entity.player.levelup" to player
+        send action bar "{@successfully}&aFuiste teletransportado al spawn."
+
+command /clearchat:
+    usage: /clearchat
+    permission: admin.chat.clearchat
+    permission message: {@error}You do not have permission for that command
+    trigger:
+        loop all players:
+            loop 100 times:
+                send " " to loop-player
+        broadcast "&c-----------------------------------------"
+        broadcast "&cEl chat ha sido limpiado por &a%player%!"
+        broadcast "&c-----------------------------------------"
+        play sound "entity.player.levelup" to player
+        send action bar "{@prefix}Chat limpiado exitosamente!"

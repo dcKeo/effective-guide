@@ -4,3 +4,4 @@
 {"loggerName":"FancyHolograms","logLevel":"WARN","message":"No holograms section found in config","timestamp":1750972120550,"threadID":136,"threadName":"FancyHolograms-Holograms","properties":{}}
 {"loggerName":"FancyHolograms","logLevel":"WARN","message":"No holograms section found in config","timestamp":1750972120550,"threadID":136,"threadName":"FancyHolograms-Holograms","properties":{}}
 {"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully enabled FancyHolograms version 2.5.0","timestamp":1750972120554,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully disabled FancyHolograms version 2.5.0","timestamp":1750973228687,"threadID":41,"threadName":"Server thread","properties":{}}
