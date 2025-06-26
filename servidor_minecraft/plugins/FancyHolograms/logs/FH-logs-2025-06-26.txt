@@ -12,3 +12,10 @@
 {"loggerName":"FancyHolograms","logLevel":"WARN","message":"No holograms section found in config","timestamp":1750973378433,"threadID":141,"threadName":"FancyHolograms-Holograms","properties":{}}
 {"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully enabled FancyHolograms version 2.5.0","timestamp":1750973378437,"threadID":41,"threadName":"Server thread","properties":{}}
 {"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully disabled FancyHolograms version 2.5.0","timestamp":1750975635635,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully loaded FancyHolograms version 2.5.0","timestamp":1750979000752,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"WARN","message":"No holograms section found in config","timestamp":1750979017401,"threadID":132,"threadName":"FancyHolograms-Holograms","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"WARN","message":"No holograms section found in config","timestamp":1750979017402,"threadID":132,"threadName":"FancyHolograms-Holograms","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"WARN","message":"No holograms section found in config","timestamp":1750979017402,"threadID":132,"threadName":"FancyHolograms-Holograms","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"WARN","message":"No holograms section found in config","timestamp":1750979017402,"threadID":132,"threadName":"FancyHolograms-Holograms","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully enabled FancyHolograms version 2.5.0","timestamp":1750979017405,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyHolograms","logLevel":"INFO","message":"Successfully disabled FancyHolograms version 2.5.0","timestamp":1750979292802,"threadID":40,"threadName":"Server thread","properties":{}}

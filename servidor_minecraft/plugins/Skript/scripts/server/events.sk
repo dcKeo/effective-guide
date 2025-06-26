@@ -26,7 +26,7 @@ on respawn:
 command /setspawn:
     usage: /setspawn
     permission: admin.spawn.setspawn
-    permission message: {@error}No tienes permiso para usar este comando.
+    permission message: {@error}Comando denegado
     trigger:
         set {spawn.location} to location of player
         send "{@prefix}&aSpawn definido correctamente."
@@ -35,7 +35,7 @@ command /setspawn:
 command /spawn:
     usage: /spawn
     permission: member.spawn.use
-    permission message: {@error}No tienes permiso para usar /spawn.
+    permission message: {@error}Comando denegado.
     trigger:
         if {spawn.location} is not set:
             send "{@error}El spawn aún no está definido."
@@ -61,7 +61,7 @@ command /spawn:
 command /clearchat:
     usage: /clearchat
     permission: admin.chat.clearchat
-    permission message: {@error}You do not have permission for that command
+    permission message: {@error}Comando denegado.
     trigger:
         loop all players:
             loop 100 times:
