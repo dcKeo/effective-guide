@@ -1,97 +1,68 @@
-on first join:
-    broadcast "&e%player% ha entrado por primera vez, bienvenido a la modalidad Survival Parcelas, usa &6/menu &epara ver las funcionalidades del servidor."
-    set join message to ""
-
-on join:
-    set join message to "" # Elimina el mensaje por defecto
-    broadcast "&8- &7(&a&l+&7) &r&f%player%"
-
-on quit:
-    set quit message to "" # Elimina el mensaje por defecto
-    broadcast "&8- &7(&c&l-&7) &r&f%player%"
-
 options:
-    color1: <##15ed41>
-    color2: <##ff0000>
-    color3: <##8000ff>
-    prefix: {@color3}[NayeLand] {@color1}
+    prefix: &8[&aSpawn&8] &7
+    successfully: &8[&a&l!&8] &r&a
+    error: &8[&c&l!&8] &r&c
 
-# Función de ActionBar
-function ActionBar(p: player, text: string):
-    send action bar text to p
-
-# Comando /spawn con verificación de movimiento
-command /spawn:
-    usage: {@color2}/spawn
+# -------------------------
+# Comando /setspawn
+# -------------------------
+command /setspawn:
+    usage: /setspawn
+    permission: admin.setspawn
+    permission message: {@error}No tienes permiso para usar este comando.
     trigger:
-        if data value "spawn.location" is not set:
-            send "{@color2}Spawn is not set!"
+        set {spawn.location} to location of player
+        send "{@prefix}&aSpawn definido correctamente."
+        play sound "entity.player.levelup" to player
+
+# -------------------------
+# Comando /spawn con permisos y bloqueo por combate
+# -------------------------
+command /spawn:
+    usage: /spawn
+    permission: essentials.spawn
+    permission message: {@error}No tienes permiso para usar /spawn.
+    trigger:
+        if {spawn.location} is not set:
+            send "{@error}El spawn aún no está definido."
+            stop
+
+        if {combate.%uuid of player%} is set:
+            send "{@error}¡No puedes usar /spawn mientras estás en combate!"
             stop
 
         set {_loc} to location of player
-        play sound "entity.experience_orb.pickup" to player
-
         loop 5 times:
-            set {_time} to 6 - loop-number
-            play sound "entity.experience_orb.pickup" to player
-            ActionBar(player, "{@color1}Teleporting in %{_time}% seconds. {@color2}((Do not move!))")
-
-            if {_loc} is not location of player:
-                play sound "item.shield.break" to player
-                ActionBar(player, "{@color2}Teleport cancelled because you moved!")
+            set {_t} to 6 - loop-number
+            send action bar "&aTeleportando en %{_t}% segundos. &c&l¡No te muevas!" to player
+            if location of player != {_loc}:
+                send action bar "{@error}¡Teletransporte cancelado por moverte!"
                 stop
             wait 1 second
 
-        teleport player to data value "spawn.location"
+        teleport player to {spawn.location}
         play sound "entity.player.levelup" to player
-        ActionBar(player, "{@color1}You were teleported to spawn.")
+        send action bar "{@successfully}&aFuiste teletransportado al spawn."
 
-        if player has permission "op":
-            heal player
-            set food level of player to 20
-            play sound "entity.enderman.teleport" to player
-
-# Comando para establecer el spawn
-command /setspawn:
-    usage: {@color2}/setspawn
-    permission: nayeland.spawn.admin.setspawn
-    permission message: {@color2}You do not have permission for that command
-    trigger:
-        set data value "spawn.location" to location of player
-        play sound "entity.player.levelup" to player
-        ActionBar(player, "{@color1}Successfully set the spawn location.")
-        send "&r" to player
-        send "{@prefix}Successfully set the spawn location." to player
-        send "&r" to player
-
-# Teleport en el primer ingreso
+# -------------------------
+# Teleport al spawn en primer ingreso, respawn y entrada
+# -------------------------
 on first join:
-    if data value "spawn.location" is set:
-        teleport player to data value "spawn.location"
+    broadcast "&e%player% ha entrado por primera vez, bienvenido a la modalidad &aSurvival Parcelas&e, usa &6/menu &epara ver las funcionalidades del servidor."
+    set join message to ""
+    if {spawn.location} is set:
+        teleport player to {spawn.location}
 
-# Respawn en la cama si existe, o en el spawn
-on respawn:
-    if bed spawn location of player is set:
-        set respawn location to bed spawn location of player
-    else if data value "spawn.location" is set:
-        set respawn location to data value "spawn.location"
-
-# Opción de teletransportar al spawn al entrar (opcional)
 on join:
-    if data value "spawn.location" is set:
-        teleport player to data value "spawn.location"
+    set join message to ""
+    broadcast "&8- &7(&a&l+&7) &r&f%player%"
+    if {spawn.location} is set:
+        teleport player to {spawn.location}
 
-# Comando para limpiar el chat
-command /clearchat:
-    usage: {@color2}/clearchat
-    permission: nayeland.spawn.admin.clearchat
-    permission message: {@color2}You do not have permission for that command
-    trigger:
-        loop all players:
-            loop 100 times:
-                send " " to loop-player
-        broadcast "{@color1}-----------------------------------------"
-        broadcast "{@color2}Chat has been cleared by %player%!"
-        broadcast "{@color1}-----------------------------------------"
-        play sound "entity.player.levelup" to player
-        ActionBar(player, "{@prefix}Successfully cleared the chat!")
+on quit:
+    set quit message to ""
+    broadcast "&8- &7(&c&l-&7) &r&f%player%"
+
+on respawn:
+    if {spawn.location} is set:
+        set respawn location to {spawn.location}
