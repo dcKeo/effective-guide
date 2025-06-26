@@ -105,15 +105,15 @@ is-water-safe: false
 teleport-passenger-dismount: true
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 0
+teleport-cooldown: 120
 
 # The delay, in seconds, before a player actually teleports.
 # If the player moves or gets attacked in this timeframe, the teleport is cancelled.
-teleport-delay: 0
+teleport-delay: 5
 
 # The delay, in seconds, during which a player can't be attacked by other players after being teleported by a command.
 # This also prevents the player from attacking others.
-teleport-invulnerability: 4
+teleport-invulnerability: 5
 
 # Whether to make all teleportations go to the center of the block, where the x and z coordinates' decimals become .5.
 teleport-to-center: true
@@ -445,7 +445,7 @@ list:
     #Players: '*'
 
 # Displays real names in /list next to players who are using a nickname.
-real-names-on-list: false
+real-names-on-list: true
 
 # More output to the console.
 debug: false

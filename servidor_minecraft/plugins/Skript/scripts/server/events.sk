@@ -1,8 +1,97 @@
 on first join:
-    send "&e%player% ha entrado por primera vez, bienvenido a la modalidad Survival Parcelas, usa /menu para ver las funcionalidades del servidor." to all players
-    
+    broadcast "&e%player% ha entrado por primera vez, bienvenido a la modalidad Survival Parcelas, usa &6/menu &epara ver las funcionalidades del servidor."
+    set join message to ""
+
 on join:
-    send "&8- &7(&a&l+&7) &r&f%player%" to all players
-    
+    set join message to "" # Elimina el mensaje por defecto
+    broadcast "&8- &7(&a&l+&7) &r&f%player%"
+
 on quit:
-    send "&8- &7(&c&l-&7) &r&f%player%" to all players
+    set quit message to "" # Elimina el mensaje por defecto
+    broadcast "&8- &7(&c&l-&7) &r&f%player%"
+
+options:
+    color1: <##15ed41>
+    color2: <##ff0000>
+    color3: <##8000ff>
+    prefix: {@color3}[NayeLand] {@color1}
+
+# Función de ActionBar
+function ActionBar(p: player, text: string):
+    send action bar text to p
+
+# Comando /spawn con verificación de movimiento
+command /spawn:
+    usage: {@color2}/spawn
+    trigger:
+        if data value "spawn.location" is not set:
+            send "{@color2}Spawn is not set!"
+            stop
+
+        set {_loc} to location of player
+        play sound "entity.experience_orb.pickup" to player
+
+        loop 5 times:
+            set {_time} to 6 - loop-number
+            play sound "entity.experience_orb.pickup" to player
+            ActionBar(player, "{@color1}Teleporting in %{_time}% seconds. {@color2}((Do not move!))")
+
+            if {_loc} is not location of player:
+                play sound "item.shield.break" to player
+                ActionBar(player, "{@color2}Teleport cancelled because you moved!")
+                stop
+            wait 1 second
+
+        teleport player to data value "spawn.location"
+        play sound "entity.player.levelup" to player
+        ActionBar(player, "{@color1}You were teleported to spawn.")
+
+        if player has permission "op":
+            heal player
+            set food level of player to 20
+            play sound "entity.enderman.teleport" to player
+
+# Comando para establecer el spawn
+command /setspawn:
+    usage: {@color2}/setspawn
+    permission: nayeland.spawn.admin.setspawn
+    permission message: {@color2}You do not have permission for that command
+    trigger:
+        set data value "spawn.location" to location of player
+        play sound "entity.player.levelup" to player
+        ActionBar(player, "{@color1}Successfully set the spawn location.")
+        send "&r" to player
+        send "{@prefix}Successfully set the spawn location." to player
+        send "&r" to player
+
+# Teleport en el primer ingreso
+on first join:
+    if data value "spawn.location" is set:
+        teleport player to data value "spawn.location"
+
+# Respawn en la cama si existe, o en el spawn
+on respawn:
+    if bed spawn location of player is set:
+        set respawn location to bed spawn location of player
+    else if data value "spawn.location" is set:
+        set respawn location to data value "spawn.location"
+
+# Opción de teletransportar al spawn al entrar (opcional)
+on join:
+    if data value "spawn.location" is set:
+        teleport player to data value "spawn.location"
+
+# Comando para limpiar el chat
+command /clearchat:
+    usage: {@color2}/clearchat
+    permission: nayeland.spawn.admin.clearchat
+    permission message: {@color2}You do not have permission for that command
+    trigger:
+        loop all players:
+            loop 100 times:
+                send " " to loop-player
+        broadcast "{@color1}-----------------------------------------"
+        broadcast "{@color2}Chat has been cleared by %player%!"
+        broadcast "{@color1}-----------------------------------------"
+        play sound "entity.player.levelup" to player
+        ActionBar(player, "{@prefix}Successfully cleared the chat!")
