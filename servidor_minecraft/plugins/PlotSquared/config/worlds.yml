@@ -1,1 +1,63 @@
 configuration_version: v5
+worlds:
+  Atlantis:
+    plot:
+      height: 62
+      size: 42
+      filling: minecraft:stone
+      floor: minecraft:grass_block
+      bedrock: true
+      biome: minecraft:forest
+      sign_material: OAK_WALL_SIGN
+      auto_merge: false
+      create_signs: true
+    wall:
+      place_top_block: true
+      block: minecraft:stone_slab
+      block_claimed: minecraft:sandstone_slab
+      filling: minecraft:stone
+      height: 62
+    road:
+      width: 7
+      height: 62
+      block: minecraft:quartz_block
+      flags: {}
+    world:
+      component_below_bedrock: false
+      max_gen_height: 319
+      max_height: 320
+      gamemode: creative
+      min_gen_height: -64
+      min_height: -63
+      border_size: 1
+      border: false
+    generator:
+      type: AUGMENTED
+      terrain: ALL
+      plugin: PlotSquared
+    misc_spawn_unowned: false
+    home:
+      nonmembers: side
+      default: side
+    schematic:
+      specify_on_claim: false
+      on_claim: false
+      file: 'null'
+      schematics: []
+    chat:
+      forced: false
+      enabled: true
+    economy:
+      prices:
+        merge: 100
+        sell: 100
+        claim: 100
+      use: false
+    event:
+      spawn:
+        egg: false
+        breeding: false
+        custom: true
+    natural_mob_spawning: false
+    mob_spawner_spawning: false
+    flags: {}

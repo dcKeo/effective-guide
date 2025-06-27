@@ -216,7 +216,7 @@ fuel-item: '    <aqua>{type}</aqua> <gray>+{amount}</gray>'
 
 nbt-rule: '<white>{rule}: <gray>{value}</gray></white>'
 
-warning-crafter-broken-hopper: '<color:#ff4d4d>✘ Removed Crafter. A hopper attempted to move a custom item (not permitted).</color>'
+warning-crafter-broken-hopper: <color:#ff4d4d>✘ Removed Crafter. A hopper attempted to move a custom item (not permitted).</color>
 
 font-image-chat-hover: |
   <white>Emoji: {font_image}
