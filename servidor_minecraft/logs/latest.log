@@ -634,3 +634,85 @@
 [19:32:00] [Server thread/INFO]: ItemsAdder) [Pack] Failed to apply resourcepack to player KeitoC.
 [19:32:00] [Server thread/INFO]: ItemsAdder) You have to setup the resourcepack hosting before using the plugin: https://a.devs.beer/ia-host-pack
 [19:32:00] [Server thread/INFO]: ItemsAdder) [Pack] Applied to 1 players
+[19:45:08] [Server thread/INFO]: Stopping the server
+[19:45:08] [Server thread/INFO]: Stopping server
+[19:45:08] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.3
+[19:45:08] [Server thread/INFO]: [packetevents] Disabling packetevents v2.8.0
+[19:45:08] [Server thread/INFO]: [FancyHolograms] Disabling FancyHolograms v2.5.0
+[19:45:08] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully disabled FancyHolograms version 2.5.0
+[19:45:08] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v5.0.2
+[19:45:08] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[19:45:08] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.72-baa3d91
+[19:45:08] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[19:45:08] [Server thread/INFO]: [LPC] Disabling LPC v3.6.2
+[19:45:08] [Server thread/INFO]: [SkBee] Disabling SkBee v3.11.3
+[19:45:08] [Server thread/INFO]: [TAB] Disabling TAB v5.2.2
+[19:45:08] [Server thread/INFO]: [TAB] Disabled in 2ms
+[19:45:08] [Server thread/INFO]: [NextRTP] Disabling NextRTP v1.0.0-beta.4
+[19:45:08] [Server thread/INFO]: [NextRTP] Disabling SignModule
+[19:45:08] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.14.1-Release
+[19:45:08] [Server thread/INFO]: [VoidWorldGenerator] Disabling VoidWorldGenerator v1.3.0
+[19:45:08] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.6.0
+[19:45:08] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs has been disabled.
+[19:45:08] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v5.0.3
+[19:45:08] [Server thread/INFO]: [ItemsAdder] Disabling ItemsAdder v4.0.11
+[19:45:08] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.0.2
+[19:45:08] [Server thread/INFO]: [Skript] Disabling Skript v2.11.2
+[19:45:08] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-750
+[19:45:08] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v7.5.2-Premium
+[19:45:08] [Server thread/INFO]: [PlotSquared/SQLManager] All DB transactions during this session are being validated (This may take a while if corrections need to be made)
+[19:45:08] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
+[19:45:08] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[19:45:08] [Server thread/INFO]: [XConomy] Disabling XConomy v2.26.3
+[19:45:08] [Server thread/INFO]: [XConomy] XConomy está deshabilitado
+[19:45:08] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[19:45:08] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[19:45:08] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1120;3dc41d8
+[19:45:08] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:45:08] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[19:45:08] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[19:45:08] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.8
+[19:45:08] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[19:45:08] [Server thread/INFO]: [LuckPerms] Closing storage...
+[19:45:08] [Server thread/INFO]: [LuckPerms] Goodbye!
+[19:45:09] [Server thread/INFO]: Saving players
+[19:45:09] [Server thread/INFO]: KeitoC lost connection: Server closed
+[19:45:09] [Server thread/INFO]: KeitoC left the game
+[19:45:09] [Server thread/INFO]: Saving worlds
+[19:45:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 35 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[19:45:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[19:45:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[19:45:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spawn]'/minecraft:spawn
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spawn'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spawn'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spawn'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Spawn' in 0.00s
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Spawn'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Spawn'
+[19:45:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:45:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:45:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:45:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (Spawn): All chunks are saved
+[19:45:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:45:09] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[19:45:09] [Server thread/INFO]: All I/O tasks to complete
+[19:45:09] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[19:45:09] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
