@@ -1,641 +1,887 @@
-[20:10:32] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[20:10:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
-[20:10:32] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:10:34] [ServerMain/INFO]: [PluginInitializerManager] Initialized 25 plugins
-[20:10:34] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[20:15:22] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[20:15:22] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
+[20:15:22] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:15:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 25 plugins
+[20:15:23] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - FancyHolograms (2.5.0), FancyNpcs (2.6.0)
-[20:10:34] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (23):
+[20:15:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (23):
  - DeluxeMenus (1.14.1-Release), Essentials (2.21.1), FastAsyncWorldEdit (2.13.1-SNAPSHOT-1120;3dc41d8), GrimAC (2.3.72-baa3d91), ItemsAdder (4.0.11), LPC (3.6.2), LuckPerms (5.5.8), Multiverse-Core (5.0.2), Multiverse-NetherPortals (5.0.2), Multiverse-Portals (5.0.3), NextRTP (1.0.0-beta.4), PlaceholderAPI (2.11.6), PlotSquared (7.5.2-Premium), ProtocolLib (5.4.0-SNAPSHOT-750), SkBee (3.11.3), SkinsRestorer (15.7.3), Skript (2.11.2), TAB (5.2.2), Vault (1.7.3-b131), VoidWorldGenerator (1.3.0), WorldGuard (7.0.13+82fdc65), XConomy (2.26.3), packetevents (2.8.0)
-[20:10:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:10:41] [ServerMain/INFO]: Loaded 1370 recipes
-[20:10:41] [ServerMain/INFO]: Loaded 1481 advancements
-[20:10:41] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[20:10:41] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 289.2ms
-[20:10:41] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[20:10:41] [Server thread/INFO]: Loading properties
-[20:10:41] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[20:10:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:10:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:10:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:10:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[20:10:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:10:42] [Server thread/INFO]: Default game type: SURVIVAL
-[20:10:42] [Server thread/INFO]: Generating keypair
-[20:10:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:10:42] [Server thread/INFO]: Using epoll channel type
-[20:10:42] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:10:42] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loading 1 libraries... please wait
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/json/json/20220320/json-20220320.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loading 14 libraries... please wait
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/beer/devs/FastNbt-jar/1.4.8/FastNbt-jar-1.4.8.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/apache/httpcomponents/httpmime/4.5.14/httpmime-4.5.14.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/sourceforge/streamsupport/speedy-math/1.0.0/speedy-math-1.0.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-api/4.20.0/adventure-api-4.20.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-key/4.20.0/adventure-key-4.20.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.20.0/adventure-text-serializer-gson-4.20.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.20.0/adventure-text-serializer-json-4.20.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-commons/4.20.0/adventure-text-serializer-commons-4.20.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.20.0/adventure-text-serializer-gson-legacy-impl-4.20.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.20.0/adventure-text-serializer-json-legacy-impl-4.20.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.20.0/adventure-text-minimessage-4.20.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/alibaba/fastjson/2.0.43/fastjson-2.0.43.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/alibaba/fastjson2/fastjson2-extension/2.0.43/fastjson2-extension-2.0.43.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/alibaba/fastjson2/fastjson2/2.0.43/fastjson2-2.0.43.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/jeff-media/armor-equip-event/1.0.3/armor-equip-event-1.0.3.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/fr/skytasul/glowingentities/1.4.3/glowingentities-1.4.3.jar
-[20:10:43] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/fr/skytasul/reflection-remapper/1.0.0/reflection-remapper-1.0.0.jar
-[20:10:43] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.8
-[20:10:44] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:10:44] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[20:10:44] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[20:10:44] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1120;3dc41d8
-[20:10:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@79defa68]
-[20:10:45] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
-[20:10:45] [Server thread/INFO]: [XConomy] Loading server plugin XConomy v2.26.3
-[20:10:45] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
-[20:10:45] [Server thread/INFO]: [PlotSquared] Loading server plugin PlotSquared v7.5.2-Premium
-[20:10:45] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-750
-[20:10:45] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.11.2
-[20:10:45] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.0.2
-[20:10:45] [Server thread/INFO]: [ItemsAdder] Loading server plugin ItemsAdder v4.0.11
-[20:10:45] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.0.3
-[20:10:45] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.6.0
-[20:10:45] [Server thread/INFO]: [VoidWorldGenerator] Loading server plugin VoidWorldGenerator v1.3.0
-[20:10:45] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-Release
-[20:10:45] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version! The following Item options will not work: nbt_int, nbt_ints, nbt_string and nbt_strings.
-[20:10:45] [Server thread/INFO]: [NextRTP] Loading server plugin NextRTP v1.0.0-beta.4
-[20:10:45] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.2
-[20:10:45] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.11.3
-[20:10:45] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.2
-[20:10:45] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.72-baa3d91
-[20:10:46] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[20:10:47] [Server thread/INFO]: [Multiverse-NetherPortals] Loading server plugin Multiverse-NetherPortals v5.0.2
-[20:10:47] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.5.0
-[20:10:47] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.8.0
-[20:10:47] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.5.0
-[20:10:47] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.3
-[20:10:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:10:47] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.8
-[20:10:48] [Server thread/INFO]:         __    
-[20:10:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.8
-[20:10:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:10:48] [Server thread/INFO]: 
-[20:10:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:10:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:10:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:10:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1511ms)
-[20:10:49] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[20:10:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[20:10:49] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[20:10:49] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[20:10:49] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[20:10:49] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1120;3dc41d8
-[20:10:49] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[20:10:49] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[20:10:49] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:10:49] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[20:10:49] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
-[20:10:50] [Server thread/INFO]: [XConomy] Enabling XConomy v2.26.3
-[20:10:50] [Server thread/INFO]: [XConomy] UUID-Mode: Default
-[20:10:50] [Server thread/INFO]: [XConomy] Language: SPANISH
-[20:10:50] [Server thread/INFO]: [XConomy] Modo de guardado - SQLite
-[20:10:50] [Server thread/INFO]: [XConomy] Conectado con SQLite
-[20:10:50] [Server thread/INFO]: [XConomy] XConomy está habilitado
-[20:10:50] [Server thread/INFO]: [XConomy] Encontrado PlaceholderAPI
-[20:10:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: xconomy [2.26.3]
-[20:10:50] [Server thread/INFO]: [XConomy] PlaceholderAPI successfully hooked
-[20:10:50] [Server thread/INFO]: [XConomy] ===== YiC =====
-[20:10:50] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v7.5.2-Premium
-[20:10:50] [Server thread/INFO]: [PlotSquared] [STDOUT]                                 
-[20:10:50] [Server thread/WARN]: Nag author(s): '[Citymonstret, Empire92, MattBDev, dordsor21, NotMyFault, SirYwell]' of 'PlotSquared v7.5.2-Premium' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[20:10:51] [Folia Async Scheduler Thread #0/INFO]: [XConomy] Es la version mas nueva
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Loaded caption map for namespace 'plotsquared': com.plotsquared.core.configuration.caption.LocalizedCaptionMap
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: plot-expiry | Value: false
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: worlds | Value: false
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-named-road-mobs | Value: false
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: per-user-locale | Value: false
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: worldedit-restrictions | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: external-placeholders | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-owned-road-mobs | Value: false
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: disable-beacon-effect-overflow | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: database | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: component-presets | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: chunk-processor | Value: false
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: extended-username-completion | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: events | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: commands | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-road-mobs | Value: false
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-road-items | Value: false
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: database-purger | Value: false
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: economy | Value: false
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: persistent-road-regen | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-road-vehicles | Value: false
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: default-locale | Value: en
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: use-mvdwapi | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: persistent-meta | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: tab-completed-aliases | Value: [plot, plots, p, plotsquared, plot2, p2, ps, 2, plotme, plotz, ap]
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: ban-deleter | Value: false
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: update-notifications | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: rating-cache | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: comment-notifier | Value: true
-[20:10:51] [Server thread/INFO]: [PlotSquared/BukkitPlatform] Couldn't verify purchase :(
-[20:10:52] [Server thread/INFO]: [PlotSquared/PlotSquared] Connection to database established. Type: SQLite
-[20:10:52] [Server thread/INFO]: [PlotSquared/BukkitPlatform] PlotSquared hooked into WorldEdit
-[20:10:52] [Server thread/INFO]: [PlotSquared/BukkitPlatform] (UUID) Using LuckPerms as a complementary UUID service
-[20:10:52] [Server thread/INFO]: [PlotSquared/BukkitPlatform] (UUID) Using EssentialsX as a complementary UUID service
-[20:10:52] [Server thread/INFO]: [PlotSquared/BukkitPlatform] (UUID) 1 UUIDs will be cached
-[20:10:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: plotsquared [3]
-[20:10:52] [Server thread/INFO]: [PlotSquared/BukkitPlatform] PlotSquared hooked into PlaceholderAPI
-[20:10:52] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-750
-[20:10:52] [Server thread/INFO]: [VoidWorldGenerator] Enabling VoidWorldGenerator v1.3.0
-[20:10:52] [Server thread/INFO]: [VoidWorldGenerator] Config loaded: {*=BiomeAndSpawn[biome=THE_VOID, x=0, y=64, z=0]}
-[20:10:52] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.3
-[20:10:52] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
-[20:10:53] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[20:10:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.3]
-[20:10:53] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[20:10:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:10:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:10:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:10:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:10:53] [Server thread/INFO]: Preparing level "Spawn"
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.7.3
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 32c7547
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[20:10:53] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[20:10:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:10:57] [Server thread/INFO]: Preparing spawn area: 0%
-[20:10:58] [Server thread/INFO]: Preparing spawn area: 83%
-[20:10:58] [Server thread/INFO]: Time elapsed: 504 ms
-[20:10:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:10:58] [Server thread/INFO]: Preparing spawn area: 20%
-[20:10:58] [Server thread/INFO]: Preparing spawn area: 20%
-[20:10:59] [Server thread/INFO]: Preparing spawn area: 46%
-[20:10:59] [Server thread/INFO]: Preparing spawn area: 71%
-[20:10:59] [Server thread/INFO]: Time elapsed: 1544 ms
-[20:10:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:10:59] [Server thread/INFO]: Preparing spawn area: 2%
-[20:11:00] [Server thread/INFO]: Preparing spawn area: 51%
-[20:11:00] [Server thread/INFO]: Time elapsed: 582 ms
-[20:11:00] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[20:11:00] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[20:11:00] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
-[20:11:00] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[20:11:00] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[20:11:00] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[20:11:00] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[20:11:00] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[20:11:00] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[20:11:00] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[20:11:00] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[20:11:00] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[20:11:00] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[20:11:00] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[20:11:00] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[20:11:00] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[20:11:00] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[20:11:00] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[20:11:00] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[20:11:01] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[20:11:01] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[20:11:01] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[20:11:01] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[20:11:01] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[20:11:01] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[20:11:01] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[20:11:01] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[20:11:01] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[20:11:01] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
-[20:11:01] [Server thread/INFO]: [Essentials] Using locale es
-[20:11:01] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[20:11:01] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[20:11:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[20:11:01] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[20:11:01] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
-[20:11:01] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
-[20:11:01] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
-[20:11:01] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is PERMITTED.
-[20:11:01] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
-[20:11:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
-[20:11:01] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[20:11:01] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[20:11:01] [Server thread/INFO]: [WorldGuard] (Spawn_nether) TNT ignition is PERMITTED.
-[20:11:01] [Server thread/INFO]: [WorldGuard] (Spawn_nether) Lighters are PERMITTED.
-[20:11:01] [Server thread/INFO]: [WorldGuard] (Spawn_nether) Lava fire is PERMITTED.
-[20:11:01] [Server thread/INFO]: [WorldGuard] (Spawn_nether) Fire spread is UNRESTRICTED.
-[20:11:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn_nether'
-[20:11:01] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[20:11:01] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[20:11:01] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) TNT ignition is PERMITTED.
-[20:11:01] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) Lighters are PERMITTED.
-[20:11:01] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) Lava fire is PERMITTED.
-[20:11:01] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) Fire spread is UNRESTRICTED.
-[20:11:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn_the_end'
-[20:11:01] [Server thread/INFO]: [WorldGuard] Loading region data...
-[20:11:01] [Server thread/INFO]: [Skript] Enabling Skript v2.11.2
-[20:11:02] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[20:11:02] [pool-26-thread-1/INFO]: [PlotSquared/BukkitPlatform] (UUID) PlotSquared will fetch UUIDs in groups of 200
-[20:11:02] [pool-26-thread-1/INFO]: [PlotSquared/BukkitPlatform] (UUID) PlotSquared has cached 100.0% of UUIDs
-[20:11:02] [pool-26-thread-1/INFO]: [PlotSquared/BukkitPlatform] (UUID) PlotSquared has cached all UUIDs
-[20:11:02] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[20:11:02] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.0.2
-[20:11:04] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5442 aliases in 1323ms
-[20:11:11] [Server thread/INFO]: Preparing start region for dimension minecraft:world
-[20:11:11] [Server thread/INFO]: Preparing spawn area: 0%
-[20:11:12] [Server thread/INFO]: Preparing spawn area: 2%
-[20:11:12] [Server thread/INFO]: Preparing spawn area: 2%
-[20:11:13] [Server thread/INFO]: Preparing spawn area: 2%
-[20:11:13] [Server thread/INFO]: Preparing spawn area: 2%
-[20:11:14] [Server thread/INFO]: Preparing spawn area: 10%
-[20:11:14] [Server thread/INFO]: Preparing spawn area: 18%
-[20:11:15] [Server thread/INFO]: Preparing spawn area: 18%
-[20:11:15] [Server thread/INFO]: Preparing spawn area: 18%
-[20:11:16] [Server thread/INFO]: Preparing spawn area: 30%
-[20:11:16] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[20:11:16] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[20:11:16] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[20:11:16] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[20:11:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[20:11:16] [Server thread/INFO]: Preparing spawn area: 51%
-[20:11:17] [Server thread/INFO]: Preparing spawn area: 53%
-[20:11:17] [Server thread/INFO]: Preparing spawn area: 53%
-[20:11:18] [Server thread/INFO]: Preparing spawn area: 53%
-[20:11:18] [Server thread/INFO]: Preparing spawn area: 73%
-[20:11:19] [Server thread/INFO]: Time elapsed: 7268 ms
-[20:11:19] [Server thread/INFO]: Preparing start region for dimension minecraft:world_the_end
-[20:11:19] [Server thread/INFO]: Preparing spawn area: 0%
-[20:11:19] [Server thread/INFO]: Preparing spawn area: 18%
-[20:11:20] [Server thread/INFO]: Time elapsed: 942 ms
-[20:11:20] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[20:11:20] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[20:11:20] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[20:11:20] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[20:11:20] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[20:11:20] [Server thread/INFO]: Preparing start region for dimension minecraft:world_nether
-[20:11:20] [Server thread/INFO]: Preparing spawn area: 0%
-[20:11:21] [Server thread/INFO]: Preparing spawn area: 2%
-[20:11:21] [Server thread/INFO]: Preparing spawn area: 2%
-[20:11:22] [Server thread/INFO]: Preparing spawn area: 18%
-[20:11:22] [Server thread/INFO]: Preparing spawn area: 18%
-[20:11:23] [Server thread/INFO]: Preparing spawn area: 51%
-[20:11:23] [Server thread/INFO]: Preparing spawn area: 51%
-[20:11:24] [Server thread/INFO]: Preparing spawn area: 93%
-[20:11:24] [Server thread/INFO]: Time elapsed: 3518 ms
-[20:11:24] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[20:11:24] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[20:11:24] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[20:11:24] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[20:11:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[20:11:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.0.2]
-[20:11:24] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[20:11:24] [Server thread/INFO]: [Multiverse-Core] Version 5.0.2 (API v5.0) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[20:11:24] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
-[20:11:24] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
-[20:11:24] [Server thread/INFO]: [ItemsAdder] Enabling ItemsAdder v4.0.11
-[20:11:24] [Server thread/WARN]: ItemsAdder) Using default server address: . Consider setting it in the `config.yml`
-[20:11:24] [Server thread/WARN]: ItemsAdder) Using default server port: 25565. Consider setting it in the `config.yml`
-[20:11:24] [Server thread/INFO]: ItemsAdder) 
+[20:15:28] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:15:29] [ServerMain/INFO]: Loaded 1370 recipes
+[20:15:29] [ServerMain/INFO]: Loaded 1481 advancements
+[20:15:30] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[20:15:30] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 199.8ms
+[20:15:30] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[20:15:30] [Server thread/INFO]: Loading properties
+[20:15:30] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[20:15:30] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:15:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:15:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:15:30] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[20:15:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[20:15:31] [Server thread/INFO]: Default game type: SURVIVAL
+[20:15:31] [Server thread/INFO]: Generating keypair
+[20:15:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:15:31] [Server thread/INFO]: Using epoll channel type
+[20:15:31] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:15:31] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[20:15:31] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loading 1 libraries... please wait
+[20:15:31] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
+[20:15:31] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[20:15:31] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
+[20:15:31] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/json/json/20220320/json-20220320.jar
+[20:15:31] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loading 14 libraries... please wait
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/beer/devs/FastNbt-jar/1.4.8/FastNbt-jar-1.4.8.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/apache/httpcomponents/httpmime/4.5.14/httpmime-4.5.14.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/sourceforge/streamsupport/speedy-math/1.0.0/speedy-math-1.0.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-api/4.20.0/adventure-api-4.20.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-key/4.20.0/adventure-key-4.20.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.20.0/adventure-text-serializer-gson-4.20.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.20.0/adventure-text-serializer-json-4.20.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-commons/4.20.0/adventure-text-serializer-commons-4.20.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.20.0/adventure-text-serializer-gson-legacy-impl-4.20.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.20.0/adventure-text-serializer-json-legacy-impl-4.20.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.20.0/adventure-text-minimessage-4.20.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/alibaba/fastjson/2.0.43/fastjson-2.0.43.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/alibaba/fastjson2/fastjson2-extension/2.0.43/fastjson2-extension-2.0.43.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/alibaba/fastjson2/fastjson2/2.0.43/fastjson2-2.0.43.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/com/jeff-media/armor-equip-event/1.0.3/armor-equip-event-1.0.3.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/fr/skytasul/glowingentities/1.4.3/glowingentities-1.4.3.jar
+[20:15:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemsAdder] Loaded library /workspaces/effective-guide/servidor_minecraft/libraries/fr/skytasul/reflection-remapper/1.0.0/reflection-remapper-1.0.0.jar
+[20:15:32] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.8
+[20:15:32] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:15:32] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[20:15:32] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[20:15:32] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1120;3dc41d8
+[20:15:34] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@59e41d1e]
+[20:15:34] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+[20:15:34] [Server thread/INFO]: [XConomy] Loading server plugin XConomy v2.26.3
+[20:15:34] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
+[20:15:34] [Server thread/INFO]: [PlotSquared] Loading server plugin PlotSquared v7.5.2-Premium
+[20:15:34] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-750
+[20:15:34] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.11.2
+[20:15:34] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.0.2
+[20:15:34] [Server thread/INFO]: [ItemsAdder] Loading server plugin ItemsAdder v4.0.11
+[20:15:34] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.0.3
+[20:15:34] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.6.0
+[20:15:34] [Server thread/INFO]: [VoidWorldGenerator] Loading server plugin VoidWorldGenerator v1.3.0
+[20:15:34] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-Release
+[20:15:34] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version! The following Item options will not work: nbt_int, nbt_ints, nbt_string and nbt_strings.
+[20:15:34] [Server thread/INFO]: [NextRTP] Loading server plugin NextRTP v1.0.0-beta.4
+[20:15:34] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.2
+[20:15:34] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.11.3
+[20:15:34] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.2
+[20:15:34] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.72-baa3d91
+[20:15:34] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[20:15:35] [Server thread/INFO]: [Multiverse-NetherPortals] Loading server plugin Multiverse-NetherPortals v5.0.2
+[20:15:35] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.5.0
+[20:15:35] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.8.0
+[20:15:35] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.5.0
+[20:15:36] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.3
+[20:15:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:15:36] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.8
+[20:15:37] [Server thread/INFO]:         __    
+[20:15:37] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.8
+[20:15:37] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:15:37] [Server thread/INFO]: 
+[20:15:37] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:15:37] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:15:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:15:37] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1576ms)
+[20:15:37] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[20:15:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:15:38] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:15:38] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[20:15:38] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:15:38] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1120;3dc41d8
+[20:15:38] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[20:15:38] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[20:15:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:15:38] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[20:15:38] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
+[20:15:39] [Server thread/INFO]: [XConomy] Enabling XConomy v2.26.3
+[20:15:39] [Server thread/INFO]: [XConomy] UUID-Mode: Default
+[20:15:39] [Server thread/INFO]: [XConomy] Language: SPANISH
+[20:15:39] [Server thread/INFO]: [XConomy] Modo de guardado - SQLite
+[20:15:39] [Server thread/INFO]: [XConomy] Conectado con SQLite
+[20:15:39] [Server thread/INFO]: [XConomy] XConomy está habilitado
+[20:15:39] [Server thread/INFO]: [XConomy] Encontrado PlaceholderAPI
+[20:15:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: xconomy [2.26.3]
+[20:15:39] [Server thread/INFO]: [XConomy] PlaceholderAPI successfully hooked
+[20:15:39] [Server thread/INFO]: [XConomy] ===== YiC =====
+[20:15:39] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v7.5.2-Premium
+[20:15:39] [Server thread/INFO]: [PlotSquared] [STDOUT]                                 
+[20:15:39] [Server thread/WARN]: Nag author(s): '[Citymonstret, Empire92, MattBDev, dordsor21, NotMyFault, SirYwell]' of 'PlotSquared v7.5.2-Premium' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[20:15:39] [Folia Async Scheduler Thread #0/INFO]: [XConomy] Es la version mas nueva
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Loaded caption map for namespace 'plotsquared': com.plotsquared.core.configuration.caption.LocalizedCaptionMap
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: plot-expiry | Value: false
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: worlds | Value: false
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-named-road-mobs | Value: false
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: per-user-locale | Value: false
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: worldedit-restrictions | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: external-placeholders | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-owned-road-mobs | Value: false
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: disable-beacon-effect-overflow | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: database | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: component-presets | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: chunk-processor | Value: false
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: extended-username-completion | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: events | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: commands | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-road-mobs | Value: false
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-road-items | Value: false
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: database-purger | Value: false
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: economy | Value: false
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: persistent-road-regen | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: kill-road-vehicles | Value: false
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: default-locale | Value: en
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: use-mvdwapi | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: persistent-meta | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: tab-completed-aliases | Value: [plot, plots, p, plotsquared, plot2, p2, ps, 2, plotme, plotz, ap]
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: ban-deleter | Value: false
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: update-notifications | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: rating-cache | Value: true
+[20:15:39] [Server thread/INFO]: [PlotSquared/PlotSquared] Key: comment-notifier | Value: true
+[20:15:40] [Server thread/INFO]: [PlotSquared/BukkitPlatform] Couldn't verify purchase :(
+[20:15:40] [Server thread/INFO]: [PlotSquared/SQLManager] Warning! Found 4 plots in DB for non existent world: 'Atlantis'
+[20:15:40] [Server thread/INFO]: [PlotSquared/SQLManager] Warning! Please create the world(s) or remove the plots using the purge command
+[20:15:40] [Server thread/INFO]: [PlotSquared/PlotSquared] Connection to database established. Type: SQLite
+[20:15:40] [Server thread/INFO]: [PlotSquared/BukkitPlatform] PlotSquared hooked into WorldEdit
+[20:15:40] [Server thread/INFO]: [PlotSquared/BukkitPlatform] (UUID) Using LuckPerms as a complementary UUID service
+[20:15:40] [Server thread/INFO]: [PlotSquared/BukkitPlatform] (UUID) Using EssentialsX as a complementary UUID service
+[20:15:40] [Server thread/INFO]: [PlotSquared/BukkitPlatform] (UUID) 1 UUIDs will be cached
+[20:15:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: plotsquared [3]
+[20:15:40] [Server thread/INFO]: [PlotSquared/BukkitPlatform] PlotSquared hooked into PlaceholderAPI
+[20:15:40] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-750
+[20:15:40] [Server thread/INFO]: [VoidWorldGenerator] Enabling VoidWorldGenerator v1.3.0
+[20:15:40] [Server thread/INFO]: [VoidWorldGenerator] Config loaded: {*=BiomeAndSpawn[biome=THE_VOID, x=0, y=64, z=0]}
+[20:15:40] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.3
+[20:15:41] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[20:15:41] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:15:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.3]
+[20:15:41] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[20:15:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:15:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:15:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:15:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:15:41] [Server thread/INFO]: Preparing level "Spawn"
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.7.3
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 32c7547
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[20:15:42] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[20:15:42] [Server thread/ERROR]: Could not pass event WorldInitEvent to PlotSquared v7.5.2-Premium
+java.lang.NullPointerException: Cannot invoke "com.plotsquared.core.configuration.ConfigurationSection.getKeys(boolean)" because the return value of "com.plotsquared.core.configuration.file.YamlConfiguration.getConfigurationSection(String)" is null
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.core.PlotSquared.loadWorld(PlotSquared.java:803) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.bukkit.listener.WorldEvents.onWorldInit(WorldEvents.java:59) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:762) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:713) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:15:42] [Server thread/ERROR]: Could not pass event WorldInitEvent to PlotSquared v7.5.2-Premium
+java.lang.NullPointerException: Cannot invoke "com.plotsquared.core.configuration.ConfigurationSection.getKeys(boolean)" because the return value of "com.plotsquared.core.configuration.file.YamlConfiguration.getConfigurationSection(String)" is null
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.core.PlotSquared.loadWorld(PlotSquared.java:803) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.bukkit.listener.WorldEvents.onWorldInit(WorldEvents.java:59) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:762) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:713) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:15:42] [Server thread/ERROR]: Could not pass event WorldInitEvent to PlotSquared v7.5.2-Premium
+java.lang.NullPointerException: Cannot invoke "com.plotsquared.core.configuration.ConfigurationSection.getKeys(boolean)" because the return value of "com.plotsquared.core.configuration.file.YamlConfiguration.getConfigurationSection(String)" is null
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.core.PlotSquared.loadWorld(PlotSquared.java:803) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.bukkit.listener.WorldEvents.onWorldInit(WorldEvents.java:59) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:762) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:713) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:15:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:15:42] [Server thread/INFO]: Preparing spawn area: 0%
+[20:15:42] [Server thread/INFO]: Preparing spawn area: 14%
+[20:15:43] [Server thread/INFO]: Time elapsed: 624 ms
+[20:15:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:15:43] [Server thread/INFO]: Preparing spawn area: 0%
+[20:15:43] [Server thread/INFO]: Preparing spawn area: 0%
+[20:15:43] [Server thread/INFO]: Time elapsed: 564 ms
+[20:15:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:15:43] [Server thread/INFO]: Preparing spawn area: 0%
+[20:15:43] [Server thread/INFO]: Time elapsed: 191 ms
+[20:15:43] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[20:15:43] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:15:44] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[20:15:44] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[20:15:44] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:15:44] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[20:15:44] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[20:15:44] [Server thread/INFO]: [Essentials] Using locale es
+[20:15:44] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:15:45] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:15:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[20:15:45] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:15:45] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
+[20:15:45] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
+[20:15:45] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
+[20:15:45] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is PERMITTED.
+[20:15:45] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
+[20:15:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
+[20:15:45] [Server thread/INFO]: [WorldGuard] (Spawn_nether) TNT ignition is PERMITTED.
+[20:15:45] [Server thread/INFO]: [WorldGuard] (Spawn_nether) Lighters are PERMITTED.
+[20:15:45] [Server thread/INFO]: [WorldGuard] (Spawn_nether) Lava fire is PERMITTED.
+[20:15:45] [Server thread/INFO]: [WorldGuard] (Spawn_nether) Fire spread is UNRESTRICTED.
+[20:15:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn_nether'
+[20:15:45] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) TNT ignition is PERMITTED.
+[20:15:45] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) Lighters are PERMITTED.
+[20:15:45] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) Lava fire is PERMITTED.
+[20:15:45] [Server thread/INFO]: [WorldGuard] (Spawn_the_end) Fire spread is UNRESTRICTED.
+[20:15:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn_the_end'
+[20:15:45] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:15:45] [Server thread/INFO]: [Skript] Enabling Skript v2.11.2
+[20:15:46] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[20:15:46] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[20:15:46] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.0.2
+[20:15:47] [Server thread/ERROR]: Could not pass event WorldInitEvent to PlotSquared v7.5.2-Premium
+java.lang.NullPointerException: Cannot invoke "com.plotsquared.core.configuration.ConfigurationSection.getKeys(boolean)" because the return value of "com.plotsquared.core.configuration.file.YamlConfiguration.getConfigurationSection(String)" is null
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.core.PlotSquared.loadWorld(PlotSquared.java:803) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.bukkit.listener.WorldEvents.onWorldInit(WorldEvents.java:59) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:762) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1467) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:839) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:502) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:755) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:753) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:186) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.doLoadWorld(WorldManager.java:417) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:186) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.loadWorld(WorldManager.java:389) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$autoLoadWorlds$12(WorldManager.java:220) ~[multiverse-core-5.0.2.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.autoLoadWorlds(WorldManager.java:216) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$initAllWorlds$0(WorldManager.java:145) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.external.vavr.control.Try.andThenTry(Try.java:309) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.initAllWorlds(WorldManager.java:143) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.MultiverseCore.onEnable(MultiverseCore.java:100) ~[multiverse-core-5.0.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:15:48] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5442 aliases in 1733ms
+[20:15:50] [pool-26-thread-1/INFO]: [PlotSquared/BukkitPlatform] (UUID) PlotSquared will fetch UUIDs in groups of 200
+[20:15:50] [pool-26-thread-1/INFO]: [PlotSquared/BukkitPlatform] (UUID) PlotSquared has cached 100.0% of UUIDs
+[20:15:50] [pool-26-thread-1/INFO]: [PlotSquared/BukkitPlatform] (UUID) PlotSquared has cached all UUIDs
+[20:15:57] [Server thread/INFO]: Preparing start region for dimension minecraft:world
+[20:15:57] [Server thread/INFO]: Preparing spawn area: 2%
+[20:15:58] [Server thread/INFO]: Preparing spawn area: 2%
+[20:15:58] [Server thread/INFO]: Preparing spawn area: 2%
+[20:15:59] [Server thread/INFO]: Preparing spawn area: 2%
+[20:15:59] [Server thread/INFO]: Preparing spawn area: 2%
+[20:16:00] [Server thread/INFO]: Preparing spawn area: 6%
+[20:16:00] [Server thread/INFO]: Preparing spawn area: 18%
+[20:16:01] [Server thread/INFO]: Preparing spawn area: 18%
+[20:16:01] [Server thread/INFO]: Preparing spawn area: 18%
+[20:16:02] [Server thread/INFO]: Preparing spawn area: 18%
+[20:16:02] [Server thread/INFO]: Preparing spawn area: 18%
+[20:16:03] [Server thread/INFO]: Preparing spawn area: 38%
+[20:16:03] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:16:03] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:16:03] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:16:03] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:16:03] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:16:03] [Server thread/INFO]: Preparing spawn area: 51%
+[20:16:04] [Server thread/INFO]: Preparing spawn area: 51%
+[20:16:04] [Server thread/INFO]: Preparing spawn area: 61%
+[20:16:05] [Server thread/INFO]: Preparing spawn area: 61%
+[20:16:05] [Server thread/INFO]: Preparing spawn area: 61%
+[20:16:06] [Server thread/INFO]: Time elapsed: 8480 ms
+[20:16:06] [Server thread/ERROR]: Could not pass event WorldInitEvent to PlotSquared v7.5.2-Premium
+java.lang.NullPointerException: Cannot invoke "com.plotsquared.core.configuration.ConfigurationSection.getKeys(boolean)" because the return value of "com.plotsquared.core.configuration.file.YamlConfiguration.getConfigurationSection(String)" is null
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.core.PlotSquared.loadWorld(PlotSquared.java:803) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.bukkit.listener.WorldEvents.onWorldInit(WorldEvents.java:59) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:762) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1467) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:839) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:502) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:755) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:753) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:186) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.doLoadWorld(WorldManager.java:417) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:186) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.loadWorld(WorldManager.java:389) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$autoLoadWorlds$12(WorldManager.java:220) ~[multiverse-core-5.0.2.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.autoLoadWorlds(WorldManager.java:216) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$initAllWorlds$0(WorldManager.java:145) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.external.vavr.control.Try.andThenTry(Try.java:309) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.initAllWorlds(WorldManager.java:143) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.MultiverseCore.onEnable(MultiverseCore.java:100) ~[multiverse-core-5.0.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:16:06] [Server thread/INFO]: Preparing start region for dimension minecraft:world_the_end
+[20:16:06] [Server thread/INFO]: Preparing spawn area: 0%
+[20:16:07] [Server thread/INFO]: Preparing spawn area: 8%
+[20:16:07] [Server thread/INFO]: Preparing spawn area: 51%
+[20:16:07] [Server thread/INFO]: Time elapsed: 1316 ms
+[20:16:07] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:16:07] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:16:07] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:16:07] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:16:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:16:07] [Server thread/ERROR]: Could not pass event WorldInitEvent to PlotSquared v7.5.2-Premium
+java.lang.NullPointerException: Cannot invoke "com.plotsquared.core.configuration.ConfigurationSection.getKeys(boolean)" because the return value of "com.plotsquared.core.configuration.file.YamlConfiguration.getConfigurationSection(String)" is null
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.core.PlotSquared.loadWorld(PlotSquared.java:803) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.bukkit.listener.WorldEvents.onWorldInit(WorldEvents.java:59) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:762) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1467) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:839) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:502) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:755) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:753) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:186) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.doLoadWorld(WorldManager.java:417) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:186) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.loadWorld(WorldManager.java:389) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$autoLoadWorlds$12(WorldManager.java:220) ~[multiverse-core-5.0.2.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.autoLoadWorlds(WorldManager.java:216) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$initAllWorlds$0(WorldManager.java:145) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.external.vavr.control.Try.andThenTry(Try.java:309) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.initAllWorlds(WorldManager.java:143) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.MultiverseCore.onEnable(MultiverseCore.java:100) ~[multiverse-core-5.0.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:16:08] [Server thread/INFO]: Preparing start region for dimension minecraft:world_nether
+[20:16:08] [Server thread/INFO]: Preparing spawn area: 0%
+[20:16:09] [Server thread/INFO]: Preparing spawn area: 2%
+[20:16:09] [Server thread/INFO]: Preparing spawn area: 2%
+[20:16:10] [Server thread/INFO]: Preparing spawn area: 18%
+[20:16:10] [Server thread/INFO]: Preparing spawn area: 18%
+[20:16:11] [Server thread/INFO]: Preparing spawn area: 24%
+[20:16:11] [Server thread/INFO]: Preparing spawn area: 53%
+[20:16:12] [Server thread/INFO]: Preparing spawn area: 53%
+[20:16:12] [Server thread/INFO]: Preparing spawn area: 61%
+[20:16:12] [Server thread/INFO]: Time elapsed: 4093 ms
+[20:16:12] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:16:12] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:16:12] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:16:12] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:16:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:16:12] [Server thread/ERROR]: [PlotSquared/BukkitPlotGenerator] Error attempting to load world into PlotSquared.
+java.lang.NullPointerException: Cannot invoke "com.plotsquared.core.configuration.ConfigurationSection.getKeys(boolean)" because the return value of "com.plotsquared.core.configuration.file.YamlConfiguration.getConfigurationSection(String)" is null
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.core.PlotSquared.loadWorld(PlotSquared.java:803) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.bukkit.generator.BukkitPlotGenerator.checkLoaded(BukkitPlotGenerator.java:169) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.bukkit.generator.BukkitPlotGenerator.getDefaultPopulators(BukkitPlotGenerator.java:142) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:757) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1467) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:839) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:502) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:755) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:753) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:186) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.doLoadWorld(WorldManager.java:417) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:186) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.loadWorld(WorldManager.java:389) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$autoLoadWorlds$12(WorldManager.java:220) ~[multiverse-core-5.0.2.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.autoLoadWorlds(WorldManager.java:216) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$initAllWorlds$0(WorldManager.java:145) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.external.vavr.control.Try.andThenTry(Try.java:309) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.initAllWorlds(WorldManager.java:143) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.MultiverseCore.onEnable(MultiverseCore.java:100) ~[multiverse-core-5.0.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:16:12] [Server thread/ERROR]: Could not pass event WorldInitEvent to PlotSquared v7.5.2-Premium
+java.lang.NullPointerException: Cannot invoke "com.plotsquared.core.configuration.ConfigurationSection.getKeys(boolean)" because the return value of "com.plotsquared.core.configuration.file.YamlConfiguration.getConfigurationSection(String)" is null
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.core.PlotSquared.loadWorld(PlotSquared.java:803) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at plotsquared-bukkit-7.5.2-Premium-black-spigot.jar/com.plotsquared.bukkit.listener.WorldEvents.onWorldInit(WorldEvents.java:57) ~[plotsquared-bukkit-7.5.2-Premium-black-spigot.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:762) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1467) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:839) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:502) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:755) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:753) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:186) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.doLoadWorld(WorldManager.java:417) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:186) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.loadWorld(WorldManager.java:389) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$autoLoadWorlds$12(WorldManager.java:220) ~[multiverse-core-5.0.2.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.autoLoadWorlds(WorldManager.java:216) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.lambda$initAllWorlds$0(WorldManager.java:145) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.external.vavr.control.Try.andThenTry(Try.java:309) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.world.WorldManager.initAllWorlds(WorldManager.java:143) ~[multiverse-core-5.0.2.jar:?]
+	at multiverse-core-5.0.2.jar/org.mvplugins.multiverse.core.MultiverseCore.onEnable(MultiverseCore.java:100) ~[multiverse-core-5.0.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:16:12] [Server thread/INFO]: Preparing start region for dimension minecraft:atlantis
+[20:16:12] [Server thread/INFO]: Preparing spawn area: 0%
+[20:16:12] [Server thread/INFO]: Time elapsed: 82 ms
+[20:16:12] [Server thread/INFO]: [WorldGuard] (Atlantis) TNT ignition is PERMITTED.
+[20:16:12] [Server thread/INFO]: [WorldGuard] (Atlantis) Lighters are PERMITTED.
+[20:16:12] [Server thread/INFO]: [WorldGuard] (Atlantis) Lava fire is PERMITTED.
+[20:16:12] [Server thread/INFO]: [WorldGuard] (Atlantis) Fire spread is UNRESTRICTED.
+[20:16:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Atlantis'
+[20:16:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.0.2]
+[20:16:13] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[20:16:13] [Server thread/INFO]: [Multiverse-Core] Version 5.0.2 (API v5.0) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[20:16:13] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[20:16:13] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[20:16:13] [Server thread/INFO]: [ItemsAdder] Enabling ItemsAdder v4.0.11
+[20:16:13] [Server thread/WARN]: ItemsAdder) Using default server address: . Consider setting it in the `config.yml`
+[20:16:13] [Server thread/WARN]: ItemsAdder) Using default server port: 25565. Consider setting it in the `config.yml`
+[20:16:13] [Server thread/INFO]: ItemsAdder) 
                                                    ItemsAdder 4.0.11
   ___  ___        __        __   __   ___  __      ProtocolLib 5.4.0-SNAPSHOT-750
 |  |  |__   |\/| /__`  /\  |  \ |  \ |__  |__)     Paper 1.21.4-231-09e9afd (MC: 1.21.4)
 |  |  |___  |  | .__/ /--\ |__/ |__/ |___ |  \     Build Date: 2025-06-10_18.20.51
                                                    Java Version: 21.0.7
                                                    OS: Linux 6.8.0-1027-azure                                               
-[20:11:25] [Server thread/INFO]: [ItemsAdder] Loading GlowingEntities API
-[20:11:25] [Server thread/INFO]: [GlowingEntities] [GlowingEntities] Found server version 1.21.4
-[20:11:25] [Server thread/INFO]: [GlowingEntities] [GlowingEntities] Loaded transparent mappings.
-[20:11:25] [Server thread/INFO]: ItemsAdder) Registered Skript API
-[20:11:25] [Server thread/INFO]: ItemsAdder) [Libs] FFmpeg is available at: /workspaces/effective-guide/servidor_minecraft/plugins/ItemsAdder/storage/cache/ffmpeg/linux/ffmpeg
-[20:11:25] [Server thread/INFO]: ItemsAdder) [Pack] Extracting internal contents from .jar
-[20:11:25] [Server thread/INFO]: ItemsAdder) [Pack] Extracted 0 default files. No files changes detected.
-[20:11:26] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.0.3
-[20:11:26] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[20:11:26] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
-[20:11:26] [Server thread/INFO]: [Multiverse-Portals 5.0.3]  Enabled - By Rigby, fernferret and benwoo1110
-[20:11:26] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.6.0
-[20:11:26] [Server thread/WARN]: [org.mineskin.MineSkinClient] Creating MineSkinClient without API key
-[20:11:26] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.6.0) has been enabled.
-[20:11:26] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-Release
-[20:11:26] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
-[20:11:27] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
-[20:11:27] [Server thread/INFO]: [DeluxeMenus] 1 GUI menus loaded!
-[20:11:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-Release]
-[20:11:27] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
-[20:11:27] [Server thread/INFO]: [NextRTP] Enabling NextRTP v1.0.0-beta.4
-[20:11:27] [Server thread/INFO]: [NextRTP] SignModule loaded.
-[20:11:27] [Server thread/INFO]: [NextRTP] 1 modules loaded in 6ms
-[20:11:27] [Server thread/INFO]: [NextRTP] Vault dependency loaded.
-[20:11:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: nextrtp [1.0.0-beta.4]
-[20:11:27] [Server thread/INFO]: [TAB] Enabling TAB v5.2.2
-[20:11:27] [Server thread/INFO]: [TAB] Enabled in 201ms
-[20:11:27] [Server thread/INFO]: [SkBee] Enabling SkBee v3.11.3
-[20:11:27] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[20:11:28] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
-[20:11:28] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R3' loaded!
-[20:11:28] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[20:11:28] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Display Entity Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[20:11:28] [Server thread/INFO]: [SkBee] World Border Elements disabled (now in Skript)
-[20:11:28] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[20:11:28] [Server thread/INFO]: [SkBee] Loaded (457) elements:
-[20:11:28] [Server thread/INFO]: [SkBee]  - 55 events
-[20:11:28] [Server thread/INFO]: [SkBee]  - 71 effects
-[20:11:28] [Server thread/INFO]: [SkBee]  - 274 expressions
-[20:11:28] [Server thread/INFO]: [SkBee]  - 26 conditions
-[20:11:28] [Server thread/INFO]: [SkBee]  - 31 sections
-[20:11:28] [Server thread/INFO]: [SkBee]  - 11 properties
-[20:11:28] [Server thread/INFO]: [SkBee] Checking for update...
-[20:11:28] [Server thread/INFO]: [SkBee] Plugin is up to date!
-[20:11:28] [Server thread/INFO]: [SkBee] Successfully enabled v3.11.3 in 0.76 seconds
-[20:11:28] [Server thread/INFO]: [LPC] Enabling LPC v3.6.2
-[20:11:28] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.72-baa3d91
-[20:11:28] [Server thread/INFO]: [GrimAC] Registering packets...
-[20:11:28] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[20:11:29] [Server thread/INFO]: Grim Version: 2.3.72-baa3d91
-[20:11:29] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[20:11:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: grim [2.3.72-baa3d91]
-[20:11:29] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.2
-[20:11:29] [Server thread/INFO]: [Multiverse-NetherPortals 5.0.2]  Enabled - By Rigby, fernferret and benwoo1110
-[20:11:29] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.5.0
-[20:11:29] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
-[20:11:29] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
-[20:11:29] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
-[20:11:29] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
-[20:11:29] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
-[20:11:29] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
-[20:11:29] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.5.0
-[20:11:29] [Server thread/INFO]: [packetevents] Enabling packetevents v2.8.0
-[20:11:29] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[20:11:29] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.8.0)
-[20:11:29] [Server thread/INFO]: [spark] Starting background profiler...
-[20:11:29] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[20:11:29] [Server thread/INFO]: Done preparing level "Spawn" (36.481s)
-[20:11:29] [Server thread/INFO]: Running delayed init tasks
-[20:11:29] [Craft Scheduler Thread - 8 - Essentials/INFO]: [Essentials] Obteniendo información de versión...
-[20:11:29] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] Checking for Updates ... 
-[20:11:29] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
-[20:11:29] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
-[20:11:29] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.plotsquared.PlotSquaredFeature] Optimizing PlotSquared
-[20:11:29] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Plugin 'PlotSquared' v7 found. Using it now.
-[20:11:29] [Craft Scheduler Thread - 9 - ItemsAdder/INFO]: ItemsAdder) [License] Spigot product licensed to: CrazyKart (1476812)
-[20:11:29] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[20:11:29] [Craft Scheduler Thread - 13 - GrimAC/INFO]: You are using a development version of GrimAC
-[20:11:30] [Craft Scheduler Thread - 14 - Vault/WARN]: [Vault] No files found, or Feed URL is bad.
-[20:11:30] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] No new version available
-[20:11:30] [Server thread/INFO]: [Skript] Loading variables...
-[20:11:30] [Server thread/INFO]: [Skript] Loaded 1 variables in 0.0 seconds
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder) [Content] Loaded 7 items
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder) Used Blocks IDs:
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder)  - REAL 0/188
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder)  - REAL_NOTE 0/750
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder)  - REAL_TRANSPARENT 0/63
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder) Used Font Images: 27/6608
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder) [Content] Loaded 1 categories
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder) [Content] Contents loaded successfully!
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]:  
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]:  
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: Welcome! Thanks for buying ItemsAdder! <3
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: Before using the plugin you have to finish installation (it's easy).
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: Resourcepack hosting: https://a.devs.beer/ia-host-pack
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: Have fun! :D
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]:  
-[20:11:30] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]:  
-[20:11:30] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[20:11:30] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 8 structures in 0.47 seconds
-[20:11:30] [Server thread/INFO]: [Skript] Finished loading.
-[20:11:30] [Server thread/WARN]: [PlotSquared/BukkitPlatform] `Atlantis` was not properly loaded - PlotSquared will now try to load it properly
-[20:11:30] [Server thread/WARN]: [PlotSquared/BukkitPlatform] - Are you trying to delete this world? Remember to remove it from the worlds.yml, bukkit.yml and multiverse worlds.yml
-[20:11:30] [Server thread/WARN]: [PlotSquared/BukkitPlatform] - Your world management plugin may be faulty (or non existent)
-[20:11:30] [Server thread/WARN]: [PlotSquared/BukkitPlatform] - The named world is not a plot world
-[20:11:30] [Server thread/WARN]: [PlotSquared/BukkitPlatform] This message may also be a false positive and could be ignored.
-[20:11:30] [Server thread/INFO]: Creating world Atlantis with the following properties:
-[20:11:30] [Server thread/INFO]: - Environment: NORMAL
-[20:11:30] [Server thread/INFO]: - Seed: RANDOM
-[20:11:30] [Server thread/INFO]: - World Type: NORMAL
-[20:11:30] [Server thread/INFO]: - Adjust Spawn: true
-[20:11:30] [Server thread/INFO]: - Structures: true
-[20:11:30] [Server thread/INFO]: Creating world...
-[20:11:30] [Server thread/INFO]: [PlotSquared/PlotSquared] Detected world load for 'Atlantis'
-[20:11:30] [Server thread/INFO]: [PlotSquared/PlotSquared] - generator: PlotSquared>PlotSquared
-[20:11:30] [Server thread/INFO]: [PlotSquared/PlotSquared] - plot world: com.plotsquared.core.generator.HybridPlotWorld
-[20:11:30] [Server thread/INFO]: [PlotSquared/PlotSquared] - plot area manager: com.plotsquared.core.generator.HybridPlotManager
-[20:11:30] [Server thread/INFO]: [P2] Loading flags for area: Atlantis
-[20:11:30] [Server thread/INFO]: [P2] Area flags: []
-[20:11:30] [Server thread/INFO]: [P2] Road flags: []
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] - road schematic: false
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] - Dumping settings for ClassicPlotWorld with name Atlantis
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- road_schematic_enabled = false
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- plot_schematic = false
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- path_width_lower = 3
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- path_width_upper = 46
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- schem_y = 62
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- road_height = 62
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- plot_height = 62
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- wall_height = 62
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- main_block = minecraft:stone
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- top_block = minecraft:grass_block
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- wall_block = minecraft:stone_slab
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- claimed_wall_block = minecraft:sandstone_slab
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- wall_filling = minecraft:stone
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- road_block = minecraft:quartz_block
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- plot_bedrock = true
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- place_top_block = true
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- component_below_bedrock = false
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- plot_width = 42
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- road_width = 7
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- road_offset_x = 0
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- road_offset_z = 0
-[20:11:30] [Server thread/INFO]: [PlotSquared/HybridPlotWorld] -- size = 49
-[20:11:36] [Server thread/INFO]: Preparing start region for dimension minecraft:atlantis
-[20:11:36] [Server thread/INFO]: Preparing spawn area: 0%
-[20:11:37] [Server thread/INFO]: Preparing spawn area: 2%
-[20:11:37] [Server thread/INFO]: Preparing spawn area: 18%
-[20:11:38] [Server thread/INFO]: Preparing spawn area: 18%
-[20:11:38] [Server thread/INFO]: Preparing spawn area: 51%
-[20:11:39] [Server thread/INFO]: Preparing spawn area: 51%
-[20:11:39] [Server thread/INFO]: Preparing spawn area: 51%
-[20:11:39] [Server thread/INFO]: Time elapsed: 3149 ms
-[20:11:39] [Server thread/INFO]: [WorldGuard] (Atlantis) TNT ignition is PERMITTED.
-[20:11:39] [Server thread/INFO]: [WorldGuard] (Atlantis) Lighters are PERMITTED.
-[20:11:39] [Server thread/INFO]: [WorldGuard] (Atlantis) Lava fire is PERMITTED.
-[20:11:39] [Server thread/INFO]: [WorldGuard] (Atlantis) Fire spread is UNRESTRICTED.
-[20:11:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Atlantis'
-[20:11:39] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) INFO: Loading holograms for world Atlantis
-[20:11:39] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
-[20:11:39] [Server thread/INFO]: World 'Atlantis' created!
-[20:11:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: img [1.0.1]
-[20:11:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: iaplayerstat [1.0.1]
-[20:11:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[20:11:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
-[20:11:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
-[20:11:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[20:11:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: changeoutput [1.2.2]
-[20:11:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[20:11:39] [Server thread/INFO]: 6 placeholder hook(s) registered!
-[20:11:39] [Server thread/INFO]: Done (68.360s)! For help, type "help"
-[20:11:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3188ms or 63 ticks behind
-[20:12:26] [Server thread/INFO]: Stopping the server
-[20:12:26] [Server thread/INFO]: Stopping server
-[20:12:26] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.3
-[20:12:26] [Server thread/INFO]: [packetevents] Disabling packetevents v2.8.0
-[20:12:26] [Server thread/INFO]: [FancyHolograms] Disabling FancyHolograms v2.5.0
-[20:12:26] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully disabled FancyHolograms version 2.5.0
-[20:12:26] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v5.0.2
-[20:12:26] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[20:12:26] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.72-baa3d91
-[20:12:26] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
-[20:12:26] [Server thread/INFO]: [LPC] Disabling LPC v3.6.2
-[20:12:26] [Server thread/INFO]: [SkBee] Disabling SkBee v3.11.3
-[20:12:26] [Server thread/INFO]: [TAB] Disabling TAB v5.2.2
-[20:12:26] [Server thread/INFO]: [TAB] Disabled in 0ms
-[20:12:26] [Server thread/INFO]: [NextRTP] Disabling NextRTP v1.0.0-beta.4
-[20:12:26] [Server thread/INFO]: [NextRTP] Disabling SignModule
-[20:12:26] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.14.1-Release
-[20:12:26] [Server thread/INFO]: [VoidWorldGenerator] Disabling VoidWorldGenerator v1.3.0
-[20:12:26] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.6.0
-[20:12:26] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs has been disabled.
-[20:12:26] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v5.0.3
-[20:12:26] [Server thread/INFO]: [ItemsAdder] Disabling ItemsAdder v4.0.11
-[20:12:26] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.0.2
-[20:12:26] [Server thread/INFO]: [Skript] Disabling Skript v2.11.2
-[20:12:26] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-750
-[20:12:26] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v7.5.2-Premium
-[20:12:26] [Server thread/INFO]: [PlotSquared/SQLManager] All DB transactions during this session are being validated (This may take a while if corrections need to be made)
-[20:12:26] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
-[20:12:26] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[20:12:26] [Server thread/INFO]: [XConomy] Disabling XConomy v2.26.3
-[20:12:26] [Server thread/INFO]: [XConomy] XConomy está deshabilitado
-[20:12:26] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
-[20:12:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[20:12:26] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1120;3dc41d8
-[20:12:26] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:12:26] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[20:12:26] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[20:12:26] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.8
-[20:12:26] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[20:12:26] [Server thread/INFO]: [LuckPerms] Closing storage...
-[20:12:26] [Server thread/INFO]: [LuckPerms] Goodbye!
-[20:12:26] [Server thread/INFO]: Saving players
-[20:12:26] [Server thread/INFO]: Saving worlds
-[20:12:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spawn]'/minecraft:overworld
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spawn'
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spawn'
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spawn'
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'Spawn' in 0.20s
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Spawn'
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Spawn'
-[20:12:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spawn_nether]'/minecraft:the_nether
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spawn_nether'
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spawn_nether'
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spawn_nether'
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'Spawn_nether' in 0.56s
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Spawn_nether'
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Spawn_nether'
-[20:12:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spawn_the_end]'/minecraft:the_end
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spawn_the_end'
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spawn_the_end'
-[20:12:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spawn_the_end'
-[20:12:28] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'Spawn_the_end' in 0.32s
-[20:12:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Spawn_the_end'
-[20:12:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Spawn_the_end'
-[20:12:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:world
-[20:12:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:12:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:12:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:12:28] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 83 entity chunks, 4 poi chunks in world 'world' in 0.74s
-[20:12:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[20:12:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[20:12:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:world_the_end
-[20:12:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:12:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:12:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.32s
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[20:12:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:world_nether
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.33s
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[20:12:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Atlantis]'/minecraft:atlantis
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Atlantis'
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Atlantis'
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Atlantis'
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'Atlantis' in 0.34s
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Atlantis'
-[20:12:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Atlantis'
-[20:12:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (Spawn): All chunks are saved
-[20:12:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:12:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:12:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:12:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:12:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:12:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (Atlantis): All chunks are saved
-[20:12:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:12:29] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[20:12:29] [Server thread/INFO]: All I/O tasks to complete
-[20:12:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[20:12:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[20:16:13] [Server thread/INFO]: [ItemsAdder] Loading GlowingEntities API
+[20:16:13] [Server thread/INFO]: [GlowingEntities] [GlowingEntities] Found server version 1.21.4
+[20:16:13] [Server thread/INFO]: [GlowingEntities] [GlowingEntities] Loaded transparent mappings.
+[20:16:13] [Server thread/INFO]: ItemsAdder) Registered Skript API
+[20:16:13] [Server thread/INFO]: ItemsAdder) [Libs] FFmpeg is available at: /workspaces/effective-guide/servidor_minecraft/plugins/ItemsAdder/storage/cache/ffmpeg/linux/ffmpeg
+[20:16:14] [Server thread/INFO]: ItemsAdder) [Pack] Extracting internal contents from .jar
+[20:16:14] [Server thread/INFO]: ItemsAdder) [Pack] Extracted 0 default files. No files changes detected.
+[20:16:14] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.0.3
+[20:16:14] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[20:16:14] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
+[20:16:14] [Server thread/INFO]: [Multiverse-Portals 5.0.3]  Enabled - By Rigby, fernferret and benwoo1110
+[20:16:14] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.6.0
+[20:16:14] [Server thread/WARN]: [org.mineskin.MineSkinClient] Creating MineSkinClient without API key
+[20:16:15] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.6.0) has been enabled.
+[20:16:15] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-Release
+[20:16:15] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[20:16:15] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[20:16:15] [Server thread/INFO]: [DeluxeMenus] 1 GUI menus loaded!
+[20:16:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-Release]
+[20:16:15] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[20:16:15] [Server thread/INFO]: [NextRTP] Enabling NextRTP v1.0.0-beta.4
+[20:16:15] [Server thread/INFO]: [NextRTP] SignModule loaded.
+[20:16:15] [Server thread/INFO]: [NextRTP] 1 modules loaded in 7ms
+[20:16:15] [Server thread/INFO]: [NextRTP] Vault dependency loaded.
+[20:16:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: nextrtp [1.0.0-beta.4]
+[20:16:16] [Server thread/INFO]: [TAB] Enabling TAB v5.2.2
+[20:16:16] [Server thread/INFO]: [TAB] Enabled in 237ms
+[20:16:16] [Server thread/INFO]: [SkBee] Enabling SkBee v3.11.3
+[20:16:16] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[20:16:16] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[20:16:16] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[20:16:16] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[20:16:16] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Display Entity Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[20:16:16] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[20:16:16] [Server thread/INFO]: [SkBee] World Border Elements disabled (now in Skript)
+[20:16:16] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[20:16:17] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[20:16:17] [Server thread/INFO]: [SkBee] Loaded (457) elements:
+[20:16:17] [Server thread/INFO]: [SkBee]  - 55 events
+[20:16:17] [Server thread/INFO]: [SkBee]  - 71 effects
+[20:16:17] [Server thread/INFO]: [SkBee]  - 274 expressions
+[20:16:17] [Server thread/INFO]: [SkBee]  - 26 conditions
+[20:16:17] [Server thread/INFO]: [SkBee]  - 31 sections
+[20:16:17] [Server thread/INFO]: [SkBee]  - 11 properties
+[20:16:17] [Server thread/INFO]: [SkBee] Checking for update...
+[20:16:17] [Server thread/INFO]: [SkBee] Plugin is up to date!
+[20:16:17] [Server thread/INFO]: [SkBee] Successfully enabled v3.11.3 in 0.77 seconds
+[20:16:17] [Server thread/INFO]: [LPC] Enabling LPC v3.6.2
+[20:16:17] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.72-baa3d91
+[20:16:17] [Server thread/INFO]: [GrimAC] Registering packets...
+[20:16:17] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[20:16:17] [Server thread/INFO]: Grim Version: 2.3.72-baa3d91
+[20:16:17] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[20:16:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: grim [2.3.72-baa3d91]
+[20:16:17] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.2
+[20:16:17] [Server thread/INFO]: [Multiverse-NetherPortals 5.0.2]  Enabled - By Rigby, fernferret and benwoo1110
+[20:16:17] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.5.0
+[20:16:17] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[20:16:17] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[20:16:17] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[20:16:17] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[20:16:17] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[20:16:17] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[20:16:17] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[20:16:17] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.5.0
+[20:16:17] [Server thread/INFO]: [packetevents] Enabling packetevents v2.8.0
+[20:16:17] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[20:16:17] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.8.0)
+[20:16:17] [Server thread/INFO]: [spark] Starting background profiler...
+[20:16:18] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:16:18] [Server thread/INFO]: Done preparing level "Spawn" (36.341s)
+[20:16:18] [Server thread/INFO]: Running delayed init tasks
+[20:16:18] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[20:16:18] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[20:16:18] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.plotsquared.PlotSquaredFeature] Optimizing PlotSquared
+[20:16:18] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Plugin 'PlotSquared' v7 found. Using it now.
+[20:16:18] [Craft Scheduler Thread - 8 - Essentials/INFO]: [Essentials] Obteniendo información de versión...
+[20:16:18] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:16:18] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[20:16:18] [Craft Scheduler Thread - 9 - ItemsAdder/INFO]: ItemsAdder) [License] Spigot product licensed to: CrazyKart (1476812)
+[20:16:18] [Craft Scheduler Thread - 13 - Vault/WARN]: [Vault] No files found, or Feed URL is bad.
+[20:16:18] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] No new version available
+[20:16:18] [Server thread/INFO]: [Skript] Loading variables...
+[20:16:18] [Server thread/INFO]: [Skript] Loaded 1 variables in 0.0 seconds
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder) [Content] Loaded 7 items
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder) Used Blocks IDs:
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder)  - REAL 0/188
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder)  - REAL_NOTE 0/750
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder)  - REAL_TRANSPARENT 0/63
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder) Used Font Images: 27/6608
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder) [Content] Loaded 1 categories
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: ItemsAdder) [Content] Contents loaded successfully!
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]:  
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]:  
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: Welcome! Thanks for buying ItemsAdder! <3
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: Before using the plugin you have to finish installation (it's easy).
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: Resourcepack hosting: https://a.devs.beer/ia-host-pack
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]: Have fun! :D
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]:  
+[20:16:18] [Craft Scheduler Thread - 11 - ItemsAdder/INFO]:  
+[20:16:19] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[20:16:19] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 8 structures in 0.48 seconds
+[20:16:19] [Server thread/INFO]: [Skript] Finished loading.
+[20:16:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: img [1.0.1]
+[20:16:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: iaplayerstat [1.0.1]
+[20:16:19] [Server thread/INFO]: Done (57.991s)! For help, type "help"
+[20:16:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[20:16:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[20:16:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[20:16:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[20:16:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: changeoutput [1.2.2]
+[20:16:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[20:16:19] [Server thread/INFO]: 6 placeholder hook(s) registered!
+[20:16:23] [Craft Scheduler Thread - 14 - GrimAC/INFO]: Failed to check latest version.
+[20:16:23] [Craft Scheduler Thread - 14 - GrimAC/ERROR]: [GrimAC] Failed to check latest GrimAC version.: java.net.http.HttpTimeoutException: request timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:950)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at LightningGrim-bukkit-2.3.72-baa3d91.jar//ac.grim.grimac.command.commands.GrimVersion.checkForUpdates(GrimVersion.java:62)
+	at LightningGrim-bukkit-2.3.72-baa3d91.jar//ac.grim.grimac.command.commands.GrimVersion.lambda$checkForUpdatesAsync$0(GrimVersion.java:46)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[20:16:36] [Server thread/INFO]: Unknown or incomplete command, see below for error
+ww<--[HERE]
+[20:16:50] [User Authenticator #0/INFO]: UUID of player KeitoC is 77e29f63-5a2a-336c-8810-59740188291b
+[20:16:52] [Server thread/INFO]: KeitoC ha entrado por primera vez, bienvenido a la modalidad Survival Parcelas, usa /menu para ver las funcionalidades del servidor.
+[20:16:52] [Server thread/INFO]: - (+) KeitoC
+[20:16:52] [Server thread/INFO]: KeitoC[/127.190.144.61:33181] logged in with entity id 57 at ([Spawn]0.5, 45.0, 0.5)
+[20:16:52] [Craft Scheduler Thread - 14 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get KeitoC's timezone. Will use default timezone.
+[20:17:02] [Server thread/INFO]: KeitoC issued server command: /menu
+[20:17:06] [Server thread/INFO]: KeitoC issued server command: /spawn
+[20:17:09] [Server thread/INFO]: KeitoC issued server command: /menu
+[20:17:10] [Server thread/INFO]: KeitoC issued server command: /spawn
+[20:17:14] [Server thread/INFO]: KeitoC issued server command: /menu
+[20:17:15] [Server thread/INFO]: KeitoC issued server command: /spawn
+[20:17:25] [Server thread/INFO]: KeitoC issued server command: /menu
+[20:17:26] [Server thread/INFO]: KeitoC issued server command: /spawn
+[20:19:29] [Server thread/INFO]: KeitoC issued server command: /skript reload scripts
+[20:19:31] [Server thread/INFO]: KeitoC issued server command: /spawn
+[20:19:38] [Server thread/INFO]: KeitoC issued server command: /spawn
+[20:19:41] [Server thread/INFO]: KeitoC issued server command: /spawn
+[20:19:45] [Server thread/INFO]: KeitoC issued server command: /spawn
+[20:19:47] [Server thread/INFO]: KeitoC issued server command: /spawn
+[20:20:08] [Server thread/INFO]: KeitoC issued server command: /mv list
+[20:20:16] [Server thread/INFO]: KeitoC issued server command: /mv delete world
+[20:20:19] [Server thread/INFO]: KeitoC issued server command: /mv confirm 211
+[20:20:19] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) INFO: Unloading holograms for world world
+[20:20:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:20:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:20:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:20:20] [Server thread/INFO]: [ChunkHolderManager] Saved 782 block chunks, 4 entity chunks, 0 poi chunks in world 'world' in 0.54s
+[20:20:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[20:20:20] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[20:20:21] [Server thread/INFO]: KeitoC issued server command: /mv delete world_nether
+[20:20:24] [Server thread/INFO]: KeitoC issued server command: /mv confirm 977
+[20:20:24] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) INFO: Unloading holograms for world world_nether
+[20:20:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:20:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:20:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:20:24] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.27s
+[20:20:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[20:20:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[20:20:26] [Server thread/INFO]: KeitoC issued server command: /mv delete world_the_end
+[20:20:29] [Server thread/INFO]: KeitoC issued server command: /mv confirm 208
+[20:20:29] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) INFO: Unloading holograms for world world_the_end
+[20:20:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:20:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:20:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:20:29] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.29s
+[20:20:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[20:20:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[20:20:47] [Server thread/INFO]: KeitoC issued server command: /p2 delete
+[20:21:02] [Server thread/INFO]: KeitoC issued server command: /p2 remove
+[20:21:13] [Server thread/INFO]: KeitoC issued server command: /p2 template
+[20:21:36] [Server thread/INFO]: KeitoC issued server command: /p2 list
+[20:21:41] [Server thread/INFO]: KeitoC issued server command: /p2 list all
+[20:21:45] [Server thread/INFO]: KeitoC issued server command: /p2 list Atlantis
+[20:22:27] [Server thread/INFO]: KeitoC issued server command: /p2 plugin
+[20:22:57] [Server thread/INFO]: Stopping the server
+[20:22:57] [Server thread/INFO]: Stopping server
+[20:22:57] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.3
+[20:22:57] [Server thread/INFO]: [packetevents] Disabling packetevents v2.8.0
+[20:22:57] [Server thread/INFO]: [FancyHolograms] Disabling FancyHolograms v2.5.0
+[20:22:57] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully disabled FancyHolograms version 2.5.0
+[20:22:57] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v5.0.2
+[20:22:57] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[20:22:57] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.72-baa3d91
+[20:22:57] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[20:22:57] [Server thread/INFO]: [LPC] Disabling LPC v3.6.2
+[20:22:57] [Server thread/INFO]: [SkBee] Disabling SkBee v3.11.3
+[20:22:57] [Server thread/INFO]: [TAB] Disabling TAB v5.2.2
+[20:22:57] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:22:57] [Server thread/INFO]: [NextRTP] Disabling NextRTP v1.0.0-beta.4
+[20:22:57] [Server thread/INFO]: [NextRTP] Disabling SignModule
+[20:22:57] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.14.1-Release
+[20:22:57] [Server thread/INFO]: [VoidWorldGenerator] Disabling VoidWorldGenerator v1.3.0
+[20:22:57] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.6.0
+[20:22:57] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs has been disabled.
+[20:22:57] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v5.0.3
+[20:22:57] [Server thread/INFO]: [ItemsAdder] Disabling ItemsAdder v4.0.11
+[20:22:57] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.0.2
+[20:22:57] [Server thread/INFO]: [Skript] Disabling Skript v2.11.2
+[20:22:57] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-750
+[20:22:57] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v7.5.2-Premium
+[20:22:57] [Server thread/INFO]: [PlotSquared/SQLManager] All DB transactions during this session are being validated (This may take a while if corrections need to be made)
+[20:22:57] [Server thread/INFO]: [PlotSquared/SQLManager] Warning! Found 4 plots in DB for non existent world: 'Atlantis'
+[20:22:57] [Server thread/INFO]: [PlotSquared/SQLManager] Warning! Please create the world(s) or remove the plots using the purge command
+[20:22:57] [Server thread/ERROR]: [PlotSquared/SQLManager] CRITICAL ERROR IN VALIDATION TASK: null;1;1
+[20:22:57] [Server thread/ERROR]: [PlotSquared/SQLManager] PLOT AREA CANNOT BE NULL! SKIPPING PLOT!
+[20:22:57] [Server thread/INFO]: [PlotSquared/SQLManager] Delete this entry from your database or set `database-purger: true` in the settings.yml
+[20:22:57] [Server thread/ERROR]: [PlotSquared/SQLManager] CRITICAL ERROR IN VALIDATION TASK: null;0;0
+[20:22:57] [Server thread/ERROR]: [PlotSquared/SQLManager] PLOT AREA CANNOT BE NULL! SKIPPING PLOT!
+[20:22:57] [Server thread/INFO]: [PlotSquared/SQLManager] Delete this entry from your database or set `database-purger: true` in the settings.yml
+[20:22:57] [Server thread/ERROR]: [PlotSquared/SQLManager] CRITICAL ERROR IN VALIDATION TASK: null;0;1
+[20:22:57] [Server thread/ERROR]: [PlotSquared/SQLManager] PLOT AREA CANNOT BE NULL! SKIPPING PLOT!
+[20:22:57] [Server thread/INFO]: [PlotSquared/SQLManager] Delete this entry from your database or set `database-purger: true` in the settings.yml
+[20:22:57] [Server thread/ERROR]: [PlotSquared/SQLManager] CRITICAL ERROR IN VALIDATION TASK: null;1;0
+[20:22:57] [Server thread/ERROR]: [PlotSquared/SQLManager] PLOT AREA CANNOT BE NULL! SKIPPING PLOT!
+[20:22:57] [Server thread/INFO]: [PlotSquared/SQLManager] Delete this entry from your database or set `database-purger: true` in the settings.yml
+[20:22:57] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
+[20:22:57] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[20:22:57] [Server thread/INFO]: [XConomy] Disabling XConomy v2.26.3
+[20:22:57] [Server thread/INFO]: [XConomy] XConomy está deshabilitado
+[20:22:57] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[20:22:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[20:22:57] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1120;3dc41d8
+[20:22:57] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:22:57] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[20:22:57] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[20:22:57] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.8
+[20:22:57] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:22:57] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:22:57] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:22:58] [Server thread/INFO]: Saving players
+[20:22:58] [Server thread/INFO]: KeitoC lost connection: Server closed
+[20:22:58] [Server thread/INFO]: KeitoC left the game
+[20:22:58] [Server thread/INFO]: Saving worlds
+[20:22:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spawn]'/minecraft:overworld
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spawn'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spawn'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spawn'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Saved 52 block chunks, 52 entity chunks, 0 poi chunks in world 'Spawn' in 0.03s
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Spawn'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Spawn'
+[20:22:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spawn_nether]'/minecraft:the_nether
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spawn_nether'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spawn_nether'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spawn_nether'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'Spawn_nether' in 0.00s
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Spawn_nether'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Spawn_nether'
+[20:22:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spawn_the_end]'/minecraft:the_end
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spawn_the_end'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spawn_the_end'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spawn_the_end'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'Spawn_the_end' in 0.01s
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Spawn_the_end'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Spawn_the_end'
+[20:22:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Atlantis]'/minecraft:atlantis
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Atlantis'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Atlantis'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Atlantis'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Atlantis' in 0.00s
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Atlantis'
+[20:22:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Atlantis'
+[20:22:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (Spawn): All chunks are saved
+[20:22:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:22:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:22:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (Atlantis): All chunks are saved
+[20:22:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:22:58] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[20:22:58] [Server thread/INFO]: All I/O tasks to complete
+[20:22:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[20:22:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

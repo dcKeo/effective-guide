@@ -49,7 +49,7 @@ command /spawn:
         loop 5 times:
             set {_t} to 6 - loop-number
             send action bar "&aTeletransportando al spawn en %{_t}% segundos. &c&l¡No te muevas!" to player
-            if location of player != {_loc}:
+            if block at location of player != block at {_loc}:
                 send action bar "{@error}¡Teletransporte cancelado por moverte!"
                 stop
             wait 1 second

@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751054976526
-  login: 1751053816114
+  logout: 1751055777385
+  login: 1751055412485
 money: '0'
 last-account-name: KeitoC
 logoutlocation:
   world: cc447690-ab53-4d11-b492-5b0791e76ee6
   world-name: Spawn
-  x: 0.3373505307353909
-  y: 44.5
-  z: -0.8610631408175023
-  yaw: 4.352599620819092
-  pitch: 32.2685546875
+  x: -1.340401721401445
+  y: 43.0
+  z: 7.7043282743670956
+  yaw: -144.22169494628906
+  pitch: 17.07605743408203
 lastlocation:
   world: cc447690-ab53-4d11-b492-5b0791e76ee6
   world-name: Spawn
