@@ -28,11 +28,11 @@ Spawn:
   seed: 7555086976612379693
   spawn-location:
     ==: MVSpawnLocation
-    x: 0.0
-    y: 64.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: 0.5
+    y: 45.0
+    z: 0.5
+    pitch: -0.39530066
+    yaw: -0.2051448
   spawning:
     misc:
       spawn: true
