@@ -17,7 +17,7 @@ mana_abilities:
     show_particles: true
     prevent_unripe_break: true
   auraskills/treecapitator:
-    enabled: true
+    enabled: false
     base_value: 5.0
     value_per_level: 5.0
     base_cooldown: 200
