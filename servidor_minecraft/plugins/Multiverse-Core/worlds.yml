@@ -1,3 +1,41 @@
+Atlantis:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: normal
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  environment: normal
+  gamemode: survival
+  generator: PlotSquared
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: true
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 1.0
+  seed: 839623068957085660
+  spawn-location:
+    ==: MVSpawnLocation
+    x: -48.0
+    y: 63.0
+    z: -32.0
+    pitch: 0.0
+    yaw: 0.0
+  spawning: {}
+  world-blacklist: []
+  version: 1.2
 Spawn:
   adjust-spawn: true
   alias: ''
@@ -41,6 +79,82 @@ Spawn:
       exceptions: []
   world-blacklist: []
   version: 1.2
+Spawn_nether:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: normal
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  environment: nether
+  gamemode: survival
+  generator: ''
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: true
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 8.0
+  seed: -347433535299688657
+  spawn-location:
+    ==: MVSpawnLocation
+    x: 35.0
+    y: 49.0
+    z: -1.0
+    pitch: 0.0
+    yaw: 0.0
+  spawning: {}
+  world-blacklist: []
+  version: 1.2
+Spawn_the_end:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: normal
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  environment: the_end
+  gamemode: survival
+  generator: ''
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: true
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 16.0
+  seed: -347433535299688657
+  spawn-location:
+    ==: MVSpawnLocation
+    x: 0.0
+    y: 59.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  spawning: {}
+  world-blacklist: []
+  version: 1.2
 world:
   adjust-spawn: true
   alias: ''
@@ -77,7 +191,7 @@ world:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    axolotl:
+    water_ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -87,12 +201,12 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    water_animal:
+    axolotl:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -107,12 +221,12 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    water_ambient:
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
+    water_animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
