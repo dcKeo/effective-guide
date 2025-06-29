@@ -1479,3 +1479,5 @@ Caused by: java.lang.NullPointerException: Cannot invoke "Object.hashCode()" bec
 [02:54:51] [Server thread/INFO]: KeitoC issued server command: /skills xp add KeitoC alchemy 99999999999999999999999999999
 [02:56:05] [Server thread/INFO]: KeitoC issued server command: /kill KeitoC
 [02:56:05] [Server thread/INFO]: KeitoC died
+[03:08:27] [Server thread/INFO]: KeitoC lost connection: Disconnected
+[03:08:27] [Server thread/INFO]: - (-) KeitoC
