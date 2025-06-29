@@ -17,7 +17,7 @@ timestamps:
   jail: 0
   onlinejail: 0
   logout: 1751062891874
-  login: 1751058713177
+  login: 1751162994728
 money: '0'
 last-account-name: KeitoC
 logoutlocation:
@@ -29,10 +29,10 @@ logoutlocation:
   yaw: -44.64959716796875
   pitch: 14.797197341918945
 lastlocation:
-  world: 02cb0c71-281a-4510-92e7-b267c3747b9c
-  world-name: Atlantis
-  x: 36.92652312484971
-  y: 98.48712547539006
-  z: -55.14673387441208
-  yaw: 135.1510009765625
-  pitch: 66.45160675048828
+  world: cc447690-ab53-4d11-b492-5b0791e76ee6
+  world-name: Spawn
+  x: 0.5565011199994232
+  y: 45.0
+  z: 0.5145435935008453
+  yaw: -0.715179443359375
+  pitch: 90.0
