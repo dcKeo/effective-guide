@@ -1,16 +1,16 @@
-[06:20:54] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[06:20:54] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
-[06:20:55] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:20:56] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/RealisticSeasons-11.7.0.jar'...
-[06:20:57] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/RealisticSeasons-11.7.0.jar' in 915ms.
-[06:20:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 28 plugins
-[06:20:57] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[06:22:09] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[06:22:09] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
+[06:22:09] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[06:22:10] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/RealisticSeasons-11.7.0.jar'...
+[06:22:11] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/RealisticSeasons-11.7.0.jar' in 741ms.
+[06:22:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 28 plugins
+[06:22:12] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - FancyHolograms (2.5.0), FancyNpcs (2.6.0)
-[06:20:57] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (26):
+[06:22:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (26):
  - AuraSkills (2.3.3), DeluxeMenus (1.14.1-Release), Essentials (2.21.1), EzChat (3.1.0), FastAsyncWorldEdit (2.13.1-SNAPSHOT-1120;3dc41d8), GrimAC (2.3.72-baa3d91), ItemsAdder (4.0.11), LuckPerms (5.5.8), Multiverse-Core (5.0.2), Multiverse-NetherPortals (5.0.2), Multiverse-Portals (5.0.3), NextRTP (1.0.0-beta.4), PlaceholderAPI (2.11.6), PlotSquared (7.5.2-Premium), ProtocolLib (5.4.0-SNAPSHOT-750), RealisticSeasons (11.7.0), SkBee (3.11.3), SkinsRestorer (15.7.3), Skript (2.11.2), TAB (5.2.2), UltimateClans (8.2.1), Vault (1.7.3-b131), VoidWorldGenerator (1.3.0), WorldGuard (7.0.13+82fdc65), XConomy (2.26.3), packetevents (2.8.0)
-[06:21:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[06:21:03] [ServerMain/WARN]: Missing data pack file/Terralith_1.21_v2.5.8.zip
-[06:21:03] [ServerMain/WARN]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
+[06:22:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:22:17] [ServerMain/WARN]: Missing data pack file/Terralith_1.21_v2.5.8.zip
+[06:22:18] [ServerMain/WARN]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Overworld settings missing
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
