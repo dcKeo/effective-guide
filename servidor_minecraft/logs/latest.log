@@ -1461,3 +1461,21 @@ Caused by: java.lang.NullPointerException: Cannot invoke "Object.hashCode()" bec
 [02:48:08] [Server thread/INFO]: KeitoC issued server command: /papi parse me %essentials_afk%
 [02:48:11] [Server thread/INFO]: KeitoC issued server command: /afk
 [02:48:12] [Server thread/INFO]: KeitoC issued server command: /papi parse me %essentials_afk%
+[02:48:39] [Server thread/INFO]: KeitoC issued server command: /mv list
+[02:49:38] [Server thread/INFO]: KeitoC issued server command: /gamemode survival
+[02:52:45] [Server thread/INFO]: KeitoC issued server command: /skills
+[02:53:06] [Server thread/INFO]: KeitoC issued server command: /auraskills:mana add KeitoC 999
+[02:53:09] [Server thread/INFO]: KeitoC issued server command: /auraskills:mana add KeitoC 9
+[02:53:12] [Server thread/INFO]: KeitoC issued server command: /auraskills:mana add KeitoC 10 true
+[02:53:30] [Server thread/INFO]: KeitoC issued server command: /skill modifier add KeitoC health 10
+[02:53:40] [Server thread/INFO]: KeitoC issued server command: /skill jobs
+[02:53:42] [Server thread/INFO]: KeitoC issued server command: /skill job
+[02:53:52] [Server thread/INFO]: KeitoC issued server command: /skill jobs add agility
+[02:53:59] [Server thread/INFO]: KeitoC issued server command: /skill jobs removeall KeitoC
+[02:54:01] [Server thread/INFO]: KeitoC issued server command: /skill jobs
+[02:54:04] [Server thread/INFO]: KeitoC issued server command: /sk help
+[02:54:18] [Server thread/INFO]: KeitoC issued server command: /skills xp add KeitoC alchemy 1000000
+[02:54:33] [Server thread/INFO]: KeitoC issued server command: /skills
+[02:54:51] [Server thread/INFO]: KeitoC issued server command: /skills xp add KeitoC alchemy 99999999999999999999999999999
+[02:56:05] [Server thread/INFO]: KeitoC issued server command: /kill KeitoC
+[02:56:05] [Server thread/INFO]: KeitoC died
