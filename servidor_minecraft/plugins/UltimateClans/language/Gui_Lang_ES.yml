@@ -4,10 +4,10 @@
 GUI:
   # Common and repetitive translation items are clustered in this excerpt
   Common: ''
-  Common back name: <red>Come back
+  Common back name: <red>Volver atrás
   Common back lore:
   - ''
-  - ' <yellow>Click to Come back.'
+  - ' <yellow>Click para volver atrás.'
   Common next name: <green>Next page
   Common next lore:
   - ''
@@ -15,7 +15,7 @@ GUI:
   Common previous name: <green>Previous page
   Common previous lore:
   - ''
-  - ' <yellow>Click to Come back.'
+  - ' <yellow>Click para volver atrás.'
   Common fill name: ' '
   Common fill lore: [
     ]
@@ -79,8 +79,8 @@ GUI:
   - ' <gray>Nombre: <aqua>%uclans_home:{name}:name%'
   - ' <gray>Localización: <aqua>%uclans_home:{name}:location%'
   - ''
-  - ' <yellow>Haz clic con el botón izquierdo para teletransportarte '
-  - ' <red>Haga clic con el botón derecho para eliminar.'
+  - ' <yellow>Haz click con el botón izquierdo para teletransportarte '
+  - ' <red>Haga click con el botón derecho para eliminar.'
   General clan_homes items current visit name: <green>Base %uclans_home:{name}:name%
   General clan_homes items current visit lore:
   - ''
@@ -109,11 +109,11 @@ GUI:
     ]
   General noclan_home items commands name: <green>Lista de Comandos y Ayuda
   General noclan_home items commands lore:
-  - ' <yellow>Haga clic para ver la lista completa'
+  - ' <yellow>Haga click para ver la lista completa'
   - <yellow>de comandos para Clanes y Terrenos.
   General noclan_home items clans name: <green>Todos los clanes
   General noclan_home items clans lore:
-  - ' <yellow>Haz clic para abrir el menú de la lista de clanes.'
+  - ' <yellow>Haz click para abrir el menú de la lista de clanes.'
   General noclan_home items create name: <red>No tienes un Clan
   General noclan_home items create lore:
   - ' <yellow>Click para crear un Clan.'
@@ -140,7 +140,7 @@ GUI:
   - ' <gray>Tag: <aqua>%uclans_tag_color%'
   - ' <gray>Desc: <aqua>%uclans_desc_color%'
   - ' '
-  - ' <yellow>Haga clic para abrir una lista de estados.'
+  - ' <yellow>Haga click para abrir una lista de estados.'
   General clan_home items banner name: <green>Bandera del Clan
   General clan_home items banner lore:
   - ' '
@@ -963,7 +963,7 @@ GUI:
   - ' <gray>'
   - ' <gray>Cantidad: <green>%uclans_logger_amount%'
   - ' '
-  - ' <yellow>Haz clic para abrir.'
+  - ' <yellow>Haz click para abrir.'
   General clan_home items mail name: <green>Buzón del clan
   General clan_home items mail lore:
   - ' <yellow>Correo recibido'
@@ -971,11 +971,11 @@ GUI:
   - ' <gray>Total: <green>%uclans_mail_amount%'
   - ' <gray>No leídos: <green>%uclans_mail_amount_unread%'
   - ' '
-  - ' <yellow>Haz clic para abrir.'
+  - ' <yellow>Haz click para abrir.'
   General clan_stats items join name: <green>Únete al clan!
   General clan_stats items join lore:
   - ' '
-  - ' <yellow>Haz clic para unirte al clan'
+  - ' <yellow>Haz click para unirte al clan'
   - ''
   - ' <red>Si ya estás participando en'
   - <red>un clan, saldrás automáticamente de él.
@@ -985,14 +985,14 @@ GUI:
   - ' <white>Está conectado: <aqua>%uclans_haswebhook_formated%'
   - ' <white>Url: <aqua>%uclans_webhook_urlshort%'
   - ''
-  - ' <yellow>CLIC IZQUIERDO para cambiar.'
-  - ' <red>CLIC DERECHO para restablecer.'
+  - ' <yellow>CLICK IZQUIERDO para cambiar.'
+  - ' <red>CLICK DERECHO para restablecer.'
   General clan_actions items receivemailallies name: <green>Correo de aliados
   General clan_actions items receivemailallies lore:
   - ' '
   - ' <white>Estado: %uclans_actions_state:RECEIVEMAILALLIES%'
   - ''
-  - ' <yellow>Haz clic para alternar '
+  - ' <yellow>Haz click para alternar '
   - ' '
   - ' <red>Cuando está desactivado, tu clan'
   - <red>no recibirá correo de los aliados.
@@ -1000,32 +1000,32 @@ GUI:
   General clan_top items only_open lore:
   - ''
   - ' <white>Estado: <aqua>{state}'
-  - ' <yellow>Haz clic para aplicar el filtro.'
+  - ' <yellow>Haz click para aplicar el filtro.'
   General rival items add name: <green>Buscar nuevos rivales.
   General rival items add lore:
   - ''
-  - ' <yellow>Haz clic para abrir.'
+  - ' <yellow>Haz click para abrir.'
   General ally items add name: <green>Buscar nuevos aliados
   General ally items add lore:
   - ''
-  - ' <yellow>Haz clic para abrir.'
+  - ' <yellow>Haz click para abrir.'
   General banner_home_pre title: <blue>Seleccionar icono de bandera
   General banner_home_pre items back name: <red>Regresar
   General banner_home_pre items back lore:
   - ''
-  - ' <yellow>Haz clic para regresar.'
+  - ' <yellow>Haz click para regresar.'
   General banner_home_pre items next name: <green>Siguiente página
   General banner_home_pre items next lore:
   - ''
-  - ' <yellow>Haz clic para continuar.'
+  - ' <yellow>Haz click para continuar.'
   General banner_home_pre items previous name: <green>Página anterior
   General banner_home_pre items previous lore:
   - ''
-  - ' <yellow>Haz clic para regresar.'
+  - ' <yellow>Haz click para regresar.'
   General banner_home_pre items current name: <green>%name%.
   General banner_home_pre items current lore:
   - ''
-  - ' <yellow>Haz clic para seleccionar.'
+  - ' <yellow>Haz click para seleccionar.'
   General banner_home_pre items fill name: ' '
   General banner_home_pre items fill lore: [
     ]
@@ -1038,7 +1038,7 @@ GUI:
   General banner_home_pre items common name: '<green>Filtro: <aqua>Común'
   General banner_home_pre items common lore:
   - ''
-  - ' <yellow>Haz clic para aplicar el filtro.'
+  - ' <yellow>Haz click para aplicar el filtro.'
   General banner_home_pre items common_current name: '<green>Filtro: <aqua>Común'
   General banner_home_pre items common_current lore:
   - ''
@@ -1046,7 +1046,7 @@ GUI:
   General banner_home_pre items head name: '<green>Filtro: <aqua>Cabezas'
   General banner_home_pre items head lore:
   - ''
-  - ' <yellow>Haz clic para aplicar el filtro.'
+  - ' <yellow>Haz click para aplicar el filtro.'
   General banner_home_pre items head_current name: '<green>Filtro: <aqua>Cabezas'
   General banner_home_pre items head_current lore:
   - ''
@@ -1054,7 +1054,7 @@ GUI:
   General banner_home_pre items banner name: '<green>Filtro: <aqua>Banderas'
   General banner_home_pre items banner lore:
   - ''
-  - ' <yellow>Haz clic para aplicar el filtro.'
+  - ' <yellow>Haz click para aplicar el filtro.'
   General banner_home_pre items banner_current name: '<green>Filtro: <aqua>Banderas'
   General banner_home_pre items banner_current lore:
   - ''
@@ -1075,25 +1075,25 @@ GUI:
   General clan_logger items clear name: <green>Borrar todo el registro
   General clan_logger items clear lore:
   - ''
-  - ' <yellow>Haz clic para borrar.'
+  - ' <yellow>Haz click para borrar.'
   - ''
   - <red>! Esto no se puede deshacer
   General clan_logger items next name: <green>Siguiente página
   General clan_logger items next lore:
   - ''
-  - ' <yellow>Haz clic para continuar.'
+  - ' <yellow>Haz click para continuar.'
   General clan_logger items previous name: <green>Página anterior
   General clan_logger items previous lore:
   - ''
-  - ' <yellow>Haz clic para regresar.'
+  - ' <yellow>Haz click para regresar.'
   General clan_logger items back name: <red>Regresar
   General clan_logger items back lore:
   - ''
-  - ' <yellow>Haz clic para regresar.'
+  - ' <yellow>Haz click para regresar.'
   General clan_logger items filter_all name: '<green>Filtro: <aqua>Todo'
   General clan_logger items filter_all lore:
   - ''
-  - ' <yellow>Haz clic para aplicar el filtro.'
+  - ' <yellow>Haz click para aplicar el filtro.'
   General clan_logger items filter_all_current name: '<green>Filtro: <aqua>Todo'
   General clan_logger items filter_all_current lore:
   - ''
@@ -1101,7 +1101,7 @@ GUI:
   General clan_logger items filter_daily name: '<green>Filtro: <aqua>Diario'
   General clan_logger items filter_daily lore:
   - ''
-  - ' <yellow>Haz clic para aplicar el filtro.'
+  - ' <yellow>Haz click para aplicar el filtro.'
   General clan_logger items filter_daily_current name: '<green>Filtro: <aqua>Diario'
   General clan_logger items filter_daily_current lore:
   - ''
@@ -1109,7 +1109,7 @@ GUI:
   General clan_logger items filter_weekly name: '<green>Filtro: <aqua>Semanal'
   General clan_logger items filter_weekly lore:
   - ''
-  - ' <yellow>Haz clic para aplicar el filtro.'
+  - ' <yellow>Haz click para aplicar el filtro.'
   General clan_logger items filter_weekly_current name: '<green>Filtro: <aqua>Semanal'
   General clan_logger items filter_weekly_current lore:
   - ''
@@ -1117,7 +1117,7 @@ GUI:
   General clan_logger items filter_monthly name: '<green>Filtro: <aqua>Mensual'
   General clan_logger items filter_monthly lore:
   - ''
-  - ' <yellow>Haz clic para aplicar el filtro.'
+  - ' <yellow>Haz click para aplicar el filtro.'
   General clan_logger items filter_monthly_current name: '<green>Filtro: <aqua>Mensual'
   General clan_logger items filter_monthly_current lore:
   - ''
@@ -1125,7 +1125,7 @@ GUI:
   General clan_logger items filter_yearly name: '<green>Filtro: <aqua>Anual'
   General clan_logger items filter_yearly lore:
   - ''
-  - ' <yellow>Haz clic para aplicar el filtro.'
+  - ' <yellow>Haz click para aplicar el filtro.'
   General clan_logger items filter_yearly_current name: '<green>Filtro: <aqua>Anual'
   General clan_logger items filter_yearly_current lore:
   - ''
@@ -1137,11 +1137,11 @@ GUI:
   General clear_logger_confirm items confirm name: <green>Confirmar
   General clear_logger_confirm items confirm lore:
   - ''
-  - ' <red>Haz clic para confirmar.'
+  - ' <red>Haz click para confirmar.'
   General clear_logger_confirm items cancel name: <green>Cancelar
   General clear_logger_confirm items cancel lore:
   - ''
-  - ' <yellow>Haz clic para cancelar.'
+  - ' <yellow>Haz click para cancelar.'
   General clan_mail title: <blue>Buzón del Clan <gray>| <green>{timer}
   General clan_mail items fill name: ' '
   General clan_mail items fill lore: [
@@ -1158,25 +1158,25 @@ GUI:
   General clan_mail items clear name: <green>Vaciar todo el buzón
   General clan_mail items clear lore:
   - ''
-  - ' <yellow>Haz clic para vaciar.'
+  - ' <yellow>Haz click para vaciar.'
   - ''
   - <red>! Esto no se puede deshacer
   General clan_mail items next name: <green>Siguiente página
   General clan_mail items next lore:
   - ''
-  - ' <yellow>Haz clic para continuar.'
+  - ' <yellow>Haz click para continuar.'
   General clan_mail items previous name: <green>Página anterior
   General clan_mail items previous lore:
   - ''
-  - ' <yellow>Haz clic para volver.'
+  - ' <yellow>Haz click para volver.'
   General clan_mail items back name: <red>Volver
   General clan_mail items back lore:
   - ''
-  - ' <yellow>Haz clic para volver.'
+  - ' <yellow>Haz click para volver.'
   General clan_mail items filter_all name: '<green>Filtro: <aqua>Todo'
   General clan_mail items filter_all lore:
   - ''
-  - ' <yellow>Haz clic para aplicar el filtro.'
+  - ' <yellow>Haz click para aplicar el filtro.'
   General clan_mail items filter_all_current name: '<green>Filtro: <aqua>Todo'
   General clan_mail items filter_all_current lore:
   - ''
@@ -1184,7 +1184,7 @@ GUI:
   General clan_mail items filter_unread name: '<green>Filtro: <aqua>No leído'
   General clan_mail items filter_unread lore:
   - ''
-  - ' <yellow>Haz clic para aplicar el filtro.'
+  - ' <yellow>Haz click para aplicar el filtro.'
   General clan_mail items filter_unread_current name: '<green>Filtro: <aqua>No leído'
   General clan_mail items filter_unread_current lore:
   - ''
@@ -1192,7 +1192,7 @@ GUI:
   General clan_mail items filter_read name: '<green>Filtro: <aqua>Leído'
   General clan_mail items filter_read lore:
   - ''
-  - ' <yellow>Haz clic para aplicar el filtro.'
+  - ' <yellow>Haz click para aplicar el filtro.'
   General clan_mail items filter_read_current name: '<green>Filtro: <aqua>Leído'
   General clan_mail items filter_read_current lore:
   - ''
@@ -1204,11 +1204,11 @@ GUI:
   General clear_mail_confirm items confirm name: <green>Confirmar
   General clear_mail_confirm items confirm lore:
   - ''
-  - ' <red>Haz clic para confirmar.'
+  - ' <red>Haz click para confirmar.'
   General clear_mail_confirm items cancel name: <green>Cancelar
   General clear_mail_confirm items cancel lore:
   - ''
-  - ' <yellow>Haz clic para cancelar.'
+  - ' <yellow>Haz click para cancelar.'
   General clan_rival_search title: <blue>Buscar rivalidades.
   General clan_rival_search items fill name: ' '
   General clan_rival_search items fill lore: [
@@ -1216,15 +1216,15 @@ GUI:
   General clan_rival_search items back name: <red>Volver
   General clan_rival_search items back lore:
   - ''
-  - ' <yellow>Haz clic para volver.'
+  - ' <yellow>Haz click para volver.'
   General clan_rival_search items next name: <green>Siguiente página
   General clan_rival_search items next lore:
   - ''
-  - ' <yellow>Haz clic para continuar.'
+  - ' <yellow>Haz click para continuar.'
   General clan_rival_search items previous name: <green>Página anterior
   General clan_rival_search items previous lore:
   - ''
-  - ' <yellow>Haz clic para volver.'
+  - ' <yellow>Haz click para volver.'
   General clan_rival_search items current name: <green>Clan %uclans_tag_color%
   General clan_rival_search items current lore:
   - ''
@@ -1236,12 +1236,12 @@ GUI:
   - ' <gray>Líder: <aqua>%uclans_leader%'
   - ' <gray>Miembros: <aqua>%uclans_count_members%'
   - ''
-  - ' <red>Haz clic para añadir.'
+  - ' <red>Haz click para añadir.'
   General members items onlines name: <green>Jugadores en línea?
   General members items onlines lore:
   - ''
   - ' <white>Estado: <red>{state}'
-  - ' <yellow>Haz clic para filtrar.'
+  - ' <yellow>Haz click para filtrar.'
   General anvil_clancreate title: <blue>Crea un nuevo clan!
   General anvil_clancreate items left name: <white>Escribe tu texto arriba
   General anvil_clancreate items left lore:
@@ -1249,11 +1249,11 @@ GUI:
   General anvil_clancreate items right name: <red>Volver
   General anvil_clancreate items right lore:
   - ''
-  - ' <yellow>Haz clic para volver.'
+  - ' <yellow>Haz click para volver.'
   General anvil_clancreate items output name: ' '
   General anvil_clancreate items output lore:
   - ''
-  - ' <yellow>Haz clic para crear.'
+  - ' <yellow>Haz click para crear.'
   General anvil_clanhomecreate title: <blue>Crea una base para el clan!
   General anvil_clanhomecreate items left name: <white>Escribe tu texto arriba
   General anvil_clanhomecreate items left lore:
@@ -1261,7 +1261,7 @@ GUI:
   General anvil_clanhomecreate items right name: <red>Volver
   General anvil_clanhomecreate items right lore:
   - ''
-  - ' <yellow>Haz clic para volver.'
+  - ' <yellow>Haz click para volver.'
   General anvil_clanhomecreate items output name: ' '
   General anvil_clanhomecreate items output lore:
   - ''
@@ -1273,11 +1273,11 @@ GUI:
   General anvil_changenickname items right name: <red>Volver
   General anvil_changenickname items right lore:
   - ''
-  - ' <yellow>Haz clic para volver.'
+  - ' <yellow>Haz click para volver.'
   General anvil_changenickname items output name: ' '
   General anvil_changenickname items output lore:
   - ''
-  - ' <yellow>Haz clic para cambiar.'
+  - ' <yellow>Haz click para cambiar.'
   General anvil_clandiscordcreatewebhook title: <blue>Nuevo webhook!
   General anvil_clandiscordcreatewebhook items left name: <white>Escribe tu texto arriba
   General anvil_clandiscordcreatewebhook items left lore:
@@ -1285,11 +1285,11 @@ GUI:
   General anvil_clandiscordcreatewebhook items right name: <red>Volver
   General anvil_clandiscordcreatewebhook items right lore:
   - ''
-  - ' <yellow>Haz clic para volver.'
+  - ' <yellow>Haz click para volver.'
   General anvil_clandiscordcreatewebhook items output name: ' '
   General anvil_clandiscordcreatewebhook items output lore:
   - ''
-  - ' <yellow>Haz clic para crear.'
+  - ' <yellow>Haz click para crear.'
   General anvil_clanmodtag title: <blue>Cambia la etiqueta del clan!
   General anvil_clanmodtag items left name: <white>Escribe tu texto arriba
   General anvil_clanmodtag items left lore:
@@ -1297,11 +1297,11 @@ GUI:
   General anvil_clanmodtag items right name: <red>Volver
   General anvil_clanmodtag items right lore:
   - ''
-  - ' <yellow>Haz clic para volver.'
+  - ' <yellow>Haz click para volver.'
   General anvil_clanmodtag items output name: ' '
   General anvil_clanmodtag items output lore:
   - ''
-  - ' <yellow>Haz clic para cambiar la etiqueta del clan.'
+  - ' <yellow>Haz click para cambiar la etiqueta del clan.'
   General anvil_clandesc title: <blue>Crea una descripción para el clan!
   General anvil_clandesc items left name: <white>Escribe tu texto arriba
   General anvil_clandesc items left lore:
@@ -1309,19 +1309,19 @@ GUI:
   General anvil_clandesc items right name: <red>Volver
   General anvil_clandesc items right lore:
   - ''
-  - ' <yellow>Haz clic para volver.'
+  - ' <yellow>Haz click para volver.'
   General anvil_clandesc items output name: ' '
   General anvil_clandesc items output lore:
   - ''
-  - ' <yellow>Haz clic para cambiar la descripción del clan.'
+  - ' <yellow>Haz click para cambiar la descripción del clan.'
   General clan_ally_search title: <blue>Find for alliances.
   General clan_ally_search items fill name: ' '
   General clan_ally_search items fill lore: [
     ]
-  General clan_ally_search items back name: <red>Come back
+  General clan_ally_search items back name: <red>Volver atrás
   General clan_ally_search items back lore:
   - ''
-  - ' <yellow>Click to Come back.'
+  - ' <yellow>Click para volver atrás.'
   General clan_ally_search items next name: <green>Next page
   General clan_ally_search items next lore:
   - ''
@@ -1329,7 +1329,7 @@ GUI:
   General clan_ally_search items previous name: <green>Previous page
   General clan_ally_search items previous lore:
   - ''
-  - ' <yellow>Click to Come back.'
+  - ' <yellow>Click para volver atrás.'
   General clan_ally_search items current name: <green>Clan %uclans_tag_color%
   General clan_ally_search items current lore:
   - ''

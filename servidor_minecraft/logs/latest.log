@@ -718,3 +718,54 @@ Caused by: java.lang.NullPointerException: Cannot invoke "Object.hashCode()" bec
 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredField(Unknown Source) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
 	at UltimateClans-8.2.1.jar/me.ulrich.clans.library.nbtapi.NBTReflectionUtil.<clinit>(Unknown Source) ~[UltimateClans-8.2.1.jar:?]
 	... 32 more
+[02:19:28] [Server thread/INFO]: KeitoC issued server command: /papi parse me %clantag%
+[02:19:34] [Server thread/INFO]: KeitoC issued server command: /papi parse me %uclans_
+[02:19:48] [Server thread/INFO]: KeitoC issued server command: /papi parse me %uclans_%
+[02:19:52] [Server thread/INFO]: KeitoC issued server command: /clans
+[02:20:44] [Server thread/INFO]: UClans | ! El Clan MFIA fue eliminado.
+[02:28:07] [Server thread/INFO]: KeitoC issued server command: /uclans reload
+[02:28:07] [Server thread/INFO]: [UltimateClans] Disabling addons...
+[02:28:07] [Server thread/INFO]: [UltimateClans] Disabling extensions...
+[02:28:07] [Server thread/INFO]: [UltimateClans] Disabling Redis...
+[02:28:08] [Server thread/INFO]: [UltimateClans] Thanks for using Black-Minecraft.com
+[02:28:08] [Server thread/INFO]: [UltimateClans] Language: ES (default)
+[02:28:08] [Server thread/INFO]: [UltimateClans] Setup ScriptEngine: 
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - Loaded successfully
+[02:28:08] [Server thread/INFO]: [UltimateClans] Setup database: SQLITE (Medium)
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - Clan database [OK]
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - Player database [OK]
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - Invite database [OK]
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - Moderation database [OK]
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - Logger database [OK]
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - Mail database [OK]
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - Rewards database [OK]
+[02:28:08] [Server thread/INFO]: [UltimateClans] Setup hooks...
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - PlaceholderAPI
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - Essentials (Vanish)
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - ItemsAdder
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - SkinsRestorer
+[02:28:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: uclans [UClans V7]
+[02:28:08] [Server thread/INFO]: [UltimateClans] Setup bedrock hook...
+[02:28:08] [Server thread/INFO]: [UltimateClans]  - Not found.
+[02:28:08] [Server thread/INFO]: [UltimateClans] Loaded 51 gui menus.
+[02:28:08] [Server thread/INFO]: [UltimateClans] Loaded 1 clan patent(s).
+[02:28:08] [pool-118-thread-1/INFO]: [UltimateClans] Start invite loader...
+[02:28:08] [Server thread/INFO]: [UltimateClans] Loaded 5 clan level requeriments(s).
+[02:28:08] [pool-119-thread-1/INFO]: [UltimateClans] Start logger loader...
+[02:28:08] [pool-118-thread-1/INFO]: [UltimateClans] Loaded 0 invites(s).
+[02:28:08] [pool-119-thread-1/INFO]: [UltimateClans] Loaded 0 log(s).
+[02:28:08] [pool-120-thread-1/INFO]: [UltimateClans] Start mail loader...
+[02:28:08] [pool-120-thread-1/INFO]: [UltimateClans] Loaded 0 mail(s).
+[02:28:08] [pool-121-thread-1/INFO]: [UltimateClans] Start rewards loader...
+[02:28:08] [Server thread/INFO]: [UltimateClans] Setup Extensions...
+[02:28:08] [pool-121-thread-1/INFO]: [UltimateClans] Loaded 0 rewards(s).
+[02:28:08] [Server thread/INFO]: [UltimateClans] Setup Addons...
+[02:28:08] [pool-122-thread-1/INFO]: [UltimateClans] Start clans loader...
+[02:28:08] [pool-122-thread-1/INFO]: [UltimateClans] Loaded 0 clan(s).
+[02:28:08] [pool-123-thread-1/INFO]: [UltimateClans] Start players loader...
+[02:28:08] [pool-123-thread-1/INFO]: [UltimateClans] Loaded 1 player(s).
+[02:28:08] [Server thread/INFO]: [UltimateClans] Start moderation loader...
+[02:28:08] [Server thread/INFO]: [UltimateClans] Loaded 0 moderations(s).
+[02:28:10] [Server thread/INFO]: [UltimateClans] Additional hooks...
+[02:28:11] [Folia Async Scheduler Thread #3/INFO]: [UltimateClans] Find for new versions...
+[02:28:12] [Folia Async Scheduler Thread #3/WARN]: [UltimateClans] New version (8.10.0) of Ultimate Clans is avaliable in https://polymart.org/r/1162

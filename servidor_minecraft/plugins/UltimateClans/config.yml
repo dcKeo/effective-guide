@@ -103,7 +103,7 @@ Config:
     currency: $
     format: '#,##0'
     #This field is intended for the %uclans_money_current...% placeholder, if there is a field this will be the name of the economy
-    name: ''
+    name: Dinero de Clan
    
   player:
     pvp:
@@ -168,7 +168,7 @@ Config:
         noclan: 1
         nopvp: 1
       disabled_kdr_worlds:
-      - no_kdr_world
+      - Spawn
       disabled_kdr_regions:
       - no_kdr_region
       # Plugins added here are blocked from receiving kdr if death happens within this terrain
@@ -192,7 +192,7 @@ Config:
       # If the server is in OFFLINE MODE the plugin will try to retrieve skins using the hooks below
       hooks:
         skinsrestorer:
-          enabled: false
+          enabled: true
           # This placeholder option can be used for skins restorer in 'Standalone Mode' and NOT in Proxy mode.
            
           # For servers in offline mode and PROXY mode follow the steps below (these steps created by skinsrestorer)
@@ -249,13 +249,13 @@ Clan:
   relation:
     ally:
       color: <green>
-      text: '[Ally]'
+      text: '[Alianza]'
     rival:
       color: <red>
-      text: '[Rival]'
+      text: '[Enemigo]'
     neutral:
       color: <yellow>
-      text: '[NR]'
+      text: '[Neutral]'
     sameclan:
       color: <gold>
       text: ''
@@ -300,7 +300,7 @@ Clan:
     #You can enable colors, gradient and rainbow with user permissions, leave it blank so everyone can use colors!
     color_permission: ''
     min_chars: 2
-    max_chars: 4
+    max_chars: 10
     allowed_chars: '[0-9a-zA-Z_-]*'
     # BOLD, ITALIC, UNDERLINED, STRIKETHROUGH, OBFUSCATED
     disabled_decoration:
@@ -308,7 +308,7 @@ Clan:
     default_color: <dark_gray>
     start: <white>[
     end: <white>]
-    noclan_formated: <dark_red>WITHOUT CLAN
+    noclan_formated: <dark_red>¡Sin Clan!
     # example, for russian character use 'CYRILLIC', all list in https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.UnicodeBlock.html
     unicodeblock: ''
     #This Tag cannot be used in Clans. Sensitive to upper and lower case, no color should be added.
@@ -415,7 +415,7 @@ Clan:
       ClanRewardsEvent: true
    
   mail:
-    enabled: true
+    enabled: false
     enable_colors: true
     enabled_for_all_clans: false
     # in minutes, 1440 minutes = 1 day
