@@ -1282,3 +1282,182 @@ Caused by: java.lang.NullPointerException: Cannot invoke "Object.hashCode()" bec
 [02:37:09] [Server thread/INFO]: [UltimateClans] Additional hooks...
 [02:37:11] [Folia Async Scheduler Thread #3/INFO]: [UltimateClans] Find for new versions...
 [02:37:11] [Folia Async Scheduler Thread #3/WARN]: [UltimateClans] New version (8.10.0) of Ultimate Clans is avaliable in https://polymart.org/r/1162
+[02:38:39] [Async Chat Thread - #9/INFO]: [Not Secure] {clansLite_clanName}| Owner KeitoC » wasd
+[02:38:59] [Server thread/INFO]: KeitoC issued server command: /papi parse me %uclans_tag%
+[02:39:02] [Server thread/INFO]: KeitoC issued server command: /papi parse me %uclans_name%
+[02:39:21] [Server thread/INFO]: KeitoC issued server command: /papi parse me %uclans_tag_formated%
+[02:39:25] [Server thread/INFO]: KeitoC issued server command: /clan create
+[02:39:27] [Server thread/INFO]: Clanes | ! Un nuevo Clan MAFIA fue creado por KeitoC.
+[02:39:29] [Server thread/INFO]: KeitoC issued server command: /papi parse me %uclans_tag_formated%
+[02:39:31] [Server thread/INFO]: KeitoC issued server command: /papi parse me %uclans_tag_formated%
+[02:40:10] [Server thread/INFO]: KeitoC issued server command: /clan cancel
+[02:41:31] [Server thread/INFO]: KeitoC issued server command: /uclans reload
+[02:41:31] [Server thread/INFO]: [UltimateClans] Disabling addons...
+[02:41:31] [Server thread/INFO]: [UltimateClans] Disabling extensions...
+[02:41:31] [Server thread/INFO]: [UltimateClans] Disabling Redis...
+[02:41:33] [Server thread/INFO]: [UltimateClans] Thanks for using Black-Minecraft.com
+[02:41:33] [Server thread/INFO]: [UltimateClans] Language: ES (default)
+[02:41:33] [Server thread/INFO]: [UltimateClans] Setup ScriptEngine: 
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - Loaded successfully
+[02:41:33] [Server thread/INFO]: [UltimateClans] Setup database: SQLITE (Medium)
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - Clan database [OK]
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - Player database [OK]
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - Invite database [OK]
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - Moderation database [OK]
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - Logger database [OK]
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - Mail database [OK]
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - Rewards database [OK]
+[02:41:33] [Server thread/INFO]: [UltimateClans] Setup hooks...
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - PlaceholderAPI
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - Essentials (Vanish)
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - ItemsAdder
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - SkinsRestorer
+[02:41:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: uclans [UClans V7]
+[02:41:33] [Server thread/INFO]: [UltimateClans] Setup bedrock hook...
+[02:41:33] [Server thread/INFO]: [UltimateClans]  - Not found.
+[02:41:33] [Server thread/INFO]: [UltimateClans] Loaded 51 gui menus.
+[02:41:33] [Server thread/INFO]: [UltimateClans] Loaded 1 clan patent(s).
+[02:41:33] [pool-215-thread-1/INFO]: [UltimateClans] Start invite loader...
+[02:41:33] [Server thread/INFO]: [UltimateClans] Loaded 5 clan level requeriments(s).
+[02:41:33] [pool-215-thread-1/INFO]: [UltimateClans] Loaded 0 invites(s).
+[02:41:33] [pool-216-thread-1/INFO]: [UltimateClans] Start logger loader...
+[02:41:33] [pool-216-thread-1/INFO]: [UltimateClans] Loaded 1 log(s).
+[02:41:33] [pool-217-thread-1/INFO]: [UltimateClans] Start mail loader...
+[02:41:33] [pool-217-thread-1/INFO]: [UltimateClans] Loaded 0 mail(s).
+[02:41:33] [pool-218-thread-1/INFO]: [UltimateClans] Start rewards loader...
+[02:41:33] [Server thread/INFO]: [UltimateClans] Setup Extensions...
+[02:41:33] [pool-218-thread-1/INFO]: [UltimateClans] Loaded 0 rewards(s).
+[02:41:33] [Server thread/INFO]: [UltimateClans] Setup Addons...
+[02:41:33] [pool-219-thread-1/INFO]: [UltimateClans] Start clans loader...
+[02:41:33] [pool-219-thread-1/INFO]: [UltimateClans] Loaded 1 clan(s).
+[02:41:33] [pool-220-thread-1/INFO]: [UltimateClans] Start players loader...
+[02:41:33] [pool-220-thread-1/INFO]: [UltimateClans] Loaded 1 player(s).
+[02:41:33] [Server thread/INFO]: [UltimateClans] Start moderation loader...
+[02:41:33] [Server thread/INFO]: [UltimateClans] Loaded 0 moderations(s).
+[02:41:34] [Server thread/INFO]: [UltimateClans] Additional hooks...
+[02:41:36] [Folia Async Scheduler Thread #3/INFO]: [UltimateClans] Find for new versions...
+[02:41:36] [Folia Async Scheduler Thread #3/WARN]: [UltimateClans] New version (8.10.0) of Ultimate Clans is avaliable in https://polymart.org/r/1162
+[02:41:39] [Server thread/INFO]: KeitoC issued server command: /uclans reload
+[02:41:39] [Server thread/INFO]: [UltimateClans] Disabling addons...
+[02:41:39] [Server thread/INFO]: [UltimateClans] Disabling extensions...
+[02:41:39] [Server thread/INFO]: [UltimateClans] Disabling Redis...
+[02:41:40] [Server thread/INFO]: [UltimateClans] Thanks for using Black-Minecraft.com
+[02:41:40] [Server thread/INFO]: [UltimateClans] Language: ES (default)
+[02:41:40] [Server thread/INFO]: [UltimateClans] Setup ScriptEngine: 
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - Loaded successfully
+[02:41:40] [Server thread/INFO]: [UltimateClans] Setup database: SQLITE (Medium)
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - Clan database [OK]
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - Player database [OK]
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - Invite database [OK]
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - Moderation database [OK]
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - Logger database [OK]
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - Mail database [OK]
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - Rewards database [OK]
+[02:41:40] [Server thread/INFO]: [UltimateClans] Setup hooks...
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - PlaceholderAPI
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - Essentials (Vanish)
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - ItemsAdder
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - SkinsRestorer
+[02:41:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: uclans [UClans V7]
+[02:41:40] [Server thread/INFO]: [UltimateClans] Setup bedrock hook...
+[02:41:40] [Server thread/INFO]: [UltimateClans]  - Not found.
+[02:41:40] [Server thread/INFO]: [UltimateClans] Loaded 51 gui menus.
+[02:41:40] [Server thread/INFO]: [UltimateClans] Loaded 1 clan patent(s).
+[02:41:40] [Server thread/INFO]: [UltimateClans] Loaded 5 clan level requeriments(s).
+[02:41:40] [pool-223-thread-1/INFO]: [UltimateClans] Start invite loader...
+[02:41:40] [pool-224-thread-1/INFO]: [UltimateClans] Start logger loader...
+[02:41:40] [pool-223-thread-1/INFO]: [UltimateClans] Loaded 0 invites(s).
+[02:41:40] [pool-224-thread-1/INFO]: [UltimateClans] Loaded 1 log(s).
+[02:41:40] [pool-225-thread-1/INFO]: [UltimateClans] Start mail loader...
+[02:41:40] [pool-225-thread-1/INFO]: [UltimateClans] Loaded 0 mail(s).
+[02:41:40] [pool-226-thread-1/INFO]: [UltimateClans] Start rewards loader...
+[02:41:40] [Server thread/INFO]: [UltimateClans] Setup Extensions...
+[02:41:40] [pool-227-thread-1/INFO]: [UltimateClans] Start clans loader...
+[02:41:40] [Server thread/INFO]: [UltimateClans] Setup Addons...
+[02:41:40] [pool-226-thread-1/INFO]: [UltimateClans] Loaded 0 rewards(s).
+[02:41:40] [pool-227-thread-1/INFO]: [UltimateClans] Loaded 1 clan(s).
+[02:41:40] [pool-228-thread-1/INFO]: [UltimateClans] Start players loader...
+[02:41:40] [pool-228-thread-1/INFO]: [UltimateClans] Loaded 1 player(s).
+[02:41:40] [Server thread/INFO]: [UltimateClans] Start moderation loader...
+[02:41:40] [Server thread/INFO]: [UltimateClans] Loaded 1 moderations(s).
+[02:41:42] [Server thread/INFO]: [UltimateClans] Additional hooks...
+[02:41:42] [Async Chat Thread - #11/INFO]: [Not Secure] {clansLite_clanName}| Owner KeitoC » w
+[02:41:43] [Folia Async Scheduler Thread #3/INFO]: [UltimateClans] Find for new versions...
+[02:41:43] [Folia Async Scheduler Thread #3/WARN]: [UltimateClans] New version (8.10.0) of Ultimate Clans is avaliable in https://polymart.org/r/1162
+[02:41:46] [Server thread/INFO]: KeitoC issued server command: /papi parse me %uclans_tag_formated%
+[02:41:54] [Server thread/INFO]: KeitoC issued server command: /uclans reload
+[02:41:54] [Server thread/INFO]: [UltimateClans] Disabling addons...
+[02:41:54] [Server thread/INFO]: [UltimateClans] Disabling extensions...
+[02:41:54] [Server thread/INFO]: [UltimateClans] Disabling Redis...
+[02:41:56] [Server thread/INFO]: [UltimateClans] Thanks for using Black-Minecraft.com
+[02:41:56] [Server thread/INFO]: [UltimateClans] Language: ES (default)
+[02:41:56] [Server thread/INFO]: [UltimateClans] Setup ScriptEngine: 
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - Loaded successfully
+[02:41:56] [Server thread/INFO]: [UltimateClans] Setup database: SQLITE (Medium)
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - Clan database [OK]
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - Player database [OK]
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - Invite database [OK]
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - Moderation database [OK]
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - Logger database [OK]
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - Mail database [OK]
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - Rewards database [OK]
+[02:41:56] [Server thread/INFO]: [UltimateClans] Setup hooks...
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - PlaceholderAPI
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - Essentials (Vanish)
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - ItemsAdder
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - SkinsRestorer
+[02:41:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: uclans [UClans V7]
+[02:41:56] [Server thread/INFO]: [UltimateClans] Setup bedrock hook...
+[02:41:56] [Server thread/INFO]: [UltimateClans]  - Not found.
+[02:41:56] [Server thread/INFO]: [UltimateClans] Loaded 51 gui menus.
+[02:41:56] [Server thread/INFO]: [UltimateClans] Loaded 1 clan patent(s).
+[02:41:56] [pool-230-thread-1/INFO]: [UltimateClans] Start invite loader...
+[02:41:56] [Server thread/INFO]: [UltimateClans] Loaded 5 clan level requeriments(s).
+[02:41:56] [pool-230-thread-1/INFO]: [UltimateClans] Loaded 0 invites(s).
+[02:41:56] [pool-231-thread-1/INFO]: [UltimateClans] Start logger loader...
+[02:41:56] [pool-231-thread-1/INFO]: [UltimateClans] Loaded 1 log(s).
+[02:41:56] [pool-232-thread-1/INFO]: [UltimateClans] Start mail loader...
+[02:41:56] [pool-232-thread-1/INFO]: [UltimateClans] Loaded 0 mail(s).
+[02:41:56] [pool-233-thread-1/INFO]: [UltimateClans] Start rewards loader...
+[02:41:56] [Server thread/INFO]: [UltimateClans] Setup Extensions...
+[02:41:56] [Server thread/INFO]: [UltimateClans] Setup Addons...
+[02:41:56] [pool-233-thread-1/INFO]: [UltimateClans] Loaded 0 rewards(s).
+[02:41:56] [pool-234-thread-1/INFO]: [UltimateClans] Start clans loader...
+[02:41:56] [pool-234-thread-1/INFO]: [UltimateClans] Loaded 1 clan(s).
+[02:41:56] [pool-235-thread-1/INFO]: [UltimateClans] Start players loader...
+[02:41:56] [pool-235-thread-1/INFO]: [UltimateClans] Loaded 1 player(s).
+[02:41:56] [Server thread/INFO]: [UltimateClans] Start moderation loader...
+[02:41:56] [Server thread/INFO]: [UltimateClans] Loaded 1 moderations(s).
+[02:41:57] [Server thread/INFO]: [UltimateClans] Additional hooks...
+[02:41:57] [Server thread/INFO]: KeitoC issued server command: /papi parse me %uclans_tag_formated%
+[02:41:59] [Folia Async Scheduler Thread #3/INFO]: [UltimateClans] Find for new versions...
+[02:41:59] [Folia Async Scheduler Thread #3/WARN]: [UltimateClans] New version (8.10.0) of Ultimate Clans is avaliable in https://polymart.org/r/1162
+[02:42:13] [Server thread/INFO]: KeitoC issued server command: /papi parse me %uclans_tag%
+[02:42:42] [Server thread/INFO]: KeitoC issued server command: /ezchat reoad
+[02:42:43] [Async Chat Thread - #13/INFO]: [Not Secure] {clansLite_clanName}| Owner KeitoC » wasd
+[02:42:48] [Server thread/INFO]: KeitoC issued server command: /ezchat reload
+[02:42:49] [Async Chat Thread - #13/INFO]: [Not Secure] [MAFIA]| Owner KeitoC » wasd
+[02:43:30] [Server thread/INFO]: KeitoC issued server command: /ezchat reload
+[02:43:36] [Async Chat Thread - #13/INFO]: [Not Secure] [MAFIA] | Owner KeitoC » wad
+[02:43:56] [Async Chat Thread - #13/INFO]: [Not Secure] [MAFIA] | Owner KeitoC » ]
+[02:44:54] [Server thread/INFO]: KeitoC issued server command: /ezchat reload
+[02:44:57] [Async Chat Thread - #15/INFO]: [Not Secure] [MAFIA] ¦ Owner KeitoC » wasd
+[02:45:09] [Async Chat Thread - #16/INFO]: [Not Secure] [MAFIA] ¦ Owner KeitoC » https://dsc.gg/nayeland
+[02:46:03] [Server thread/INFO]: KeitoC issued server command: /ezchat reload
+[02:47:07] [Server thread/INFO]: KeitoC issued server command: /papi parse me %essentials_afk%
+[02:47:52] [Server thread/INFO]: KeitoC issued server command: /papi ecloud download Essentials
+[02:47:52] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:47:56] [Server thread/INFO]: KeitoC issued server command: /papi reload
+[02:47:56] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[02:47:56] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:47:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[02:47:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[02:47:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[02:47:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[02:47:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[02:47:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: changeoutput [1.2.2]
+[02:47:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[02:47:57] [Craft Scheduler Thread - 28 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get KeitoC's timezone. Will use default timezone.
+[02:48:08] [Server thread/INFO]: KeitoC issued server command: /papi parse me %essentials_afk%
+[02:48:11] [Server thread/INFO]: KeitoC issued server command: /afk
+[02:48:12] [Server thread/INFO]: KeitoC issued server command: /papi parse me %essentials_afk%

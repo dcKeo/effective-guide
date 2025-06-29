@@ -10,7 +10,7 @@ formats:
     use-placeholder-api: true
     parts:
       - ==: chat-part
-        display: '%changeoutput_equals_input:_matcher:{clansLite_clanName}_ifmatch:&c✘ _else:{clansLite_clanName}%&7| %luckperms_prefix%{displayName}'
+        display: '%changeoutput_equals_input:_matcher:{uclans_tag_formated}_ifmatch:&c✘ _else:{uclans_tag_formated}% &7¦ %luckperms_prefix%{displayName}'
         ## Supported values:
         ## EXECUTE, SUGGEST, OPEN
         click-action: '[SUGGEST] /msg {name}'
@@ -49,7 +49,7 @@ formats:
     use-placeholder-api: true
     parts:
       - ==: chat-part
-        display: '%changeoutput_equals_input:_matcher:{clansLite_clanName}_ifmatch:&c✘ _else:{clansLite_clanName}%&7| %luckperms_prefix%{displayName}'
+        display: '%changeoutput_equals_input:_matcher:{uclans_tag_formated}_ifmatch:&c✘ _else:{uclans_tag_formated}% &7¦ %luckperms_prefix%{displayName}'
         ## Supported values:
         ## EXECUTE, SUGGEST, OPEN
         click-action: '[SUGGEST] /msg {name}'
@@ -88,7 +88,7 @@ formats:
     use-placeholder-api: true
     parts:
       - ==: chat-part
-        display: '%changeoutput_equals_input:_matcher:{clansLite_clanName}_ifmatch:&c✘ _else:{clansLite_clanName}%&7| %luckperms_prefix%{displayName}'
+        display: '%changeoutput_equals_input:_matcher:{uclans_tag_formated}_ifmatch:&c✘ _else:{uclans_tag_formated}% &7¦ %luckperms_prefix%{displayName}'
         ## Supported values:
         ## EXECUTE, SUGGEST, OPEN
         click-action: '[SUGGEST] /msg {name}'
@@ -127,7 +127,7 @@ formats:
     use-placeholder-api: true
     parts:
       - ==: chat-part
-        display: '%changeoutput_equals_input:_matcher:{clansLite_clanName}_ifmatch:&c✘ _else:{clansLite_clanName}%&7| %luckperms_prefix%{displayName}'
+        display: '%changeoutput_equals_input:_matcher:{uclans_tag_formated}_ifmatch:&c✘ _else:{uclans_tag_formated}% &7¦ %luckperms_prefix%{displayName}'
         ## Supported values:
         ## EXECUTE, SUGGEST, OPEN
         click-action: '[SUGGEST] /msg {name}'
@@ -166,7 +166,7 @@ formats:
     use-placeholder-api: true
     parts:
       - ==: chat-part
-        display: '%changeoutput_equals_input:_matcher:{clansLite_clanName}_ifmatch:&c✘ _else:{clansLite_clanName}%&7| %luckperms_prefix%{displayName}'
+        display: '%changeoutput_equals_input:_matcher:{uclans_tag_formated}_ifmatch:&c✘ _else:{uclans_tag_formated}% &7¦ %luckperms_prefix%{displayName}'
         ## Supported values:
         ## EXECUTE, SUGGEST, OPEN
         click-action: '[SUGGEST] /msg {name}'
@@ -205,7 +205,7 @@ formats:
     use-placeholder-api: true
     parts:
       - ==: chat-part
-        display: '%changeoutput_equals_input:_matcher:{clansLite_clanName}_ifmatch:&c✘ _else:{clansLite_clanName}%&7| %luckperms_prefix%{displayName}'
+        display: '%changeoutput_equals_input:_matcher:{uclans_tag_formated}_ifmatch:&c✘ _else:{uclans_tag_formated}% &7¦ %luckperms_prefix%{displayName}'
         ## Supported values:
         ## EXECUTE, SUGGEST, OPEN
         click-action: '[SUGGEST] /msg {name}'
@@ -244,7 +244,7 @@ formats:
     use-placeholder-api: true
     parts:
       - ==: chat-part
-        display: '%changeoutput_equals_input:_matcher:{clansLite_clanName}_ifmatch:&c✘ _else:{clansLite_clanName}%&7| %luckperms_prefix%{displayName}'
+        display: '%changeoutput_equals_input:_matcher:{uclans_tag_formated}_ifmatch:&c✘ _else:{uclans_tag_formated}% &7¦ %luckperms_prefix%{displayName}'
         ## Supported values:
         ## EXECUTE, SUGGEST, OPEN
         click-action: '[SUGGEST] /msg {name}'

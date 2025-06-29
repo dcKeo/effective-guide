@@ -2,7 +2,7 @@ Plugin:
   check_for_updates: true
  
 Config:
-  tag: <#FFAA00><bold>U</bold><gradient:#0000AA:#5555FF><bold>Clans</bold></gradient> <gray>|
+  tag: <aqua><bold>Clanes</bold> <gray>|
   date_format: dd/MM/yyyy HH:mm
   teleport_delay: 3
   date_format_short: dd/MM/yyyy

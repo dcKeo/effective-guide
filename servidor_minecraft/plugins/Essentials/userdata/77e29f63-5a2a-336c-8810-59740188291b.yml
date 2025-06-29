@@ -9,7 +9,7 @@ socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
-baltop-exempt: false
+baltop-exempt: true
 timestamps:
   lastteleport: 1750752583616
   lastheal: 0

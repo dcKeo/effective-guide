@@ -4,113 +4,113 @@
  
 LANGUAGE:
   separer: <gradient:blue:aqua>████████████████████████████████</gradient>
-  command by player: '<aqua><bold>Clanes</bold> <gray>| <red>This command must be used by a player.'
-  command by console: '<aqua><bold>Clanes</bold> <gray>| <red>This command must be used by a CONSOLE.'
-  disabled world command: '<aqua><bold>Clanes</bold> <gray>| <red>Clan commands are turned off in this world.'
-  disabled region command: '<aqua><bold>Clanes</bold> <gray>| <red>Clan commands are turned off in this region.'
-  error start action: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error running this.'
-  error character: '<aqua><bold>Clanes</bold> <gray>| <red>This contains invalid characters.'
-  error mod desc: '<aqua><bold>Clanes</bold> <gray>| <red>Error changing the Clan description.'
-  has globalff: '<aqua><bold>Clanes</bold> <gray>| <green>Global friendly fire is now on!'
-  no permission: '<aqua><bold>Clanes</bold> <gray>| <red>You do not have permission'
+  command by player: <aqua><bold>Clanes</bold> <gray>| <red>This command must be used by a player.
+  command by console: <aqua><bold>Clanes</bold> <gray>| <red>This command must be used by a CONSOLE.
+  disabled world command: <aqua><bold>Clanes</bold> <gray>| <red>Clan commands are turned off in this world.
+  disabled region command: <aqua><bold>Clanes</bold> <gray>| <red>Clan commands are turned off in this region.
+  error start action: <aqua><bold>Clanes</bold> <gray>| <red>There was an error running this.
+  error character: <aqua><bold>Clanes</bold> <gray>| <red>This contains invalid characters.
+  error mod desc: <aqua><bold>Clanes</bold> <gray>| <red>Error changing the Clan description.
+  has globalff: <aqua><bold>Clanes</bold> <gray>| <green>Global friendly fire is now on!
+  no permission: <aqua><bold>Clanes</bold> <gray>| <red>You do not have permission
   no permission gui: <red>Without permission.
   text empty: <red>The text is empty.
   anvil error: <red>An error occurred.
-  plugin reloaded: '<aqua><bold>Clanes</bold> <gray>| <green>Plugin reloaded successfully <gray>(%time%).'
+  plugin reloaded: <aqua><bold>Clanes</bold> <gray>| <green>Plugin reloaded successfully <gray>(%time%).
   plugin lang reloaded gui: <green>Success <red>(Need reload!)
-  chest extra buyed update: '<aqua><bold>Clanes</bold> <gray>| <aqua>{player_other} <green>has purchased a new Chest for the Clan.'
-  export same storage: '<aqua><bold>Clanes</bold> <gray>| <red>You must choose a different storage than the current one to export.'
-  export no data: '<aqua><bold>Clanes</bold> <gray>| <red>There is currently no data to export.'
-  export mysql deconfigured: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred, mysql fields are misconfigured.'
-  export mysql connection error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error connecting to MYSQL.'
-  export sqlite connection error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error connecting to SQLITE.'
-  export yaml connection error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error connecting to YAML.'
-  tag in use: '<aqua><bold>Clanes</bold> <gray>| <red>This Tag is already in use.'
-  clan not found: '<aqua><bold>Clanes</bold> <gray>| <red>Clan with this TAG does not exist.'
+  chest extra buyed update: <aqua><bold>Clanes</bold> <gray>| <aqua>{player_other} <green>has purchased a new Chest for the Clan.
+  export same storage: <aqua><bold>Clanes</bold> <gray>| <red>You must choose a different storage than the current one to export.
+  export no data: <aqua><bold>Clanes</bold> <gray>| <red>There is currently no data to export.
+  export mysql deconfigured: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred, mysql fields are misconfigured.
+  export mysql connection error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error connecting to MYSQL.
+  export sqlite connection error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error connecting to SQLITE.
+  export yaml connection error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error connecting to YAML.
+  tag in use: <aqua><bold>Clanes</bold> <gray>| <red>This Tag is already in use.
+  clan not found: <aqua><bold>Clanes</bold> <gray>| <red>Clan with this TAG does not exist.
   clan ally header: <blue>List of Allies. <dark_gray>(tag/kdr/members)
   clan list empty: ' <red>No Clan in this list.'
-  clan is your clan: '<aqua><bold>Clanes</bold> <gray>| <red>This is your Clan.'
-  clan is rival: '<aqua><bold>Clanes</bold> <gray>| <red>This Clan is already an rival.'
+  clan is your clan: <aqua><bold>Clanes</bold> <gray>| <red>This is your Clan.
+  clan is rival: <aqua><bold>Clanes</bold> <gray>| <red>This Clan is already an rival.
   clan is rival gui: <red>Clan is already an rival.
-  clan already ally: '<aqua><bold>Clanes</bold> <gray>| <red>This Clan is already an ally.'
+  clan already ally: <aqua><bold>Clanes</bold> <gray>| <red>This Clan is already an ally.
   clan already ally gui: <red>Clan is already an ally.
-  clan dont ally: '<aqua><bold>Clanes</bold> <gray>| <red>This Clan is not an ally.'
-  clan player isnot your clan: '<aqua><bold>Clanes</bold> <gray>| <red>This player is not in your Clan.'
+  clan dont ally: <aqua><bold>Clanes</bold> <gray>| <red>This Clan is not an ally.
+  clan player isnot your clan: <aqua><bold>Clanes</bold> <gray>| <red>This player is not in your Clan.
   clan player skin in update gui: <green>Updating skin, wait...
-  clan player skin in update: '<aqua><bold>Clanes</bold> <gray>| <green>Updating skin, please wait as this may take some time...'
-  clan player skin finish update: '<aqua><bold>Clanes</bold> <gray>| <green>Your skin has been updated'
-  clan player skin error update: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error updating your skin'
-  clan pvp disabled: '<aqua><bold>Clanes</bold> <gray>| <red>Clan PVP is now turned off.'
-  clan allypvp disabled: '<aqua><bold>Clanes</bold> <gray>| <red>PVP between allies is off.'
+  clan player skin in update: <aqua><bold>Clanes</bold> <gray>| <green>Updating skin, please wait as this may take some time...
+  clan player skin finish update: <aqua><bold>Clanes</bold> <gray>| <green>Your skin has been updated
+  clan player skin error update: <aqua><bold>Clanes</bold> <gray>| <red>There was an error updating your skin
+  clan pvp disabled: <aqua><bold>Clanes</bold> <gray>| <red>Clan PVP is now turned off.
+  clan allypvp disabled: <aqua><bold>Clanes</bold> <gray>| <red>PVP between allies is off.
   clan player blocked invite gui: <red>Disabled clan invites.
-  clan player blocked invite: '<aqua><bold>Clanes</bold> <gray>| <red>This player has disabled clan invites.'
-  clan player has noprofile: '<aqua><bold>Clanes</bold> <gray>| <red>This player does not appear to have a profile on this server.'
+  clan player blocked invite: <aqua><bold>Clanes</bold> <gray>| <red>This player has disabled clan invites.
+  clan player has noprofile: <aqua><bold>Clanes</bold> <gray>| <red>This player does not appear to have a profile on this server.
   clan player accept success invite gui: <green>Invitation accepted.
-  clan player accept success invite: '<aqua><bold>Clanes</bold> <gray>| <red>You have successfully accepted the invitation.'
+  clan player accept success invite: <aqua><bold>Clanes</bold> <gray>| <red>You have successfully accepted the invitation.
   clan player accept error invite gui: <red>Error to accept.
-  clan player accept error invite: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error accepting the invitation.'
+  clan player accept error invite: <aqua><bold>Clanes</bold> <gray>| <red>There was an error accepting the invitation.
   clan player deny success invite gui: <red>Invitation danied.
-  clan player deny success invite: '<aqua><bold>Clanes</bold> <gray>| <red>You have successfully danied the invitation.'
+  clan player deny success invite: <aqua><bold>Clanes</bold> <gray>| <red>You have successfully danied the invitation.
   clan player deny error invite gui: <red>Error to deny.
-  clan player deny error invite: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error denying the invitation.'
-  clan player isalready banned: '<aqua><bold>Clanes</bold> <gray>| <red>This player is already banned from the Clan.'
-  clan player isnot banned: '<aqua><bold>Clanes</bold> <gray>| <red>This player is not banned from the Clan.'
-  clan player is banned: '<aqua><bold>Clanes</bold> <gray>| <red>This player is banned from the clan and cannot receive invites.'
+  clan player deny error invite: <aqua><bold>Clanes</bold> <gray>| <red>There was an error denying the invitation.
+  clan player isalready banned: <aqua><bold>Clanes</bold> <gray>| <red>This player is already banned from the Clan.
+  clan player isnot banned: <aqua><bold>Clanes</bold> <gray>| <red>This player is not banned from the Clan.
+  clan player is banned: <aqua><bold>Clanes</bold> <gray>| <red>This player is banned from the clan and cannot receive invites.
   clan player is banned gui: <red>Player is banned from the clan.
-  clan player error unban: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error unbanning this player'
+  clan player error unban: <aqua><bold>Clanes</bold> <gray>| <red>There was an error unbanning this player
   clan player error unban gui: <red>Error unbanning player.
-  clan player error ban: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error banning this player'
+  clan player error ban: <aqua><bold>Clanes</bold> <gray>| <red>There was an error banning this player
   clan player error ban gui: <red>Error to ban player.
-  clan player success ban: '<aqua><bold>Clanes</bold> <gray>| <green>The Player has been successfully banned from the Clan.'
+  clan player success ban: <aqua><bold>Clanes</bold> <gray>| <green>The Player has been successfully banned from the Clan.
   clan player success ban gui: <green>Player has successfully banned.
-  clan player success unban: '<aqua><bold>Clanes</bold> <gray>| <green>The Player has been successfully unbanned from the Clan.'
+  clan player success unban: <aqua><bold>Clanes</bold> <gray>| <green>The Player has been successfully unbanned from the Clan.
   clan player success unban gui: <green>Player has successfully unbanned.
-  clan player are banned: '<aqua><bold>Clanes</bold> <gray>| <red>You are banned from this Clan and cannot join the members.'
-  clan player error change nickname: '<aqua><bold>Clanes</bold> <gray>| <red>Error changing nickname.'
+  clan player are banned: <aqua><bold>Clanes</bold> <gray>| <red>You are banned from this Clan and cannot join the members.
+  clan player error change nickname: <aqua><bold>Clanes</bold> <gray>| <red>Error changing nickname.
   clan player error change nickname gui: <red>Error changing nickname.
-  clan player changed nickname: '<aqua><bold>Clanes</bold> <gray>| <green>Nickname successfully changed!'
+  clan player changed nickname: <aqua><bold>Clanes</bold> <gray>| <green>Nickname successfully changed!
   clan player changed nickname gui: <green>Nickname successfully changed!
-  clan player nickname default: '<aqua><bold>Clanes</bold> <gray>| <red>Your nickname is already the default.'
+  clan player nickname default: <aqua><bold>Clanes</bold> <gray>| <red>Your nickname is already the default.
   clan player nickname default gui: <red>Nickname is already default.
-  clan reward level: '<aqua><bold>Clanes</bold> <gray>| <yellow>You earned rewards for your clan reaching level %num%'
+  clan reward level: <aqua><bold>Clanes</bold> <gray>| <yellow>You earned rewards for your clan reaching level %num%
   clan max members: <red>This Clan already has the maximum number of players.
-  clan max members level: '<aqua><bold>Clanes</bold> <gray>| <red>This clan already has the maximum number of players for the current level.'
-  clan player kicked out: '<aqua><bold>Clanes</bold> <gray>| <green>You have been kicked out of the clan <aqua>%uclans_tag_nocolor%.'
-  clan player kicked outby: '<aqua><bold>Clanes</bold> <gray>| <dark_red>{player_other} <yellow>has been kicked out of the clan by <green>{player_sender}'
-  clan tag equals: '<aqua><bold>Clanes</bold> <gray>| <red>Unchanged TAG, appears to be the same.'
-  clan name equals: '<aqua><bold>Clanes</bold> <gray>| <red>Unchanged NAME, appears to be the same.'
-  clan already rival: '<aqua><bold>Clanes</bold> <gray>| <red>This Clan is already a rival.'
-  clan is ally: '<aqua><bold>Clanes</bold> <gray>| <red>This Clan is already an ally.'
-  clan rival error remove: '<aqua><bold>Clanes</bold> <gray>| <red>Error removing rival.'
-  clan dont rival: '<aqua><bold>Clanes</bold> <gray>| <red>This Clan is not a rival.'
-  clan new ally: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>A new alliance was formed with the clan <green>%uclans_tag_nocolor%'
-  clan removed ally: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The alliance with the clan <green>%uclans_tag_nocolor% <yellow>has removed.'
-  clan one removed ally: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>An alliance has been removed.'
-  clan one removed rival: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>An rivalrie has been removed.'
-  clan created: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>A new Clan <aqua>%uclans_tag_color% <yellow>was created by <green>%uclans_leader_formated%.'
-  clan deleted: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The Clan <aqua>{deleted_clan} <yellow>was deleted.'
+  clan max members level: <aqua><bold>Clanes</bold> <gray>| <red>This clan already has the maximum number of players for the current level.
+  clan player kicked out: <aqua><bold>Clanes</bold> <gray>| <green>You have been kicked out of the clan <aqua>%uclans_tag_nocolor%.
+  clan player kicked outby: <aqua><bold>Clanes</bold> <gray>| <dark_red>{player_other} <yellow>has been kicked out of the clan by <green>{player_sender}
+  clan tag equals: <aqua><bold>Clanes</bold> <gray>| <red>Unchanged TAG, appears to be the same.
+  clan name equals: <aqua><bold>Clanes</bold> <gray>| <red>Unchanged NAME, appears to be the same.
+  clan already rival: <aqua><bold>Clanes</bold> <gray>| <red>This Clan is already a rival.
+  clan is ally: <aqua><bold>Clanes</bold> <gray>| <red>This Clan is already an ally.
+  clan rival error remove: <aqua><bold>Clanes</bold> <gray>| <red>Error removing rival.
+  clan dont rival: <aqua><bold>Clanes</bold> <gray>| <red>This Clan is not a rival.
+  clan new ally: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>A new alliance was formed with the clan <green>%uclans_tag_nocolor%
+  clan removed ally: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The alliance with the clan <green>%uclans_tag_nocolor% <yellow>has removed.
+  clan one removed ally: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>An alliance has been removed.
+  clan one removed rival: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>An rivalrie has been removed.
+  clan created: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>A new Clan <aqua>%uclans_tag_color% <yellow>was created by <green>%uclans_leader_formated%.
+  clan deleted: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The Clan <aqua>{deleted_clan} <yellow>was deleted.
   clan deleted small: <red><strikethrough>Deleted
-  clan ff changed: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The friendly fire is <aqua>%value%.'
-  clan globalff changed: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>Global friendly fire is now <aqua>%uclans_global_ff_formated%.'
-  clan new join: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The player <green>{player_other} <yellow>entered the Clan.'
-  clan new kick: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The player <green>{player_other} <yellow>was expelled from the Clan.'
-  clan new leave: '<aqua><bold>Clanes</bold> <gray>| <red>! <red>The player <green>{player_other} <yellow>left the Clan.'
-  clan new rival: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>New rivalry with the Clan <green>%uclans_tag_nocolor%'
-  clan new rival removed: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The rivalry with clan <green>%uclans_tag_nocolor% <yellow>has been dissolved.'
-  clan new leader: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>New leader of clan <green>%uclans_tag_nocolor% <yellow>is <green>%uclans_leader_formated% <yellow>and no longer <red>{player_other}'
-  clan rival removed: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The rivalry with the Clan <green>%clan_tag% <yellow>was undone.'
-  clan verify changed: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The clan was changed to <green>%value%.'
-  clan new promote: '<aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The player <green>%uclans_player_name% <yellow>got promoted to <aqua>%uclans_player_role_formated%.'
-  clan new demote: '<aqua><bold>Clanes</bold> <gray>| <red>! <red>The player <green>%uclans_player_name% <yellow>was demoted to <aqua>%uclans_player_role_formated%.'
-  clan tag blacklist: '<aqua><bold>Clanes</bold> <gray>| <red>This Tag cannot be used in Clans.'
-  clan changed settings: '<aqua><bold>Clanes</bold> <gray>| <green>Clan settings have been changed.'
+  clan ff changed: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The friendly fire is <aqua>%value%.
+  clan globalff changed: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>Global friendly fire is now <aqua>%uclans_global_ff_formated%.
+  clan new join: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The player <green>{player_other} <yellow>entered the Clan.
+  clan new kick: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The player <green>{player_other} <yellow>was expelled from the Clan.
+  clan new leave: <aqua><bold>Clanes</bold> <gray>| <red>! <red>The player <green>{player_other} <yellow>left the Clan.
+  clan new rival: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>New rivalry with the Clan <green>%uclans_tag_nocolor%
+  clan new rival removed: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The rivalry with clan <green>%uclans_tag_nocolor% <yellow>has been dissolved.
+  clan new leader: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>New leader of clan <green>%uclans_tag_nocolor% <yellow>is <green>%uclans_leader_formated% <yellow>and no longer <red>{player_other}
+  clan rival removed: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The rivalry with the Clan <green>%clan_tag% <yellow>was undone.
+  clan verify changed: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The clan was changed to <green>%value%.
+  clan new promote: <aqua><bold>Clanes</bold> <gray>| <red>! <yellow>The player <green>%uclans_player_name% <yellow>got promoted to <aqua>%uclans_player_role_formated%.
+  clan new demote: <aqua><bold>Clanes</bold> <gray>| <red>! <red>The player <green>%uclans_player_name% <yellow>was demoted to <aqua>%uclans_player_role_formated%.
+  clan tag blacklist: <aqua><bold>Clanes</bold> <gray>| <red>This Tag cannot be used in Clans.
+  clan changed settings: <aqua><bold>Clanes</bold> <gray>| <green>Clan settings have been changed.
   clan changed settings gui: <green>Settings have been changed.
-  clan editor changed settings: '<aqua><bold>Clanes</bold> <gray>| <green>Clan settings have been changed.'
+  clan editor changed settings: <aqua><bold>Clanes</bold> <gray>| <green>Clan settings have been changed.
   clan editor changed settings gui: <green>Settings have been changed.
   clan sync settings gui: <green>Synchronizing permissions...
-  clan tag changed: '<aqua><bold>Clanes</bold> <gray>| <green>The clan tag has been changed to %uclans_tag_color%'
-  clan disband success: '<aqua><bold>Clanes</bold> <gray>| <red>The clan has been successfully disbanded!'
-  clan disband error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred when disbanding the clan.'
+  clan tag changed: <aqua><bold>Clanes</bold> <gray>| <green>The clan tag has been changed to %uclans_tag_color%
+  clan disband success: <aqua><bold>Clanes</bold> <gray>| <red>The clan has been successfully disbanded!
+  clan disband error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred when disbanding the clan.
   clan disband error gui: <red>Error when disbanding.
   clan settings warinvite: <aqua>War Invite
   clan settings allysharedchat: <aqua>Ally shared chat
@@ -124,28 +124,28 @@ LANGUAGE:
   clan join error gui: <dark_red>Error entering.
   clan join success gui: <green>Successfully joined the clan.
   clan delete error gui: <dark_red>Error deleting!
-  clan no actions: '<aqua><bold>Clanes</bold> <gray>| <red>There are no outstanding actions to cancel.'
-  clan actions expired: '<aqua><bold>Clanes</bold> <gray>| <red>The time for action is over.'
+  clan no actions: <aqua><bold>Clanes</bold> <gray>| <red>There are no outstanding actions to cancel.
+  clan actions expired: <aqua><bold>Clanes</bold> <gray>| <red>The time for action is over.
   clan point reason level change: Clan level change
   clan point reason no reason: No reason
   banner delete error gui: <red>Error deleting!
   banner delete success gui: <aqua>Successfully deleted!
-  banner delete error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred when deleting.'
-  banner delete success: '<aqua><bold>Clanes</bold> <gray>| <green>Banner successfully deleted!'
-  banner empty: '<aqua><bold>Clanes</bold> <gray>| <red>Your Clan has no Banner!'
+  banner delete error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred when deleting.
+  banner delete success: <aqua><bold>Clanes</bold> <gray>| <green>Banner successfully deleted!
+  banner empty: <aqua><bold>Clanes</bold> <gray>| <red>Your Clan has no Banner!
   banner empty gui: <red>Your Clan has no Banner!
   banner empty item: <red>The item must be a banner!
-  banner not acceptable: '<aqua><bold>Clanes</bold> <gray>| <red>This item is not acceptable as a Clan banner.'
+  banner not acceptable: <aqua><bold>Clanes</bold> <gray>| <red>This item is not acceptable as a Clan banner.
   banner acceptable list: ' <red>Acceptable types: <aqua>%uclans_banner_upload_acceptable%'
   banner not acceptable gui: <red>Item is not acceptable.
-  banner not banner: '<aqua><bold>Clanes</bold> <gray>| <red>The item you are holding must be a banner'
-  banner hand empty: '<aqua><bold>Clanes</bold> <gray>| <red>You need to be holding an item.'
+  banner not banner: <aqua><bold>Clanes</bold> <gray>| <red>The item you are holding must be a banner
+  banner hand empty: <aqua><bold>Clanes</bold> <gray>| <red>You need to be holding an item.
   banner upload error gui: <red>Error saving banner.
   banner upload success gui: <aqua>New banner saved!
-  banner upload success: '<aqua><bold>Clanes</bold> <gray>| <aqua>The new clan banner has been saved!'
-  mail new received: '<aqua><bold>Clanes</bold> <gray>| <green>Your clan has received a new mail.'
-  mail allie disabled: '<aqua><bold>Clanes</bold> <gray>| <red>The allies clan has disabled this option.'
-  mail all disabled: '<aqua><bold>Clanes</bold> <gray>| <red>The clan has disabled this option.'
+  banner upload success: <aqua><bold>Clanes</bold> <gray>| <aqua>The new clan banner has been saved!
+  mail new received: <aqua><bold>Clanes</bold> <gray>| <green>Your clan has received a new mail.
+  mail allie disabled: <aqua><bold>Clanes</bold> <gray>| <red>The allies clan has disabled this option.
+  mail all disabled: <aqua><bold>Clanes</bold> <gray>| <red>The clan has disabled this option.
   mail readstate true: '*'
   mail readstate false: '!'
   mail readstate formated true: <green>*</green>
@@ -169,9 +169,9 @@ LANGUAGE:
   - <click:suggest_command:"/{_clan} {_home} {_teleport} %uclans_home:{name}:name%"><hover:show_text:'<green>Click to teleport.'><aqua>[Teleport]</hover></click>
   help clan member list header: '<newline>%uclans_tag_color%<blue><bold> member list:'
   help clan member list format: '<click:suggest_command:"/{_clan} {_profile} {_view} %uclans_player_realname% "><hover:show_text:''<green>Click to view.''> <gray>- %uclans_player_role_formated% <green>%uclans_player_nickname% <gray>| <white>Joined: <green>%uclans_player_joindate_formated% | <white>KDR: <green>%uclans_player_kdr%</hover></click>'
-  help clan requires passwd: '<aqua><bold>Clanes</bold> <gray>| <red>This Home requires a password to use.'
+  help clan requires passwd: <aqua><bold>Clanes</bold> <gray>| <red>This Home requires a password to use.
   help clan requires passwd gui: <red>Requires a password
-  help clan wrong passwd: '<aqua><bold>Clanes</bold> <gray>| <red>The password appears to be wrong...'
+  help clan wrong passwd: <aqua><bold>Clanes</bold> <gray>| <red>The password appears to be wrong...
   help clan wrong passwd gui: <red>Wrong password.
   help clan permissions view header: '<newline>%uclans_tag_color%<blue><bold> permission list:'
   help clan permissions role view format: '<blue><bold>|</bold> <blue>%role%: '
@@ -187,13 +187,13 @@ LANGUAGE:
   - '<blue><bold>|</bold> <blue>Webhook:'
   - ' <white>Is connected: <aqua>%uclans_haswebhook_formated%'
   - ' <white>Url: <aqua>%uclans_webhook_url%'
-  help clan webhook success add: '<aqua><bold>Clanes</bold> <gray>| <green>The webhook has been successfully added.'
+  help clan webhook success add: <aqua><bold>Clanes</bold> <gray>| <green>The webhook has been successfully added.
   help clan webhook error add: '<aqua><bold>Clanes</bold> <gray>| There was an error adding the webhook, check the url! (format: https://discord.com/api/webhooks/{channel}/{token} or webhooks/{channel}/{token})'
-  help clan webhook success remove: '<aqua><bold>Clanes</bold> <gray>| <green>Webhook successfully removed'
+  help clan webhook success remove: <aqua><bold>Clanes</bold> <gray>| <green>Webhook successfully removed
   help clan webhook success remove gui: <green>Successfully removed
-  help clan webhook error remove: '<aqua><bold>Clanes</bold> <gray>| <red>Error removing webhook, try again.'
+  help clan webhook error remove: <aqua><bold>Clanes</bold> <gray>| <red>Error removing webhook, try again.
   help clan webhook error remove gui: <red>Error removing
-  help clan webhook cooldown: '<aqua><bold>Clanes</bold> <gray>| <red>You made a request a little while ago, wait for more %sec% to try again'
+  help clan webhook cooldown: <aqua><bold>Clanes</bold> <gray>| <red>You made a request a little while ago, wait for more %sec% to try again
   help clan webhook linked: The player %player% linked the clan %uclans_tag_nocolor% with the discord webhook, now the clan notifications and actions will appear here.
   help logger header: <blue><bold>Clan Logger:</bold> <gray>%time% <gray>| <gray>(%page%/%pages%)
   help logger format: '<hover:show_text:''<green>%uclans_logger:{id}:text%''><gray>- <white>Origin: <aqua>%uclans_logger:{id}:plugin%<gray> | <white>Date: <aqua>%uclans_logger:{id}:date% <dark_gray>(Expires: %uclans_logger:{id}:expires%)<newline>  <aqua>%uclans_logger:{id}:text%</hover>'
@@ -203,10 +203,10 @@ LANGUAGE:
   help mail format: '%uclans_mail:{id}:readstate_formated% <hover:show_text:''<green>%uclans_mail:{id}:text%''><gray>- <white>Origin: <aqua>%uclans_mail:{id}:from%<gray> | <white>Date: <aqua>%uclans_mail:{id}:date% <dark_gray>(Expires: %uclans_mail:{id}:expires%)<newline>  <aqua>%uclans_mail:{id}:text%</hover>'
   mail clear success gui: <green>Successfully cleared mail
   mail clear error gui: <red>Error clearing the mail
-  mail min chars: '<aqua><bold>Clanes</bold> <gray>| <red>Tour message must contain at least <aqua>{chars} <red>characters.'
-  mail max chars: '<aqua><bold>Clanes</bold> <gray>| <red>Your text appears to be very large!'
-  mail max storage: '<aqua><bold>Clanes</bold> <gray>| <red>This clan mailbox is full now!'
-  mail max unread: '<aqua><bold>Clanes</bold> <gray>| <red>This clan has a lot of unread messages!'
+  mail min chars: <aqua><bold>Clanes</bold> <gray>| <red>Tour message must contain at least <aqua>{chars} <red>characters.
+  mail max chars: <aqua><bold>Clanes</bold> <gray>| <red>Your text appears to be very large!
+  mail max storage: <aqua><bold>Clanes</bold> <gray>| <red>This clan mailbox is full now!
+  mail max unread: <aqua><bold>Clanes</bold> <gray>| <red>This clan has a lot of unread messages!
   requires default true: <white>Requeriment <green><bold>OK</bold> <gray>(%value%)
   requires default false: <white>Requeriment <red><bold>NO</bold> <gray>(%value%)
   requires points true: '<white>Clan Points: <green><bold>OK</bold> <gray>(%value%)'
@@ -223,21 +223,21 @@ LANGUAGE:
   help requires levelup success gui: <green>Successfully leveled up
   help requires levelup error gui: <red>Error when leveling up!
   help requires levelup surprise collected success gui: <green>Surprises successfully collected.
-  help requires levelup surprise collected success: '<aqua><bold>Clanes</bold> <gray>| <green>You have successfully collected the surprise reward for your clan!'
+  help requires levelup surprise collected success: <aqua><bold>Clanes</bold> <gray>| <green>You have successfully collected the surprise reward for your clan!
   help requires levelup surprise collected error gui: <red>Error collecting surprise.
-  help requires levelup surprise collected error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while collecting the surprise reward for your clan.'
+  help requires levelup surprise collected error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while collecting the surprise reward for your clan.
   help requires levelup reward collected success gui: <green>Reward successfully collected.
-  help requires levelup reward collected success: '<aqua><bold>Clanes</bold> <gray>| <green>You have successfully collected the reward!'
+  help requires levelup reward collected success: <aqua><bold>Clanes</bold> <gray>| <green>You have successfully collected the reward!
   help requires levelup reward collected error gui: <red>Error collecting reward.
-  help requires levelup reward collected error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while collecting the surprise reward.'
+  help requires levelup reward collected error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while collecting the surprise reward.
   help requires reward already collected: <red><bold>Already collected!
   help requires max reached: '<green>Your clan has reached the maximum level. <aqua><bold>Congratulations!!!</bold> '
   help rewards default text: <green>Common reward
   help rewards levelup: <green>Clan levelup to level <aqua><bold>{level}</bold></aqua>
   help rewards surprise: <green>Surprise reward level <aqua><bold>{level}</bold></aqua>
-  help clan extension not exist: '<aqua><bold>Clanes</bold> <gray>| <red>This extension does not exist in the official list, see the list in <aqua>/{_uclan} {_extension} {_all}'
-  help clan extension not enabled: '<aqua><bold>Clanes</bold> <gray>| <red>This extension has not yet been downloaded, see all in <aqua>/{_uclan} {_extension} {_list}'
-  help clan extension already enabled: '<aqua><bold>Clanes</bold> <gray>| <red>This extension is already downloaded, you can check for updates using <aqua>/{_uclan} {_extension} {_update} <name>'
+  help clan extension not exist: <aqua><bold>Clanes</bold> <gray>| <red>This extension does not exist in the official list, see the list in <aqua>/{_uclan} {_extension} {_all}
+  help clan extension not enabled: <aqua><bold>Clanes</bold> <gray>| <red>This extension has not yet been downloaded, see all in <aqua>/{_uclan} {_extension} {_list}
+  help clan extension already enabled: <aqua><bold>Clanes</bold> <gray>| <red>This extension is already downloaded, you can check for updates using <aqua>/{_uclan} {_extension} {_update} <name>
   help clan extension header: '<newline><#cd2727><bold>Downloaded extensions list:'
   help clan extension format: '<click:run_command:"/{_uclan} {_extension} {_view} {id}"><hover:show_text:''<green>Click to view.''><green>{num} <gray>- <white>Name: <aqua>{name} <gray>- <white>State: <aqua>{state}</hover></click>'
   help clan extension all header: '<newline><#cd2727><bold>All extensions list:'
@@ -256,14 +256,14 @@ LANGUAGE:
   clan extension state false: <red>Disabled
   clan extension downloaded true: <green>Downloaded
   clan extension downloaded false: <red>Not downloaded
-  clan extension event already exists: '<aqua><bold>Clanes</bold> <gray>| <red>The extension has already been downloaded before, you can try to update.'
-  clan extension event already updated: '<aqua><bold>Clanes</bold> <gray>| <red>The extension is already updated.'
-  clan extension event error download: '<aqua><bold>Clanes</bold> <gray>| <red>I cant download the extension, try again.'
-  clan extension event error repo: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error, it looks like the repository was not found.'
-  clan extension event general error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error downloading the extension, please try again.'
-  clan extension event need reload addons: '<aqua><bold>Clanes</bold> <gray>| <red>The extension needs to be updated, update using <red>/{_uclan} {_extension} {_reload}'
-  clan extension event success download: '<aqua><bold>Clanes</bold> <gray>| <green>The extension was successfully downloaded, update the extensions using <red>/{_uclan} {_extension} {_reload}'
-  clan extension download started: '<aqua><bold>Clanes</bold> <gray>| <green>Download process started, wait....'
+  clan extension event already exists: <aqua><bold>Clanes</bold> <gray>| <red>The extension has already been downloaded before, you can try to update.
+  clan extension event already updated: <aqua><bold>Clanes</bold> <gray>| <red>The extension is already updated.
+  clan extension event error download: <aqua><bold>Clanes</bold> <gray>| <red>I cant download the extension, try again.
+  clan extension event error repo: <aqua><bold>Clanes</bold> <gray>| <red>There was an error, it looks like the repository was not found.
+  clan extension event general error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error downloading the extension, please try again.
+  clan extension event need reload addons: <aqua><bold>Clanes</bold> <gray>| <red>The extension needs to be updated, update using <red>/{_uclan} {_extension} {_reload}
+  clan extension event success download: <aqua><bold>Clanes</bold> <gray>| <green>The extension was successfully downloaded, update the extensions using <red>/{_uclan} {_extension} {_reload}
+  clan extension download started: <aqua><bold>Clanes</bold> <gray>| <green>Download process started, wait....
   clan extension download started gui: <green>Download started, wait....
   clan extension all: <red>All
   clan extension instaled: <green>Instaled
@@ -380,51 +380,51 @@ LANGUAGE:
   translaction none: None
   translaction read: Read
   translaction unread: Unread
-  clan dont leader: '<aqua><bold>Clanes</bold> <gray>| <red>You are not the leader of the Clan.'
-  clan dont permission role: '<aqua><bold>Clanes</bold> <gray>| <red>Your current role you cannot do this.'
+  clan dont leader: <aqua><bold>Clanes</bold> <gray>| <red>You are not the leader of the Clan.
+  clan dont permission role: <aqua><bold>Clanes</bold> <gray>| <red>Your current role you cannot do this.
   clan dont permission role gui: <red>Current role cannot do this.
-  player no invitation: '<aqua><bold>Clanes</bold> <gray>| <red>You have no invites for this clan.'
-  clan dont mod and leader: '<aqua><bold>Clanes</bold> <gray>| <red>You are not the leader or Mod of the Clan.'
+  player no invitation: <aqua><bold>Clanes</bold> <gray>| <red>You have no invites for this clan.
+  clan dont mod and leader: <aqua><bold>Clanes</bold> <gray>| <red>You are not the leader or Mod of the Clan.
   clan dont mod and leader gui: <red>Requires <dark_red>Leader <red>or <dark_red>Mod<red>!
-  player dont mod: '<aqua><bold>Clanes</bold> <gray>| <red>This player is not a moderator.'
-  player is mod: '<aqua><bold>Clanes</bold> <gray>| <red>This player is already a moderator.'
-  player offline: '<aqua><bold>Clanes</bold> <gray>| <red>The player is offline or does not exist!'
-  player cannot expel leader: '<aqua><bold>Clanes</bold> <gray>| <red>You cannot expel the Clan Leader.'
-  player cannot expel mod: '<aqua><bold>Clanes</bold> <gray>| <red>A moderator cannot expel another from the same position.'
-  player is clan leader: '<aqua><bold>Clanes</bold> <gray>| <red>You are the Clan Leader, to leave use <aqua>/{_clan} {_disband}<red> and you will delete the Clan ...'
-  you donthave clan: '<aqua><bold>Clanes</bold> <gray>| <red>You dont have a Clan.'
-  player donthave clan: '<aqua><bold>Clanes</bold> <gray>| <red>This player does not have a clan.'
-  player donthave profile: '<aqua><bold>Clanes</bold> <gray>| <red>This player does not have a profile.'
-  player already participating: '<aqua><bold>Clanes</bold> <gray>| <red>You are already participating in this clan!.'
-  player new invite: '<aqua><bold>Clanes</bold> <gray>| <green>You have received a new invitation to join a clan. you can accept using <aqua>/{_clan} {_join} <red><TAG> <green>or see the list in <aqua>/{_clan} {_profile} {_invites}'
-  player have clan: '<aqua><bold>Clanes</bold> <gray>| <red>You already have a clan.'
-  player has clan: '<aqua><bold>Clanes</bold> <gray>| <red>This player already has a clan.'
-  player is you: '<aqua><bold>Clanes</bold> <gray>| <red>This player is you.'
-  player dont have money: '<aqua><bold>Clanes</bold> <gray>| <red>You need to <green>%uclans_money_currency%%amount% <red>for this.'
+  player dont mod: <aqua><bold>Clanes</bold> <gray>| <red>This player is not a moderator.
+  player is mod: <aqua><bold>Clanes</bold> <gray>| <red>This player is already a moderator.
+  player offline: <aqua><bold>Clanes</bold> <gray>| <red>The player is offline or does not exist!
+  player cannot expel leader: <aqua><bold>Clanes</bold> <gray>| <red>You cannot expel the Clan Leader.
+  player cannot expel mod: <aqua><bold>Clanes</bold> <gray>| <red>A moderator cannot expel another from the same position.
+  player is clan leader: <aqua><bold>Clanes</bold> <gray>| <red>You are the Clan Leader, to leave use <aqua>/{_clan} {_disband}<red> and you will delete the Clan ...
+  you donthave clan: <aqua><bold>Clanes</bold> <gray>| <red>You dont have a Clan.
+  player donthave clan: <aqua><bold>Clanes</bold> <gray>| <red>This player does not have a clan.
+  player donthave profile: <aqua><bold>Clanes</bold> <gray>| <red>This player does not have a profile.
+  player already participating: <aqua><bold>Clanes</bold> <gray>| <red>You are already participating in this clan!.
+  player new invite: <aqua><bold>Clanes</bold> <gray>| <green>You have received a new invitation to join a clan. you can accept using <aqua>/{_clan} {_join} <red><TAG> <green>or see the list in <aqua>/{_clan} {_profile} {_invites}
+  player have clan: <aqua><bold>Clanes</bold> <gray>| <red>You already have a clan.
+  player has clan: <aqua><bold>Clanes</bold> <gray>| <red>This player already has a clan.
+  player is you: <aqua><bold>Clanes</bold> <gray>| <red>This player is you.
+  player dont have money: <aqua><bold>Clanes</bold> <gray>| <red>You need to <green>%uclans_money_currency%%amount% <red>for this.
   player dont have money gui: <red>You need to <green>%uclans_money_currency%%amount%
-  player debited money: '<aqua><bold>Clanes</bold> <gray>| <green>It was debited <green>%amount% <yellow>your account.'
-  player deposited money: '<aqua><bold>Clanes</bold> <gray>| <green>%uclans_money_currency%%amount% <yellow>has been deposited in your account.'
-  player invitation player expired: '<aqua><bold>Clanes</bold> <gray>| <red>Your player invite has expired and there has been no response.'
-  player invitation expired: '<aqua><bold>Clanes</bold> <gray>| <red>Your invitation to join the Clan <white>%clan_tag% <red>has expired.'
-  player invitation daniel: '<aqua><bold>Clanes</bold> <gray>| <red>The player denied the invitation.'
-  player already invited: '<aqua><bold>Clanes</bold> <gray>| <red>There is already an invitation for this player!'
+  player debited money: <aqua><bold>Clanes</bold> <gray>| <green>It was debited <green>%amount% <yellow>your account.
+  player deposited money: <aqua><bold>Clanes</bold> <gray>| <green>%uclans_money_currency%%amount% <yellow>has been deposited in your account.
+  player invitation player expired: <aqua><bold>Clanes</bold> <gray>| <red>Your player invite has expired and there has been no response.
+  player invitation expired: <aqua><bold>Clanes</bold> <gray>| <red>Your invitation to join the Clan <white>%clan_tag% <red>has expired.
+  player invitation daniel: <aqua><bold>Clanes</bold> <gray>| <red>The player denied the invitation.
+  player already invited: <aqua><bold>Clanes</bold> <gray>| <red>There is already an invitation for this player!
   player already invited gui: <red>Invitation for player in progress!
-  player invitation error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the invite.'
+  player invitation error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the invite.
   player invitation error gui: <red>Error to sending the invite.
-  player invitation success: '<aqua><bold>Clanes</bold> <gray>| <red>The invitation was sent successfully.'
+  player invitation success: <aqua><bold>Clanes</bold> <gray>| <red>The invitation was sent successfully.
   player invitation success gui: <green>Invitation sent successfully!
-  gui error: '<aqua><bold>Clanes</bold> <gray>| <red>This menu contains an error and cannot be opened'
-  player teleport dont move: '<aqua><bold>Clanes</bold> <gray>| <green>Preparing teleport, do not move by %sec% sec.'
-  player teleport moved: '<aqua><bold>Clanes</bold> <gray>| <red>You moved and the teleport was canceled!!!'
-  player teleport true: '<aqua><bold>Clanes</bold> <gray>| <green>You were teleported!'
-  player teleport false: '<aqua><bold>Clanes</bold> <gray>| <red>You have not been teleported for any mistake!'
-  unknown error: '<aqua><bold>Clanes</bold> <gray>| <red>An unknown error occurred with this, please try again!'
+  gui error: <aqua><bold>Clanes</bold> <gray>| <red>This menu contains an error and cannot be opened
+  player teleport dont move: <aqua><bold>Clanes</bold> <gray>| <green>Preparing teleport, do not move by %sec% sec.
+  player teleport moved: <aqua><bold>Clanes</bold> <gray>| <red>You moved and the teleport was canceled!!!
+  player teleport true: <aqua><bold>Clanes</bold> <gray>| <green>You were teleported!
+  player teleport false: <aqua><bold>Clanes</bold> <gray>| <red>You have not been teleported for any mistake!
+  unknown error: <aqua><bold>Clanes</bold> <gray>| <red>An unknown error occurred with this, please try again!
   nothing here: <red>Nothing here.
   clan empty name: <red><Without name!>
   clan empty desc: <red><Without description!>
-  disabled function: '<aqua><bold>Clanes</bold> <gray>| <red>This function/addon appears to be off.'
+  disabled function: <aqua><bold>Clanes</bold> <gray>| <red>This function/addon appears to be off.
   disabled function gui: <red>This function is turned off.
-  admin opened clanchest: '<aqua><bold>Clanes</bold> <gray>| <red>An admin opened the clan chest.'
+  admin opened clanchest: <aqua><bold>Clanes</bold> <gray>| <red>An admin opened the clan chest.
   top kdr format: '<aqua>%num%: <gray>| <green>%uclans_tag_color% <gray>| <white>Kdr: <aqua>%uclans_clan_kdr%'
   top kill format: '<aqua>%num%: <gray>| <green>%uclans_tag_color% <gray>| <white>Kills: <aqua>%uclans_clan_kills%'
   top death format: '<aqua>%num%: <gray>| <green>%uclans_tag_color% <gray>| <white>Deaths: <aqua>%uclans_clan_deaths%'
@@ -433,544 +433,544 @@ LANGUAGE:
   top level format: '<aqua>%num%: <gray>| <green>%uclans_tag_color% <gray>| <white>LV: <aqua>%uclans_level%'
   top war format: '<aqua>%num%: <gray>| <green>%uclans_tag_color% <gray>| <green>%uclans_clan_war_win%<gray>/<dark_red>%uclans_clan_war_lose%'
   top point format: '<aqua>%num%: <gray>| <green>%uclans_tag_color% <gray>| <white>Point: <aqua>%uclans_points%'
-  clan new balance: '<aqua><bold>Clanes</bold> <gray>| <green>The banks new balance sheet is <green>%uclans_money_currency%%uclans_bank_balance%<yellow>, changed by <green>%uclans_player%'
-  player reseted kdr: '<aqua><bold>Clanes</bold> <gray>| <green>The player <green>%uclans_player_name% <yellow>had the KDR reset!'
-  clan reseted kdr: '<aqua><bold>Clanes</bold> <gray>| <green>The clan <green>%uclans_tag_color% <yellow>had the KDR reset!'
-  value greater than zero: '<aqua><bold>Clanes</bold> <gray>| <red>Value must be greater than zero'
-  clan patent change: '<aqua><bold>Clanes</bold> <gray>| <yellow>The <aqua>%uclans_tag_color% <yellow>clan changed patent to <aqua>%uclans_patent_formated%'
-  clan not have levels: '<aqua><bold>Clanes</bold> <gray>| <red>Clan does not have levels to remove'
-  clan has only levels: '<aqua><bold>Clanes</bold> <gray>| <red>The clan has only <aqua>%num% <red>levels'
-  command in cooldown: '<aqua><bold>Clanes</bold> <gray>| <red>Wait for <aqua>%sec% <red>to use this command again.'
-  error length: '<aqua><bold>Clanes</bold> <gray>| <red>The value must have a size between <aqua>%min% <red>and <aqua>%max%'
+  clan new balance: <aqua><bold>Clanes</bold> <gray>| <green>The banks new balance sheet is <green>%uclans_money_currency%%uclans_bank_balance%<yellow>, changed by <green>%uclans_player%
+  player reseted kdr: <aqua><bold>Clanes</bold> <gray>| <green>The player <green>%uclans_player_name% <yellow>had the KDR reset!
+  clan reseted kdr: <aqua><bold>Clanes</bold> <gray>| <green>The clan <green>%uclans_tag_color% <yellow>had the KDR reset!
+  value greater than zero: <aqua><bold>Clanes</bold> <gray>| <red>Value must be greater than zero
+  clan patent change: <aqua><bold>Clanes</bold> <gray>| <yellow>The <aqua>%uclans_tag_color% <yellow>clan changed patent to <aqua>%uclans_patent_formated%
+  clan not have levels: <aqua><bold>Clanes</bold> <gray>| <red>Clan does not have levels to remove
+  clan has only levels: <aqua><bold>Clanes</bold> <gray>| <red>The clan has only <aqua>%num% <red>levels
+  command in cooldown: <aqua><bold>Clanes</bold> <gray>| <red>Wait for <aqua>%sec% <red>to use this command again.
+  error length: <aqua><bold>Clanes</bold> <gray>| <red>The value must have a size between <aqua>%min% <red>and <aqua>%max%
   state true: <green>ENABLED
   state false: <red>DISABLED
   accept type: '<aqua><bold>Clanes</bold> <gray>| <red>The type is invalid, use: <aqua>%types%'
-  clan regroup invite expired: '<aqua><bold>Clanes</bold> <gray>| <red>The invitation to regroup has expired!'
-  clan regroup invite doesnot exists: '<aqua><bold>Clanes</bold> <gray>| <red>There is no regroup request sent.'
-  clan regroup invite already exists: '<aqua><bold>Clanes</bold> <gray>| <red>There is already a regroup request sent.'
-  clan regroup invite deny: '<aqua><bold>Clanes</bold> <gray>| <red>The player <green>%player% <red>denied your request!'
-  clan regroup invite accept: '<aqua><bold>Clanes</bold> <gray>| <red>The player <green>%player% <yellow>accepted your request!'
-  clan regroup invite already denied: '<aqua><bold>Clanes</bold> <gray>| <red>You already denied the request.'
-  clan regroup invite already accepted: '<aqua><bold>Clanes</bold> <gray>| <red>You already accepted the request.'
-  clan has no members: '<aqua><bold>Clanes</bold> <gray>| <red>Your clan has no members.'
-  clan rival remove already invited: '<aqua><bold>Clanes</bold> <gray>| <red>There is already a peace request from your clan or another one in progress to this clan, wait and try again!'
+  clan regroup invite expired: <aqua><bold>Clanes</bold> <gray>| <red>The invitation to regroup has expired!
+  clan regroup invite doesnot exists: <aqua><bold>Clanes</bold> <gray>| <red>There is no regroup request sent.
+  clan regroup invite already exists: <aqua><bold>Clanes</bold> <gray>| <red>There is already a regroup request sent.
+  clan regroup invite deny: <aqua><bold>Clanes</bold> <gray>| <red>The player <green>%player% <red>denied your request!
+  clan regroup invite accept: <aqua><bold>Clanes</bold> <gray>| <red>The player <green>%player% <yellow>accepted your request!
+  clan regroup invite already denied: <aqua><bold>Clanes</bold> <gray>| <red>You already denied the request.
+  clan regroup invite already accepted: <aqua><bold>Clanes</bold> <gray>| <red>You already accepted the request.
+  clan has no members: <aqua><bold>Clanes</bold> <gray>| <red>Your clan has no members.
+  clan rival remove already invited: <aqua><bold>Clanes</bold> <gray>| <red>There is already a peace request from your clan or another one in progress to this clan, wait and try again!
   clan rival remove already invited gui: <red>There is already a request!
-  clan rival remove error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the request!'
+  clan rival remove error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the request!
   clan rival remove error gui: <red>Error when sending!
-  clan rival remove moderation offline: '<aqua><bold>Clanes</bold> <gray>| <red>There are no moderators or online leaders in the other clan.'
+  clan rival remove moderation offline: <aqua><bold>Clanes</bold> <gray>| <red>There are no moderators or online leaders in the other clan.
   clan rival remove moderation offline gui: <red>No online moderation.
-  clan rival remove sended: '<aqua><bold>Clanes</bold> <gray>| <green>Peace request sent, wait for the clan to accept or deny.'
+  clan rival remove sended: <aqua><bold>Clanes</bold> <gray>| <green>Peace request sent, wait for the clan to accept or deny.
   clan rival remove sended gui: <green>Peace sent, please wait.
-  clan rival remove success: '<aqua><bold>Clanes</bold> <gray>| <green>The rivalry between the clans has been dissolved.'
+  clan rival remove success: <aqua><bold>Clanes</bold> <gray>| <green>The rivalry between the clans has been dissolved.
   clan rival remove success gui: <green>Rival successfully removed.
-  clan rival remove not found: '<aqua><bold>Clanes</bold> <gray>| <red>There are no peace requests.'
-  clan rival remove deny: '<aqua><bold>Clanes</bold> <gray>| <red>You denied the request to remove the rivalry.'
-  clan rival remove deny received: '<aqua><bold>Clanes</bold> <gray>| <red>The other clan denied the request for peace.'
-  clan rival remove expired: '<aqua><bold>Clanes</bold> <gray>| <red>The invitation to peace has expired!'
-  clan rival add error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while adding the new rival!'
+  clan rival remove not found: <aqua><bold>Clanes</bold> <gray>| <red>There are no peace requests.
+  clan rival remove deny: <aqua><bold>Clanes</bold> <gray>| <red>You denied the request to remove the rivalry.
+  clan rival remove deny received: <aqua><bold>Clanes</bold> <gray>| <red>The other clan denied the request for peace.
+  clan rival remove expired: <aqua><bold>Clanes</bold> <gray>| <red>The invitation to peace has expired!
+  clan rival add error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while adding the new rival!
   clan rival add error gui: <red>Error adding!
-  clan rival add success: '<aqua><bold>Clanes</bold> <gray>| <green>You added this clan as a new rival.'
+  clan rival add success: <aqua><bold>Clanes</bold> <gray>| <green>You added this clan as a new rival.
   clan rival add success gui: <green>New rival added.
-  clan ally invite not found: '<aqua><bold>Clanes</bold> <gray>| <red>There are no invitations for allies.'
-  clan ally invite deny: '<aqua><bold>Clanes</bold> <gray>| <red>You have denied the invitation to the alliance.'
-  clan ally invite already invited: '<aqua><bold>Clanes</bold> <gray>| <red>There is already an invitation from your clan or another one in progress to this clan, wait and try again!'
+  clan ally invite not found: <aqua><bold>Clanes</bold> <gray>| <red>There are no invitations for allies.
+  clan ally invite deny: <aqua><bold>Clanes</bold> <gray>| <red>You have denied the invitation to the alliance.
+  clan ally invite already invited: <aqua><bold>Clanes</bold> <gray>| <red>There is already an invitation from your clan or another one in progress to this clan, wait and try again!
   clan ally invite already invited gui: <red>Existing invitation.
-  clan ally invite error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the request!'
+  clan ally invite error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the request!
   clan ally invite error gui: <red>Error when sending!
-  clan ally invite moderation offline: '<aqua><bold>Clanes</bold> <gray>| <red>There are no moderators or online leaders in the other clan.'
+  clan ally invite moderation offline: <aqua><bold>Clanes</bold> <gray>| <red>There are no moderators or online leaders in the other clan.
   clan ally invite moderation offline gui: <red>No online moderators.
-  clan ally invite sended: '<aqua><bold>Clanes</bold> <gray>| <green>Invitation sent, wait for the clan to accept or deny.'
+  clan ally invite sended: <aqua><bold>Clanes</bold> <gray>| <green>Invitation sent, wait for the clan to accept or deny.
   clan ally invite sended gui: <green>Invitation sent, wait.
-  clan ally invite expired: '<aqua><bold>Clanes</bold> <gray>| <red>The invitation to alliance has expired!'
-  clan ally invite deny received: '<aqua><bold>Clanes</bold> <gray>| <red>The other clan denied the request for an alliance.'
-  clan ally remove success: '<aqua><bold>Clanes</bold> <gray>| <green>The alliance between the clans has been dissolved.'
+  clan ally invite expired: <aqua><bold>Clanes</bold> <gray>| <red>The invitation to alliance has expired!
+  clan ally invite deny received: <aqua><bold>Clanes</bold> <gray>| <red>The other clan denied the request for an alliance.
+  clan ally remove success: <aqua><bold>Clanes</bold> <gray>| <green>The alliance between the clans has been dissolved.
   clan ally remove success gui: <green>Alliance successfully removed.
-  clan ally remove error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the request!'
+  clan ally remove error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the request!
   clan ally remove error gui: <red>Error when sending!
-  clan ally add error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while adding the new ally!'
+  clan ally add error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while adding the new ally!
   clan ally add error gui: <red>Error adding!
-  clan ally add success: '<aqua><bold>Clanes</bold> <gray>| <green>You added this clan as a new ally.'
+  clan ally add success: <aqua><bold>Clanes</bold> <gray>| <green>You added this clan as a new ally.
   clan ally add success gui: <green>New ally added.
-  clan not have points: '<aqua><bold>Clanes</bold> <gray>| <red>Clan does not have points to remove'
-  clan has only points: '<aqua><bold>Clanes</bold> <gray>| <red>The clan has only <aqua>%num% <red>points'
-  clan ally in limit: '<aqua><bold>Clanes</bold> <gray>| <red>Your clan has reached the allies limit and needs to gain levels to unlock more allies, Your clans current limit is <aqua>%uclans_limit_ally%'
+  clan not have points: <aqua><bold>Clanes</bold> <gray>| <red>Clan does not have points to remove
+  clan has only points: <aqua><bold>Clanes</bold> <gray>| <red>The clan has only <aqua>%num% <red>points
+  clan ally in limit: <aqua><bold>Clanes</bold> <gray>| <red>Your clan has reached the allies limit and needs to gain levels to unlock more allies, Your clans current limit is <aqua>%uclans_limit_ally%
   clan ally in limit gui: <red>Ally limit reached
-  clan rival in limit: '<aqua><bold>Clanes</bold> <gray>| <red>Your clan has reached the rivalries limit and needs to gain levels to unlock more rivalries, Your clans current limit is <aqua>%uclans_limit_rival%'
+  clan rival in limit: <aqua><bold>Clanes</bold> <gray>| <red>Your clan has reached the rivalries limit and needs to gain levels to unlock more rivalries, Your clans current limit is <aqua>%uclans_limit_rival%
   clan rival in limit gui: <red>Rival limit reached.
-  clan feature not unlocked: '<aqua><bold>Clanes</bold> <gray>| <red>Your clan does not have this feature available, this requires level <aqua>%uclans_required_level:{type}%'
+  clan feature not unlocked: <aqua><bold>Clanes</bold> <gray>| <red>Your clan does not have this feature available, this requires level <aqua>%uclans_required_level:{type}%
   clan feature not unlocked gui: <red>Requires level <aqua>%uclans_required_level:{type}%
-  clan create error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error creating.'
-  clan create success: '<aqua><bold>Clanes</bold> <gray>| <green>New Clan created successfully!'
-  command deprecated: '<aqua><bold>Clanes</bold> <gray>| <red>This command has been deprecated and can be removed from the settings'
-  chan does not exists: '<aqua><bold>Clanes</bold> <gray>| <red>This clan does not exist'
-  player_leave: '<aqua><bold>Clanes</bold> <gray>| <red>Member <aqua>%player% <red>has logged out.'
-  player_join: '<aqua><bold>Clanes</bold> <gray>| <green>Member <aqua>%player% <green>has just joined.'
-  home name without space: '<aqua><bold>Clanes</bold> <gray>| <red>Name cannot contain spaces.'
-  home already exists: '<aqua><bold>Clanes</bold> <gray>| <red>There is already a man with this name.'
+  clan create error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error creating.
+  clan create success: <aqua><bold>Clanes</bold> <gray>| <green>New Clan created successfully!
+  command deprecated: <aqua><bold>Clanes</bold> <gray>| <red>This command has been deprecated and can be removed from the settings
+  chan does not exists: <aqua><bold>Clanes</bold> <gray>| <red>This clan does not exist
+  player_leave: <aqua><bold>Clanes</bold> <gray>| <red>Member <aqua>%player% <red>has logged out.
+  player_join: <aqua><bold>Clanes</bold> <gray>| <green>Member <aqua>%player% <green>has just joined.
+  home name without space: <aqua><bold>Clanes</bold> <gray>| <red>Name cannot contain spaces.
+  home already exists: <aqua><bold>Clanes</bold> <gray>| <red>There is already a man with this name.
   home create success gui: <green>New home created!
   home no exists gui: <red>This home has an error.
   home delete error gui: <red>There was an error deleting.
-  home delete success: '<aqua><bold>Clanes</bold> <gray>| <green>The clan home <red>{deleted_home} <green>has been deleted.'
+  home delete success: <aqua><bold>Clanes</bold> <gray>| <green>The clan home <red>{deleted_home} <green>has been deleted.
   home delete success gui: <green>Successfully deleted!
-  new create home: '<aqua><bold>Clanes</bold> <gray>| <green>A new clan home has been created on the server <aqua>%uclans_home:{name}:server% <green>with the name <aqua>%uclans_home:{name}:name%'
+  new create home: <aqua><bold>Clanes</bold> <gray>| <green>A new clan home has been created on the server <aqua>%uclans_home:{name}:server% <green>with the name <aqua>%uclans_home:{name}:name%
   home limit: <red>This is the limit (%limit%) for your Clan!
-  home limit reached: '<aqua><bold>Clanes</bold> <gray>| <red>The limit for your clan is %homes% homes.'
-  new point received: '<aqua><bold>Clanes</bold> <gray>| <green>Your clan received <aqua>%points% points<green>, and now has <aqua>%totalpoints% points (%reason%)'
-  new point removed: '<aqua><bold>Clanes</bold> <gray>| <red>Your clan lost <aqua>%points% points<red>, and now has <aqua>%totalpoints% points (%reason%)'
-  new point set: '<aqua><bold>Clanes</bold> <gray>| <green>Your clan points have been changed to <aqua>%totalpoints% points (%reason%)'
+  home limit reached: <aqua><bold>Clanes</bold> <gray>| <red>The limit for your clan is %homes% homes.
+  new point received: <aqua><bold>Clanes</bold> <gray>| <green>Your clan received <aqua>%points% points<green>, and now has <aqua>%totalpoints% points (%reason%)
+  new point removed: <aqua><bold>Clanes</bold> <gray>| <red>Your clan lost <aqua>%points% points<red>, and now has <aqua>%totalpoints% points (%reason%)
+  new point set: <aqua><bold>Clanes</bold> <gray>| <green>Your clan points have been changed to <aqua>%totalpoints% points (%reason%)
  
  
  # TRANSLATIONS OF THE COMMANDS
  
 COMMANDS:
   clan help show on_help: <click:suggest_command:"/{_clan} {_help}"><hover:show_text:'<green>Click to view help of Clans.'> <aqua>/{_clan} {_help} <gray>-<yellow> Show help menu.</hover></click>
-  clan help show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You are seeing the help!'
-  clan help show on_error: '<aqua><bold>Clanes</bold> <gray>|<red>Error to show text.'
-  clan help show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_help}'
+  clan help show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You are seeing the help!
+  clan help show on_error: <aqua><bold>Clanes</bold> <gray>|<red>Error to show text.
+  clan help show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_help}
   clan create show on_help: <click:suggest_command:"/{_clan} {_create} "><hover:show_text:'<green>Create a new Clan.'> <aqua>/{_clan} {_create} <red><tag> <gray>-<yellow> Click to create a new Clan.</hover></click>
-  clan create show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have created a new clan!'
-  clan create show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error creating a new Clan, try again.'
-  clan create show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_create} <red><tag>'
+  clan create show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have created a new clan!
+  clan create show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error creating a new Clan, try again.
+  clan create show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_create} <red><tag>
   clan cancel show on_help: <click:suggest_command:"/{_clan} {_cancel}"><hover:show_text:'<green>Click to cancel pending actions.'> <aqua>/{_clan} {_cancel} <gray>-<yellow> Cancel pending actions.</hover></click>
-  clan cancel show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Successfully canceled!!'
-  clan cancel show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error canceling'
-  clan cancel show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_cancel}'
+  clan cancel show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Successfully canceled!!
+  clan cancel show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error canceling
+  clan cancel show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_cancel}
   clan changeleader show on_help: <click:suggest_command:"/{_clan} {_changeleader} "><hover:show_text:'<green>Click to transfer the leadership.'> <aqua>/{_clan} {_changeleader} <red><player> <gray>-<yellow> Transfer the leadership.</hover></click>
-  clan changeleader show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have changed clan leadership to %uclans_leader%'
-  clan changeleader show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error transferring leadership.'
-  clan changeleader show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_changeleader} <red><player>'
+  clan changeleader show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have changed clan leadership to %uclans_leader%
+  clan changeleader show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error transferring leadership.
+  clan changeleader show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_changeleader} <red><player>
   clan desc show on_help: <click:suggest_command:"/{_clan} {_desc} "><hover:show_text:'<green>Click to add/change a clan description.'> <aqua>/{_clan} {_desc} <red><description> <gray>-<yellow> Add description to Clan.</hover></click>
-  clan desc show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have changed the description of clan!'
-  clan desc show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error changing the Clan description.'
-  clan desc show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_desc} <description>'
+  clan desc show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have changed the description of clan!
+  clan desc show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error changing the Clan description.
+  clan desc show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_desc} <description>
   clan disband show on_help: <click:suggest_command:"/{_clan} {_disband}"><hover:show_text:'<green>Click to disband a clan.'> <aqua>/{_clan} {_disband} <gray>-<yellow> Delete you Clan.</hover></click>
-  clan disband show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have deleted you clan!'
-  clan disband show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error deleting the Clan, try again.'
-  clan disband show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_disband}'
+  clan disband show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have deleted you clan!
+  clan disband show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error deleting the Clan, try again.
+  clan disband show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_disband}
   clan leave show on_help: <click:suggest_command:"/{_clan} {_leave}"><hover:show_text:'<green>Click to leave to Clan.'> <aqua>/{_clan} {_leave} <gray>-<yellow> Leave a Clan.</hover></click>
-  clan leave show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You left the Clan!'
-  clan leave show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error when leaving the Clan, try again.'
-  clan leave show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_leave}'
+  clan leave show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You left the Clan!
+  clan leave show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error when leaving the Clan, try again.
+  clan leave show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_leave}
   clan join show on_help: <click:suggest_command:"/{_clan} {_join} "><hover:show_text:'<green>Click to accept an invitation.'> <aqua>/{_clan} {_join} <red><tag> <gray>-<yellow> Accept a clan invitation.</hover></click>
-  clan join show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have accepted the invitation to enter the clan!'
-  clan join show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error entering the clan, try again.'
-  clan join show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_join} <red><tag>'
+  clan join show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have accepted the invitation to enter the clan!
+  clan join show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error entering the clan, try again.
+  clan join show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_join} <red><tag>
   clan deny show on_help: <click:suggest_command:"/{_clan} {_deny} "><hover:show_text:'<green>Click to cancel invite.'> <aqua>/{_clan} {_deny} <red><tag> <gray>-<yellow> Deny clan invite.</hover></click>
-  clan deny show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have danied invite!'
-  clan deny show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error declining invitation.'
-  clan deny show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_deny} <red><tag>'
+  clan deny show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have danied invite!
+  clan deny show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error declining invitation.
+  clan deny show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_deny} <red><tag>
   clan promote show on_help: <click:suggest_command:"/{_clan} {_promote} "><hover:show_text:'<green>Click to promote a player.'> <aqua>/{_clan} {_promote} <red><player> <light_purple>(role) <gray>-<yellow> Promote a member.</hover></click>
-  clan promote show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The player received a promotion.'
-  clan promote show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>This player has no more promotions available.'
-  clan promote show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_promote} <red><player> <light_purple>(role)'
+  clan promote show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The player received a promotion.
+  clan promote show on_error: <aqua><bold>Clanes</bold> <gray>| <red>This player has no more promotions available.
+  clan promote show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_promote} <red><player> <light_purple>(role)
   clan demote show on_help: <click:suggest_command:"/{_clan} {_demote} "><hover:show_text:'<green>Click to demote a player.'> <aqua>/{_clan} {_demote} <red><player> <light_purple>(role) <gray>-<yellow> Demote a member.</hover></click>
-  clan demote show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Player has been demoted in clan.'
-  clan demote show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>This player cannot be demoted further'
-  clan demote show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_demote} <red><player> <light_purple>(role)'
+  clan demote show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Player has been demoted in clan.
+  clan demote show on_error: <aqua><bold>Clanes</bold> <gray>| <red>This player cannot be demoted further
+  clan demote show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_demote} <red><player> <light_purple>(role)
   clan home show on_help: <click:run_command:"/{_clan} {_home} "><hover:show_text:'<green>Click to expand home commands.'> <aqua>/{_clan} {_home} <gray>-<yellow> Clan homes.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan home show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success!'
-  clan home show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error when using command.'
-  clan home show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_home}'
+  clan home show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success!
+  clan home show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error when using command.
+  clan home show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_home}
   clan home subcommands create: <click:suggest_command:"/{_clan} {_home} {_create} "><hover:show_text:'<green>Click to create.'> <aqua>/{_clan} {_home} {_create} <red><name> <light_purple>(password)<gray>-<yellow> Create a home.</hover></click>
-  clan home subcommands create show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The new clan home has been successfully created.'
-  clan home subcommands create show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while creating.'
-  clan home subcommands create show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_home} {_create} <red><name> <light_purple>(password)'
+  clan home subcommands create show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The new clan home has been successfully created.
+  clan home subcommands create show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while creating.
+  clan home subcommands create show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_home} {_create} <red><name> <light_purple>(password)
   clan home subcommands delete: <click:suggest_command:"/{_clan} {_home} {_delete} "><hover:show_text:'<green>Click to delete a home.'> <aqua>/{_clan} {_home} {_delete} <red><name> <gray>-<yellow> Delete a home.</hover></click>
-  clan home subcommands delete show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The new clan home has been successfully deleted.'
-  clan home subcommands delete show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while deleting.'
-  clan home subcommands delete show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_home} {_delete} <red><name>'
+  clan home subcommands delete show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The new clan home has been successfully deleted.
+  clan home subcommands delete show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while deleting.
+  clan home subcommands delete show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_home} {_delete} <red><name>
   clan home subcommands list: <click:suggest_command:"/{_clan} {_home} {_list} "><hover:show_text:'<green>Click to list all homes.'> <aqua>/{_clan} {_home} {_list} <light_purple>(tag) <light_purple>(-gui) <gray>-<yellow> List all homes.</hover></click>
-  clan home subcommands list show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success.'
-  clan home subcommands list show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while listing.'
-  clan home subcommands list show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_home} {_list} <light_purple>(tag) <light_purple>(-gui)'
+  clan home subcommands list show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success.
+  clan home subcommands list show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while listing.
+  clan home subcommands list show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_home} {_list} <light_purple>(tag) <light_purple>(-gui)
   clan home subcommands teleport: <click:suggest_command:"/{_clan} {_home} {_teleport} "><hover:show_text:'<green>Click to teleport to home.'> <aqua>/{_clan} {_home} {_teleport} <red><name> <light_purple>(password) <gray>-<yellow> Teleport to home.</hover></click>
-  clan home subcommands teleport show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success.'
-  clan home subcommands teleport show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while teleport.'
-  clan home subcommands teleport show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_home} {_teleport} <red><name>'
+  clan home subcommands teleport show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success.
+  clan home subcommands teleport show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while teleport.
+  clan home subcommands teleport show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_home} {_teleport} <red><name>
   clan home subcommands view: <click:suggest_command:"/{_clan} {_home} {_view} "><hover:show_text:'<green>Click to view a home.'> <aqua>/{_clan} {_home} {_view} <red><name> <gray>-<yellow> View a home.</hover></click>
-  clan home subcommands view show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success.'
-  clan home subcommands view show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while view.'
-  clan home subcommands view show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_home} {_view} <red><name>'
+  clan home subcommands view show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success.
+  clan home subcommands view show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while view.
+  clan home subcommands view show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_home} {_view} <red><name>
   clan chat show on_help: <click:suggest_command:"/{_clan} {_chat} "><hover:show_text:'<green>Click to toggle clan chat.'> <aqua>/{_clan} {_chat} <gray>-<yellow> Toggle clan chat.</hover></click>
   clan chat show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Clan locked chat as now: <aqua>%player_chat%'
-  clan chat show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error to use chat.'
-  clan chat show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_chat}'
+  clan chat show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error to use chat.
+  clan chat show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_chat}
   clan ff show on_help: <click:suggest_command:"/{_clan} {_ff} "><hover:show_text:'<green>Click to toggle clan friendly fire.'> <aqua>/{_clan} {_ff} <gray>-<yellow> Toggle clan friendly fire.</hover></click>
-  clan ff show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Friendly Fire of Clan as changed to <aqua>%clan_ff%'
-  clan ff show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error to use ff.'
-  clan ff show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ff}'
+  clan ff show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Friendly Fire of Clan as changed to <aqua>%clan_ff%
+  clan ff show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error to use ff.
+  clan ff show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ff}
   clan invite show on_help: <click:suggest_command:"/{_clan} {_invite} "><hover:show_text:'<green>Click to invite members.'> <aqua>/{_clan} {_invite} <red><name><gray>-<yellow> Invite new members.</hover></click>
-  clan invite show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>New invitation sent successfully, wait to accept or deny the request'
-  clan invite show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the invitation.'
-  clan invite show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_invite} <red><name>'
+  clan invite show on_success: <aqua><bold>Clanes</bold> <gray>| <green>New invitation sent successfully, wait to accept or deny the request
+  clan invite show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the invitation.
+  clan invite show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_invite} <red><name>
   clan modtag show on_help: <click:suggest_command:"/{_clan} {_modtag} "><hover:show_text:'<green>Click to change clan tag.'> <aqua>/{_clan} {_modtag} <red><newtag> <gray>-<yellow> Change clan tag.</hover></click>
-  clan modtag show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Tag of Clan as changed to <aqua>%clan_tag%'
-  clan modtag show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error when changing the clan Tag.'
-  clan modtag show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_modtag} <red><newtag>'
+  clan modtag show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Tag of Clan as changed to <aqua>%clan_tag%
+  clan modtag show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error when changing the clan Tag.
+  clan modtag show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_modtag} <red><newtag>
   clan list show on_help: <click:suggest_command:"/{_clan} {_list} "><hover:show_text:'<green>Click to list all clans.'> <aqua>/{_clan} {_list} <light_purple>(type) <light_purple>(-gui) <gray>-<yellow> List all clans.</hover></click>
-  clan list show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success.'
-  clan list show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error to use list.'
-  clan list show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_list} <light_purple>(type) <light_purple>(-gui)'
+  clan list show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success.
+  clan list show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error to use list.
+  clan list show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_list} <light_purple>(type) <light_purple>(-gui)
   clan info show on_help: <click:suggest_command:"/{_clan} {_info} "><hover:show_text:'<green>Click to view clan info.'> <aqua>/{_clan} {_info} <light_purple>(tag|nickname) <light_purple>(-gui) <gray>-<yellow> View clan info.</hover></click>
   clan info show on_success: ''
-  clan info show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error to use info.'
-  clan info show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_info} <light_purple>(tag|nickname) <light_purple>(-gui)'
+  clan info show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error to use info.
+  clan info show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_info} <light_purple>(tag|nickname) <light_purple>(-gui)
   clan profile show on_help: <click:run_command:"/{_clan} {_profile} "><hover:show_text:'<green>Click to expand.'> <aqua>/{_clan} {_profile} <gray>-<yellow> View member commands.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan profile show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success!'
-  clan profile show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error to use profile.'
-  clan profile show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_profile}'
+  clan profile show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success!
+  clan profile show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error to use profile.
+  clan profile show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_profile}
   clan profile subcommands view: <click:suggest_command:"/{_clan} {_profile} {_view} "><hover:show_text:'<green>Click to view a profile.'> <aqua>/{_clan} {_profile} {_view} <light_purple>(player) <light_purple>(-gui) <gray>-<yellow> View player profile.</hover></click>
-  clan profile subcommands view show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success.'
-  clan profile subcommands view show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while view.'
-  clan profile subcommands view show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_profile} {_view} <light_purple>(player) <light_purple>(-gui)'
+  clan profile subcommands view show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success.
+  clan profile subcommands view show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while view.
+  clan profile subcommands view show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_profile} {_view} <light_purple>(player) <light_purple>(-gui)
   clan profile subcommands set: <click:suggest_command:"/{_clan} {_profile} {_set} "><hover:show_text:'<green>Click to set profile settings.'> <aqua>/{_clan} {_profile} {_set} <red><key> <value> <gray>-<yellow> Set profile settings.</hover></click>
-  clan profile subcommands set show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Profile configuration changed successfully'
-  clan profile subcommands set show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing profile configuration.'
-  clan profile subcommands set show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_profile} {_set} <red><key> <value>'
+  clan profile subcommands set show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Profile configuration changed successfully
+  clan profile subcommands set show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing profile configuration.
+  clan profile subcommands set show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_profile} {_set} <red><key> <value>
   clan profile subcommands updateskin: <click:suggest_command:"/{_clan} {_profile} {_updateskin} "><hover:show_text:'<green>Click to update skin.'> <aqua>/{_clan} {_profile} {_updateskin} <gray>-<yellow> Update skin.</hover></click>
-  clan profile subcommands updateskin show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Updating skin, please wait...'
-  clan profile subcommands updateskin show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error updating the skin, maybe you updated it recently.'
-  clan profile subcommands updateskin show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_profile} {_updateskin}'
+  clan profile subcommands updateskin show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Updating skin, please wait...
+  clan profile subcommands updateskin show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error updating the skin, maybe you updated it recently.
+  clan profile subcommands updateskin show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_profile} {_updateskin}
   clan profile subcommands invites: <click:suggest_command:"/{_clan} {_profile} {_invites} "><hover:show_text:'<green>Click to view invitations.'> <aqua>/{_clan} {_profile} {_invites} <light_purple>(-gui) <gray>-<yellow> View invitations.</hover></click>
-  clan profile subcommands invites show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success'
-  clan profile subcommands invites show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error listing invitations.'
-  clan profile subcommands invites show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_profile} {_invites} <light_purple>(-gui)'
+  clan profile subcommands invites show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success
+  clan profile subcommands invites show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error listing invitations.
+  clan profile subcommands invites show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_profile} {_invites} <light_purple>(-gui)
   clan rival show on_help: <click:run_command:"/{_clan} {_rival} "><hover:show_text:'<green>Click to expand rival commands.'> <aqua>/{_clan} {_rival} <gray>-<yellow> Clan rivalries.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan rival show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>List of rivalries is updated.'
-  clan rival show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error to use rival.'
-  clan rival show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rival}.'
+  clan rival show on_success: <aqua><bold>Clanes</bold> <gray>| <green>List of rivalries is updated.
+  clan rival show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error to use rival.
+  clan rival show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rival}.
   clan rival subcommands add: <click:suggest_command:"/{_clan} {_rival} {_add} "><hover:show_text:'<green>Click to add a new rival.'> <aqua>/{_clan} {_rival} {_add} <red><tag> <gray>-<yellow> Add clan rival.</hover></click>
-  clan rival subcommands add show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>New rival successfully added'
-  clan rival subcommands add show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while adding the new rival.'
-  clan rival subcommands add show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rival} {_add} <red><tag>'
+  clan rival subcommands add show on_success: <aqua><bold>Clanes</bold> <gray>| <green>New rival successfully added
+  clan rival subcommands add show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while adding the new rival.
+  clan rival subcommands add show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rival} {_add} <red><tag>
   clan rival subcommands remove: <click:suggest_command:"/{_clan} {_rival} {_remove} "><hover:show_text:'<green>Click to remove a rival.'> <aqua>/{_clan} {_rival} {_remove} <red><tag> <gray>-<yellow> Remove a rival.</hover></click>
-  clan rival subcommands remove show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>New rival clan successfully added'
-  clan rival subcommands remove show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error removing rival clan.'
-  clan rival subcommands remove show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rival} {_remove} <red><tag>'
+  clan rival subcommands remove show on_success: <aqua><bold>Clanes</bold> <gray>| <green>New rival clan successfully added
+  clan rival subcommands remove show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error removing rival clan.
+  clan rival subcommands remove show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rival} {_remove} <red><tag>
   clan rival subcommands list: <click:suggest_command:"/{_clan} {_rival} {_list} "><hover:show_text:'<green>Click to list clan rivalries.'> <aqua>/{_clan} {_rival} {_list} <light_purple>(tag) <light_purple>(-gui) <gray>-<yellow> List clan rivalries.</hover></click>
-  clan rival subcommands list show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success'
-  clan rival subcommands list show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error listing rivalries.'
-  clan rival subcommands list show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rival} {_list} <light_purple>(tag) <light_purple>(-gui)'
+  clan rival subcommands list show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success
+  clan rival subcommands list show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error listing rivalries.
+  clan rival subcommands list show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rival} {_list} <light_purple>(tag) <light_purple>(-gui)
   clan rival subcommands deny: <click:suggest_command:"/{_clan} {_rival} {_deny} "><hover:show_text:'<green>Click to deny a rival.'> <aqua>/{_clan} {_rival} {_deny} <red><tag> <gray>-<yellow> Deny a rival.</hover></click>
-  clan rival subcommands deny show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>New rival clan successfully danied'
-  clan rival subcommands deny show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error deny rival clan.'
-  clan rival subcommands deny show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rival} {_deny} <red><tag>'
+  clan rival subcommands deny show on_success: <aqua><bold>Clanes</bold> <gray>| <green>New rival clan successfully danied
+  clan rival subcommands deny show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error deny rival clan.
+  clan rival subcommands deny show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rival} {_deny} <red><tag>
   clan rival subcommands accept: <click:suggest_command:"/{_clan} {_rival} {_accept} "><hover:show_text:'<green>Click to accept a rival.'> <aqua>/{_clan} {_rival} {_accept} <red><tag> <gray>-<yellow> Accept a rival.</hover></click>
-  clan rival subcommands accept show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>New rival clan successfully accepted'
-  clan rival subcommands accept show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error accept rival clan.'
-  clan rival subcommands accept show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rival} {_accept} <red><tag>'
+  clan rival subcommands accept show on_success: <aqua><bold>Clanes</bold> <gray>| <green>New rival clan successfully accepted
+  clan rival subcommands accept show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error accept rival clan.
+  clan rival subcommands accept show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rival} {_accept} <red><tag>
   clan ally show on_help: <click:run_command:"/{_clan} {_ally} "><hover:show_text:'<green>Click to expand ally commands.'> <aqua>/{_clan} {_ally} <gray>-<yellow> Clan alliances.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan ally show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>List of alliances is updated.'
-  clan ally show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error to use ally.'
-  clan ally show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ally}'
+  clan ally show on_success: <aqua><bold>Clanes</bold> <gray>| <green>List of alliances is updated.
+  clan ally show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error to use ally.
+  clan ally show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ally}
   clan ally subcommands add: <click:suggest_command:"/{_clan} {_ally} {_add} "><hover:show_text:'<green>Click to add new ally.'> <aqua>/{_clan} {_ally} {_add} <red><tag> <gray>-<yellow> Add new ally.</hover></click>
-  clan ally subcommands add show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>New alliance invitation sent, please wait...'
-  clan ally subcommands add show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error sending invitation.'
-  clan ally subcommands add show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ally} {_add} <red><tag>'
+  clan ally subcommands add show on_success: <aqua><bold>Clanes</bold> <gray>| <green>New alliance invitation sent, please wait...
+  clan ally subcommands add show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error sending invitation.
+  clan ally subcommands add show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ally} {_add} <red><tag>
   clan ally subcommands remove: <click:suggest_command:"/{_clan} {_ally} {_remove} "><hover:show_text:'<green>Click to remove clan alliances.'> <aqua>/{_clan} {_ally} {_remove} <red><tag> <gray>-<yellow> Remove an alliance.</hover></click>
-  clan ally subcommands remove show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Alliance removed successfully.'
-  clan ally subcommands remove show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error removing alliance.'
-  clan ally subcommands remove show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ally} {_remove} <red><tag>'
+  clan ally subcommands remove show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Alliance removed successfully.
+  clan ally subcommands remove show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error removing alliance.
+  clan ally subcommands remove show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ally} {_remove} <red><tag>
   clan ally subcommands accept: <click:suggest_command:"/{_clan} {_ally} {_accept} "><hover:show_text:'<green>Click to accept clan alliances.'> <aqua>/{_clan} {_ally} {_accept} <red><tag> <gray>-<yellow> List clan alliances.</hover></click>
-  clan ally subcommands accept show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>New alliance successfully accepted'
-  clan ally subcommands accept show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error accepting alliance.'
-  clan ally subcommands accept show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ally} {_accept} <red><tag>'
+  clan ally subcommands accept show on_success: <aqua><bold>Clanes</bold> <gray>| <green>New alliance successfully accepted
+  clan ally subcommands accept show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error accepting alliance.
+  clan ally subcommands accept show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ally} {_accept} <red><tag>
   clan ally subcommands deny: <click:suggest_command:"/{_clan} {_ally} {_deny} "><hover:show_text:'<green>Click to deny clan alliances.'> <aqua>/{_clan} {_ally} {_deny} <red><tag> <gray>-<yellow> Deny clan alliance.</hover></click>
-  clan ally subcommands deny show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Alliance successfully denied'
-  clan ally subcommands deny show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error when denying alliance.'
-  clan ally subcommands deny show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ally} {_deny} <red><tag>'
+  clan ally subcommands deny show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Alliance successfully denied
+  clan ally subcommands deny show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error when denying alliance.
+  clan ally subcommands deny show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ally} {_deny} <red><tag>
   clan ally subcommands list: <click:suggest_command:"/{_clan} {_ally} {_list} "><hover:show_text:'<green>Click to list clan alliances.'> <aqua>/{_clan} {_ally} {_list} <light_purple>(tag) <light_purple>(-gui) <gray>-<yellow> List clan alliances.</hover></click>
-  clan ally subcommands list show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success'
-  clan ally subcommands list show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error listing alliances.'
-  clan ally subcommands list show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ally} {_list} <light_purple>(tag) <light_purple>(-gui)'
+  clan ally subcommands list show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success
+  clan ally subcommands list show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error listing alliances.
+  clan ally subcommands list show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ally} {_list} <light_purple>(tag) <light_purple>(-gui)
   clan member show on_help: <click:run_command:"/{_clan} {_member} "><hover:show_text:'<green>Cick to expand member commands.'> <aqua>/{_clan} {_member} <gray>-<yellow> Clan member.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan member show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success to use member.'
-  clan member show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error to use member.'
-  clan member show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <gold>/{_clan} {_member}'
+  clan member show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success to use member.
+  clan member show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error to use member.
+  clan member show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <gold>/{_clan} {_member}
   clan member subcommands invite: <click:suggest_command:"/{_clan} {_member} {_invite} "><hover:show_text:'<green>Click to invite a player.'> <aqua>/{_clan} {_member} {_invite} <red><player> <gray>-<yellow> Invite a player.</hover></click>
-  clan member subcommands invite show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>New invitation sent successfully, wait to accept or deny the request'
-  clan member subcommands invite show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the invitation.'
-  clan member subcommands invite show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_member} {_invite} <red><player>'
+  clan member subcommands invite show on_success: <aqua><bold>Clanes</bold> <gray>| <green>New invitation sent successfully, wait to accept or deny the request
+  clan member subcommands invite show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the invitation.
+  clan member subcommands invite show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_member} {_invite} <red><player>
   clan member subcommands kick: <click:suggest_command:"/{_clan} {_member} {_kick} "><hover:show_text:'<green>Click to kick a member.'> <aqua>/{_clan} {_member} {_kick} <red><player> <gray>-<yellow> Kick a member.</hover></click>
-  clan member subcommands kick show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The player was successfully kicked'
-  clan member subcommands kick show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error kicking the player.'
-  clan member subcommands kick show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_member} {_kick} <red><player>'
+  clan member subcommands kick show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The player was successfully kicked
+  clan member subcommands kick show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error kicking the player.
+  clan member subcommands kick show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_member} {_kick} <red><player>
   clan member subcommands list: <click:suggest_command:"/{_clan} {_member} {_list} "><hover:show_text:'<green>Click to list clan member.'> <aqua>/{_clan} {_member} {_list} <light_purple>(tag) <light_purple>(-gui) <gray>-<yellow> List clan member.</hover></click>
-  clan member subcommands list show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success'
-  clan member subcommands list show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error listing member.'
-  clan member subcommands list show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_member} {_list} <light_purple>(tag) <light_purple>(-gui)'
+  clan member subcommands list show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success
+  clan member subcommands list show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error listing member.
+  clan member subcommands list show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_member} {_list} <light_purple>(tag) <light_purple>(-gui)
   clan member subcommands search: <click:suggest_command:"/{_clan} {_member} {_search} "><hover:show_text:'<green>Click to search a member.'> <aqua>/{_clan} {_member} {_search} <red><text> <light_purple>(-gui) <gray>-<yellow> Search a member.</hover></click>
-  clan member subcommands search show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success'
-  clan member subcommands search show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error searching member.'
-  clan member subcommands search show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_member} {_search} <red><text> <light_purple>(-gui)'
+  clan member subcommands search show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success
+  clan member subcommands search show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error searching member.
+  clan member subcommands search show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_member} {_search} <red><text> <light_purple>(-gui)
   clan settings show on_help: <click:run_command:"/{_clan} {_settings} "><hover:show_text:'<green>Click to expand settings commands.'> <aqua>/{_clan} {_settings} <gray>-<yellow> Change clan settings.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan settings show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>success'
-  clan settings show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing clan settings.'
-  clan settings show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_settings}'
+  clan settings show on_success: <aqua><bold>Clanes</bold> <gray>| <green>success
+  clan settings show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing clan settings.
+  clan settings show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_settings}
   clan settings subcommands banned: <click:suggest_command:"/{_clan} {_settings} {_banned} "><hover:show_text:'<green>Click to list banned players.'> <aqua>/{_clan} {_settings} {_banned} <light_purple>(-gui) <gray>-<yellow> List banned players.</hover></click>
-  clan settings subcommands banned show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success'
-  clan settings subcommands banned show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while listing banned players.'
-  clan settings subcommands banned show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_settings} {_banned} <light_purple>(-gui)'
+  clan settings subcommands banned show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success
+  clan settings subcommands banned show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while listing banned players.
+  clan settings subcommands banned show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_settings} {_banned} <light_purple>(-gui)
   clan settings subcommands view: <click:suggest_command:"/{_clan} {_settings} {_view} "><hover:show_text:'<green>Click to view clan settings'> <aqua>/{_clan} {_settings} {_view} <light_purple>(-gui) <gray>-<yellow> View clan settings.</hover></click>
-  clan settings subcommands view show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success'
-  clan settings subcommands view show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred when viewing the clan settings'
-  clan settings subcommands view show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_settings} {_view} <light_purple>(-gui)'
+  clan settings subcommands view show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success
+  clan settings subcommands view show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred when viewing the clan settings
+  clan settings subcommands view show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_settings} {_view} <light_purple>(-gui)
   clan settings subcommands set: <click:suggest_command:"/{_clan} {_settings} {_set} "><hover:show_text:'<green>Click to change clan settings'> <aqua>/{_clan} {_settings} {_set} <red><key> <value> <gray>-<yellow> Change clan settings.</hover></click>
-  clan settings subcommands set show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Clan settings changed to <aqua>%type%<gray>:<aqua>%value%'
-  clan settings subcommands set show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing clan settings.'
-  clan settings subcommands set show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_settings} {_set} <red><key> <value>'
+  clan settings subcommands set show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Clan settings changed to <aqua>%type%<gray>:<aqua>%value%
+  clan settings subcommands set show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing clan settings.
+  clan settings subcommands set show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_settings} {_set} <red><key> <value>
   clan role show on_help: <click:run_command:"/{_clan} {_role} "><hover:show_text:'<green>Click to expand role commands.'> <aqua>/{_clan} {_role} <gray>-<yellow> Change clan role.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan role show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>success'
-  clan role show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing clan role.'
-  clan role show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_role}'
+  clan role show on_success: <aqua><bold>Clanes</bold> <gray>| <green>success
+  clan role show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing clan role.
+  clan role show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_role}
   clan role subcommands sync: <click:suggest_command:"/{_clan} {_role} {_sync} "><hover:show_text:'<green>Click to sync role permissions.'> <aqua>/{_clan} {_role} {_sync} <light_purple>(-gui) <gray>-<yellow> Sync role permissions.</hover></click>
-  clan role subcommands sync show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success'
-  clan role subcommands sync show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while sync roles.'
-  clan role subcommands sync show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_role} {_sync}'
+  clan role subcommands sync show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success
+  clan role subcommands sync show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while sync roles.
+  clan role subcommands sync show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_role} {_sync}
   clan role subcommands view: <click:suggest_command:"/{_clan} {_role} {_view} "><hover:show_text:'<green>Click to view clan role'> <aqua>/{_clan} {_role} {_view} <light_purple>(-gui) <gray>-<yellow> View clan role.</hover></click>
-  clan role subcommands view show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Permissions have been successfully synced.'
-  clan role subcommands view show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred when viewing the clan role'
-  clan role subcommands view show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_role} {_view} <light_purple>(-gui)'
+  clan role subcommands view show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Permissions have been successfully synced.
+  clan role subcommands view show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred when viewing the clan role
+  clan role subcommands view show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_role} {_view} <light_purple>(-gui)
   clan role subcommands set: <click:suggest_command:"/{_clan} {_role} {_set} "><hover:show_text:'<green>Click to change clan role'> <aqua>/{_clan} {_role} {_set} <red><role> <key> <value> <gray>-<yellow> Change clan role.</hover></click>
-  clan role subcommands set show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Clan role %role% changed to <aqua>%key%<gray>:<aqua>%value%'
-  clan role subcommands set show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing clan role.'
-  clan role subcommands set show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_role} {_set} <red><role> <key> <value>'
+  clan role subcommands set show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Clan role %role% changed to <aqua>%key%<gray>:<aqua>%value%
+  clan role subcommands set show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing clan role.
+  clan role subcommands set show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_role} {_set} <red><role> <key> <value>
   clan regroup show on_help: <click:run_command:"/{_clan} {_regroup} "><hover:show_text:'<green>Click to expand regroup commands.'> <aqua>/{_clan} {_regroup} <gray>-<yellow> Regroup the clan.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan regroup show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The regroup request has been sent.'
-  clan regroup show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred when submitting the order.'
-  clan regroup show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_regroup}'
+  clan regroup show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The regroup request has been sent.
+  clan regroup show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred when submitting the order.
+  clan regroup show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_regroup}
   clan regroup subcommands send: <click:suggest_command:"/{_clan} {_regroup} {_send} "><hover:show_text:'<green>Click to send a regroup invite'> <aqua>/{_clan} {_regroup} {_send} <gray>-<yellow> Send a clan regroup.</hover></click>
-  clan regroup subcommands send show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Invitation to regroup successfully sent, wait for player response'
-  clan regroup subcommands send show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the regroup invitation.'
-  clan regroup subcommands send show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_regroup} {_send}'
+  clan regroup subcommands send show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Invitation to regroup successfully sent, wait for player response
+  clan regroup subcommands send show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error sending the regroup invitation.
+  clan regroup subcommands send show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_regroup} {_send}
   clan regroup subcommands accept: <click:suggest_command:"/{_clan} {_regroup} {_accept} "><hover:show_text:'<green>Click to accept a regroup invite'> <aqua>/{_clan} {_regroup} {_accept} <gray>-<yellow> Accept a regroup invite.</hover></click>
-  clan regroup subcommands accept show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have successfully accepted the grouping invitation'
-  clan regroup subcommands accept show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error accepting the regroup invitation'
-  clan regroup subcommands accept show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_regroup} {_accept}'
+  clan regroup subcommands accept show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have successfully accepted the grouping invitation
+  clan regroup subcommands accept show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error accepting the regroup invitation
+  clan regroup subcommands accept show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_regroup} {_accept}
   clan regroup subcommands deny: <click:suggest_command:"/{_clan} {_regroup} {_deny} "><hover:show_text:'<green>Click to deny a regroup invite'> <aqua>/{_clan} {_regroup} {_deny} <gray>-<yellow> Deny a regroup invite.</hover></click>
-  clan regroup subcommands deny show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have successfully danied the grouping invitation'
-  clan regroup subcommands deny show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while denying the regroup invitation.'
-  clan regroup subcommands deny show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_regroup} {_deny}'
+  clan regroup subcommands deny show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have successfully danied the grouping invitation
+  clan regroup subcommands deny show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while denying the regroup invitation.
+  clan regroup subcommands deny show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_regroup} {_deny}
   clan logger show on_help: <click:run_command:"/{_clan} {_logger} "><hover:show_text:'<green>Click to expand logger commands.'> <aqua>/{_clan} {_logger} <gray>-<yellow> Clan Log.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan logger show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success.'
-  clan logger show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error.'
-  clan logger show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_logger}'
+  clan logger show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success.
+  clan logger show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error.
+  clan logger show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_logger}
   clan logger subcommands clear: <click:suggest_command:"/{_clan} {_logger} {_clear} "><hover:show_text:'<green>Click to clean clan log'> <aqua>/{_clan} {_logger} {_clear} <gray>-<yellow> Clear clan logger.</hover></click>
-  clan logger subcommands clear show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The clan log has been successfully cleared.'
-  clan logger subcommands clear show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error clearing the clan log.'
-  clan logger subcommands clear show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_logger} {_clear}'
+  clan logger subcommands clear show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The clan log has been successfully cleared.
+  clan logger subcommands clear show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error clearing the clan log.
+  clan logger subcommands clear show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_logger} {_clear}
   clan logger subcommands view: <click:suggest_command:"/{_clan} {_logger} {_view} "><hover:show_text:'<green>Click to view clan logger'> <aqua>/{_clan} {_logger} {_view} <light_purple>(time) <light_purple>(page) <light_purple>(-gui) <gray>-<yellow> View clan logger.</hover></click>
-  clan logger subcommands view show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success'
-  clan logger subcommands view show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error'
-  clan logger subcommands view show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_logger} {_view} <light_purple>(time) <light_purple>(page) <light_purple>(-gui)'
+  clan logger subcommands view show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success
+  clan logger subcommands view show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error
+  clan logger subcommands view show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_logger} {_view} <light_purple>(time) <light_purple>(page) <light_purple>(-gui)
   clan mail show on_help: <click:run_command:"/{_clan} {_mail} "><hover:show_text:'<green>Click to expand mail commands.'> <aqua>/{_clan} {_mail} <gray>-<yellow> Clan Mail.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan mail show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success.'
-  clan mail show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error.'
-  clan mail show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_mail}'
+  clan mail show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success.
+  clan mail show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error.
+  clan mail show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_mail}
   clan mail subcommands clear: <click:suggest_command:"/{_clan} {_mail} {_clear} "><hover:show_text:'<green>Click to clean clan mail'> <aqua>/{_clan} {_mail} {_clear} <gray>-<yellow> Clear clan mail box.</hover></click>
-  clan mail subcommands clear show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The clan mail box has been successfully cleared.'
-  clan mail subcommands clear show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error clearing the clan mail box.'
-  clan mail subcommands clear show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_mail} {_clear}'
+  clan mail subcommands clear show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The clan mail box has been successfully cleared.
+  clan mail subcommands clear show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error clearing the clan mail box.
+  clan mail subcommands clear show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_mail} {_clear}
   clan mail subcommands read: <click:suggest_command:"/{_clan} {_mail} {_read} "><hover:show_text:'<green>Click to read clan mail'> <aqua>/{_clan} {_mail} {_read} <light_purple>(time) <light_purple>(page) <light_purple>(-gui) <gray>-<yellow> View clan mail.</hover></click>
-  clan mail subcommands read show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success'
-  clan mail subcommands read show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error'
-  clan mail subcommands read show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_mail} {_read} <light_purple>(time) <light_purple>(page) <light_purple>(-gui)'
+  clan mail subcommands read show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success
+  clan mail subcommands read show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error
+  clan mail subcommands read show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_mail} {_read} <light_purple>(time) <light_purple>(page) <light_purple>(-gui)
   clan mail subcommands send: <click:suggest_command:"/{_clan} {_mail} {_send} "><hover:show_text:'<green>Click to send clan mail'> <aqua>/{_clan} {_mail} {_send} <red><to> <red><text> <gray>-<yellow> Send a Mail.</hover></click>
-  clan mail subcommands send show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Mail sent successfully.'
-  clan mail subcommands send show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while sending the mail.'
-  clan mail subcommands send show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_mail} {_send} <red><to> <red><text>'
+  clan mail subcommands send show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Mail sent successfully.
+  clan mail subcommands send show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while sending the mail.
+  clan mail subcommands send show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_mail} {_send} <red><to> <red><text>
   clan level show on_help: <click:run_command:"/{_clan} {_level} "><hover:show_text:'<green>Click to expand level commands.'> <aqua>/{_clan} {_level} <gray>-<yellow> Clan Level.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan level show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success.'
-  clan level show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error.'
-  clan level show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_level}'
+  clan level show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success.
+  clan level show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error.
+  clan level show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_level}
   clan level subcommands view: <click:suggest_command:"/{_clan} {_level} {_view} "><hover:show_text:'<green>Click to view clan level'> <aqua>/{_clan} {_level} {_view} <light_purple>(-gui) <gray>-<yellow> View clan level.</hover></click>
-  clan level subcommands view show on_success: '<aqua><bold>Clanes</bold> <gray>|  <click:suggest_command:"/{_clan} {_level} {_up} "><hover:show_text:''<green>Click to levelup.''> <green>New Level up available <yellow>[CLick <aqua><bold>%uclans_level% -> %uclans_next_level%</bold></aqua><yellow>]</hover></click>'
-  clan level subcommands view show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>You still have requirements to meet before leveling up.'
-  clan level subcommands view show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_level} {_view} <light_purple>(-gui)'
+  clan level subcommands view show on_success: <aqua><bold>Clanes</bold> <gray>|  <click:suggest_command:"/{_clan} {_level} {_up} "><hover:show_text:'<green>Click to levelup.'> <green>New Level up available <yellow>[CLick <aqua><bold>%uclans_level% -> %uclans_next_level%</bold></aqua><yellow>]</hover></click>
+  clan level subcommands view show on_error: <aqua><bold>Clanes</bold> <gray>| <red>You still have requirements to meet before leveling up.
+  clan level subcommands view show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_level} {_view} <light_purple>(-gui)
   clan level subcommands up: <click:suggest_command:"/{_clan} {_level} {_up} "><hover:show_text:'<green>Click to up clan level'> <aqua>/{_clan} {_level} {_up} <light_purple>(-gui) <gray>-<yellow> Up clan level.</hover></click>
-  clan level subcommands up show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have successfully leveled up your clan. Congratulations!'
-  clan level subcommands up show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>It was not possible to level up, see the requirements <click:suggest_command:"/{_clan} {_level} {_view} "><hover:show_text:''<green>Click to view.''><green><bold>[CLICKING HERE]</hover></click>'
-  clan level subcommands up show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_level} {_up} <light_purple>(-gui)'
+  clan level subcommands up show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have successfully leveled up your clan. Congratulations!
+  clan level subcommands up show on_error: <aqua><bold>Clanes</bold> <gray>| <red>It was not possible to level up, see the requirements <click:suggest_command:"/{_clan} {_level} {_view} "><hover:show_text:'<green>Click to view.'><green><bold>[CLICKING HERE]</hover></click>
+  clan level subcommands up show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_level} {_up} <light_purple>(-gui)
   clan rewards show on_help: <click:run_command:"/{_clan} {_rewards} "><hover:show_text:'<green>Click to expand rewards commands.'> <aqua>/{_clan} {_rewards} <gray>-<yellow> Player rewards.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan rewards show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success.'
-  clan rewards show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error.'
-  clan rewards show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rewards}'
+  clan rewards show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success.
+  clan rewards show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error.
+  clan rewards show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rewards}
   clan rewards subcommands list: <click:suggest_command:"/{_clan} {_rewards} {_list} "><hover:show_text:'<green>Click to list rewards'> <aqua>/{_clan} {_rewards} {_list} <light_purple>(page/-gui) <gray>-<yellow> List rewards.</hover></click>
-  clan rewards subcommands list show on_success: '<aqua><bold>Clanes</bold> <gray>|  Success'
-  clan rewards subcommands list show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error listing your rewards.'
-  clan rewards subcommands list show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rewards} {_list} <light_purple>(page/-gui)'
+  clan rewards subcommands list show on_success: <aqua><bold>Clanes</bold> <gray>|  Success
+  clan rewards subcommands list show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error listing your rewards.
+  clan rewards subcommands list show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rewards} {_list} <light_purple>(page/-gui)
   clan rewards subcommands collect: <click:suggest_command:"/{_clan} {_rewards} {_collect} "><hover:show_text:'<green>Click to collect rewards'> <aqua>/{_clan} {_rewards} {_collect} <light_purple>(id/-gui) <gray>-<yellow> Collect rewards.</hover></click>
-  clan rewards subcommands collect show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have successfully collected the reward.'
-  clan rewards subcommands collect show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while collecting the reward'
-  clan rewards subcommands collect show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rewards} {_collect} <light_purple>(id/-gui)'
+  clan rewards subcommands collect show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have successfully collected the reward.
+  clan rewards subcommands collect show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while collecting the reward
+  clan rewards subcommands collect show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_rewards} {_collect} <light_purple>(id/-gui)
   clan discord show on_help: <click:run_command:"/{_clan} {_discord} "><hover:show_text:'<green>Click to expand discord commands.'> <aqua>/{_clan} {_discord} <gray>-<yellow> Clan Webhook.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan discord show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success.'
-  clan discord show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error.'
-  clan discord show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_discord}'
+  clan discord show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success.
+  clan discord show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error.
+  clan discord show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_discord}
   clan discord subcommands remove: <click:suggest_command:"/{_clan} {_discord} {_remove} "><hover:show_text:'<green>Click to remove webhook'> <aqua>/{_clan} {_discord} {_remove} <gray>-<yellow> Remove discord webhook.</hover></click>
-  clan discord subcommands remove show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The clan webhook has been successfully removed.'
-  clan discord subcommands remove show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error removing the webhook, it may not be set.'
-  clan discord subcommands remove show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_discord} {_remove}'
+  clan discord subcommands remove show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The clan webhook has been successfully removed.
+  clan discord subcommands remove show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error removing the webhook, it may not be set.
+  clan discord subcommands remove show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_discord} {_remove}
   clan discord subcommands view: <click:suggest_command:"/{_clan} {_discord} {_view} "><hover:show_text:'<green>Click to view clan webhook'> <aqua>/{_clan} {_discord} {_view} <light_purple>(-gui) <gray>-<yellow> View clan webhook.</hover></click>
-  clan discord subcommands view show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success'
-  clan discord subcommands view show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error'
-  clan discord subcommands view show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_discord} {_view} <light_purple>(-gui)'
+  clan discord subcommands view show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success
+  clan discord subcommands view show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error
+  clan discord subcommands view show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_discord} {_view} <light_purple>(-gui)
   clan discord subcommands createhook: <click:suggest_command:"/{_clan} {_discord} {_createhook} "><hover:show_text:'<green>Click to create clan webhook'> <aqua>/{_clan} {_discord} {_createhook} <red><url> <gray>-<yellow> Create clan webhook.</hover></click>
-  clan discord subcommands createhook show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>We are testing your webhook, please wait a few seconds...'
-  clan discord subcommands createhook show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while creating the webhook'
-  clan discord subcommands createhook show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_discord} {_createhook} <red><url>'
+  clan discord subcommands createhook show on_success: <aqua><bold>Clanes</bold> <gray>| <green>We are testing your webhook, please wait a few seconds...
+  clan discord subcommands createhook show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while creating the webhook
+  clan discord subcommands createhook show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_discord} {_createhook} <red><url>
   clan ban show on_help: <click:suggest_command:"/{_clan} {_ban} "><hover:show_text:'<green>Click to ban a player.'> <aqua>/{_clan} {_ban} <red><player> <gray>-<yellow> Ban a player.</hover></click>
-  clan ban show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The player has been successfully banned.'
-  clan ban show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error banning the player.'
-  clan ban show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ban} <red><nickname>'
+  clan ban show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The player has been successfully banned.
+  clan ban show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error banning the player.
+  clan ban show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_ban} <red><nickname>
   clan unban show on_help: <click:suggest_command:"/{_clan} {_unban} "><hover:show_text:'<green>Click to unban a player.'> <aqua>/{_clan} {_unban} <red><player> <gray>-<yellow> Unban a player.</hover></click>
-  clan unban show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The player has been successfully unbanned.'
-  clan unban show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error unbanning the player.'
-  clan unban show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_unban} <red><player>'
+  clan unban show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The player has been successfully unbanned.
+  clan unban show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error unbanning the player.
+  clan unban show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_unban} <red><player>
   clan nickname show on_help: <click:suggest_command:"/{_clan} {_nickname} "><hover:show_text:'<green>Click to change clan nickname.'> <aqua>/{_clan} {_nickname} <red><nickname> <gray>-<yellow> Change clan nickname.</hover></click>
-  clan nickname show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You has been successfully changed nickname.'
-  clan nickname show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error on changing nickname.'
-  clan nickname show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_nickname} <red><nickname>'
+  clan nickname show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You has been successfully changed nickname.
+  clan nickname show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error on changing nickname.
+  clan nickname show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_nickname} <red><nickname>
   clan banner show on_help: <click:run_command:"/{_clan} {_banner} "><hover:show_text:'<green>Click to expand banner commands.'> <aqua>/{_clan} {_banner} <gray>-<yellow> Change clan banner.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  clan banner show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>success'
-  clan banner show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing clan banner.'
-  clan banner show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_banner}'
+  clan banner show on_success: <aqua><bold>Clanes</bold> <gray>| <green>success
+  clan banner show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing clan banner.
+  clan banner show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_banner}
   clan banner subcommands upload: <click:suggest_command:"/{_clan} {_banner} {_upload} "><hover:show_text:'<green>Click to upload a banner.'> <aqua>/{_clan} {_banner} {_upload} <light_purple>(-gui) <gray>-<yellow> Upload a clan banner.</hover></click>
-  clan banner subcommands upload show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>New clan banner successfully saved.'
-  clan banner subcommands upload show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while uploadind banned players.'
-  clan banner subcommands upload show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_banner} {_upload} <light_purple>(-gui)'
+  clan banner subcommands upload show on_success: <aqua><bold>Clanes</bold> <gray>| <green>New clan banner successfully saved.
+  clan banner subcommands upload show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while uploadind banned players.
+  clan banner subcommands upload show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_banner} {_upload} <light_purple>(-gui)
   clan banner subcommands delete: <click:suggest_command:"/{_clan} {_banner} {_delete} "><hover:show_text:'<green>Click to delete the banner.'> <aqua>/{_clan} {_banner} {_delete} <gray>-<yellow> Delete the clan banner.</hover></click>
-  clan banner subcommands delete show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The banner has been successfully deleted.'
-  clan banner subcommands delete show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error deleting the clan banner.'
-  clan banner subcommands delete show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_banner} {_delete}'
+  clan banner subcommands delete show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The banner has been successfully deleted.
+  clan banner subcommands delete show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error deleting the clan banner.
+  clan banner subcommands delete show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_banner} {_delete}
   clan banner subcommands view: <click:suggest_command:"/{_clan} {_banner} {_view} "><hover:show_text:'<green>Click to view banner information.'> <aqua>/{_clan} {_banner} {_view} <light_purple>(-gui) <gray>-<yellow> View banner information.</hover></click>
-  clan banner subcommands view show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success.'
-  clan banner subcommands view show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while viewind clan banner.'
-  clan banner subcommands view show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_banner} {_view} <light_purple>(-gui)'
+  clan banner subcommands view show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success.
+  clan banner subcommands view show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while viewind clan banner.
+  clan banner subcommands view show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_clan} {_banner} {_view} <light_purple>(-gui)
   uclan help show on_help: <click:suggest_command:"/{_uclan} {_help}"><hover:show_text:'<green>Click to view help of Clans.'> <aqua>/{_uclan} {_help} <gray>-<yellow> Show help menu.</hover></click>
-  uclan help show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success to use help.'
-  uclan help show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error to use help'
-  uclan help show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Error use <aqua>/{_uclan} {_help}'
+  uclan help show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success to use help.
+  uclan help show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error to use help
+  uclan help show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Error use <aqua>/{_uclan} {_help}
   uclan chatspy show on_help: <click:suggest_command:"/{_uclan} {_chatspy} "><hover:show_text:'<green>Click to spy on clan chat.'> <aqua>/{_uclan} {_chatspy} <gray>-<yellow> Spy the clan chat.</hover></click>
   uclan chatspy show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Chat Spy is now: %state%'
-  uclan chatspy show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing.'
-  uclan chatspy show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_chatspy}'
+  uclan chatspy show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing.
+  uclan chatspy show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_chatspy}
   uclan addslot show on_help: <click:suggest_command:"/{_uclan} {_addslot} "><hover:show_text:'<green>Click to add slots to the clan.'> <aqua>/{_uclan} {_addslot} <red><player|tag> <gray>-<yellow> Add slots to the Clan.</hover></click>
-  uclan addslot show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have added %num% slots to the %clan% clan'
-  uclan addslot show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error adding.'
-  uclan addslot show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_addslot} <red><player|tag> <amount>'
+  uclan addslot show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have added %num% slots to the %clan% clan
+  uclan addslot show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error adding.
+  uclan addslot show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_addslot} <red><player|tag> <amount>
   uclan setslot show on_help: <click:suggest_command:"/{_uclan} {_setslot}"><hover:show_text:'<green>Click to set slots to the clan.'> <aqua>/{_uclan} {_setslot} <red><player|tag> <amount>  <gray>-<yellow> Set slots to the Clan.</hover></click>
-  uclan setslot show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have set %num% slots to the %clan% clan'
-  uclan setslot show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error adding.'
-  uclan setslot show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_setslot} <red><player|tag> <amount>'
+  uclan setslot show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have set %num% slots to the %clan% clan
+  uclan setslot show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error adding.
+  uclan setslot show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_setslot} <red><player|tag> <amount>
   uclan removeslot show on_help: <click:suggest_command:"/{_uclan} {_removeslot} "><hover:show_text:'<green>Click to remove slots to the clan.'> <aqua>/{_uclan} {_removeslot} <red><player|tag> <amount> <gray>-<yellow> Remove slots to the Clan.</hover></click>
-  uclan removeslot show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have removed %num% slots to the %clan% clan'
-  uclan removeslot show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error adding.'
-  uclan removeslot show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_removeslot} <red><player|tag> <amount>'
+  uclan removeslot show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have removed %num% slots to the %clan% clan
+  uclan removeslot show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error adding.
+  uclan removeslot show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_removeslot} <red><player|tag> <amount>
   uclan addpoints show on_help: <click:suggest_command:"/{_uclan} {_addpoints} "><hover:show_text:'<green>Click to add points to the clan.'> <aqua>/{_uclan} {_addpoints} <red><player|tag> <amount> [reason] <gray>-<yellow> Add points to the Clan.</hover></click>
-  uclan addpoints show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have added %num% points to the %clan% clan'
-  uclan addpoints show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error adding.'
-  uclan addpoints show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_addpoints} <red><player|tag> <amount> [reason]'
+  uclan addpoints show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have added %num% points to the %clan% clan
+  uclan addpoints show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error adding.
+  uclan addpoints show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_addpoints} <red><player|tag> <amount> [reason]
   uclan setpoints show on_help: <click:suggest_command:"/{_uclan} {_setpoints} "><hover:show_text:'<green>Click to set points to the clan.'> <aqua>/{_uclan} {_setpoints} <red><player|tag> <amount> [reason] <gray>-<yellow> Set points to the Clan.</hover></click>
-  uclan setpoints show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have set %num% points to the %clan% clan'
-  uclan setpoints show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error adding.'
-  uclan setpoints show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_setpoints} <red><player|tag> <amount> [reason]'
+  uclan setpoints show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have set %num% points to the %clan% clan
+  uclan setpoints show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error adding.
+  uclan setpoints show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_setpoints} <red><player|tag> <amount> [reason]
   uclan removepoints show on_help: <click:suggest_command:"/{_uclan} {_removepoints} "><hover:show_text:'<green>Click to remove points to the clan.'> <aqua>/{_uclan} {_removepoints} <red><player|tag> <amount> [reason] <gray>-<yellow> Remove points to the Clan.</hover></click>
-  uclan removepoints show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have removed %num% points to the %clan% clan'
-  uclan removepoints show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error remove.'
-  uclan removepoints show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_removepoints} <red><player|tag> <amount> [reason]'
+  uclan removepoints show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have removed %num% points to the %clan% clan
+  uclan removepoints show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error remove.
+  uclan removepoints show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_removepoints} <red><player|tag> <amount> [reason]
   uclan changetag show on_help: <click:suggest_command:"/{_uclan} {_changetag} "><hover:show_text:'<green>Click to changing a clan tag.'> <aqua>/{_uclan} {_changetag} <red><player|tag> <newtag> <gray>-<yellow> Changing a clan tag.</hover></click>
-  uclan changetag show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The clan tag <aqua>%clan% <green>has been changed to <aqua>%newtag%'
-  uclan changetag show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing the tag.'
-  uclan changetag show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Erro use <aqua>/{_uclan} {_changetag} <red><player|tag> <newtag>'
+  uclan changetag show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The clan tag <aqua>%clan% <green>has been changed to <aqua>%newtag%
+  uclan changetag show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing the tag.
+  uclan changetag show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Erro use <aqua>/{_uclan} {_changetag} <red><player|tag> <newtag>
   uclan resetplayerkdr show on_help: <click:suggest_command:"/{_uclan} {_resetplayerkdr}"><hover:show_text:'<green>Click to reset player KDR.'> <aqua>/{_uclan} {_resetplayerkdr} <red><player> <gray>-<yellow> Reset Player KDR.</hover></click>
-  uclan resetplayerkdr show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have reset the KDR of the player <green>%player%'
-  uclan resetplayerkdr show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while resetting'
-  uclan resetplayerkdr show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_resetplayerkdr} <red><player>'
+  uclan resetplayerkdr show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have reset the KDR of the player <green>%player%
+  uclan resetplayerkdr show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while resetting
+  uclan resetplayerkdr show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_resetplayerkdr} <red><player>
   uclan resetclankdr show on_help: <click:suggest_command:"/{_uclan} {_resetclankdr} "><hover:show_text:'<green>Click to reset Clan KDR.'> <aqua>/{_uclan} {_resetclankdr} <red><player|tag> <gray>-<yellow> Reset Clan KDR.</hover></click>
-  uclan resetclankdr show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have reset the KDR of the clan <green>%uclans_tag_color%'
-  uclan resetclankdr show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while resetting'
-  uclan resetclankdr show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_resetclankdr} <red><player|tag>'
+  uclan resetclankdr show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have reset the KDR of the clan <green>%uclans_tag_color%
+  uclan resetclankdr show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while resetting
+  uclan resetclankdr show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_resetclankdr} <red><player|tag>
   uclan globalff show on_help: <click:suggest_command:"/{_uclan} {_globalff} "><hover:show_text:'<green>Click to toggle clan friendly fire.'> <aqua>/{_uclan} {_globalff} <gray>-<yellow> Toggle clan friendly fire.</hover></click>
-  uclan globalff show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have changed a global ff to <aqua>%uclans_global_ff_formated%'
-  uclan globalff show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error to use globaff.'
-  uclan globalff show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_globalff}'
+  uclan globalff show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have changed a global ff to <aqua>%uclans_global_ff_formated%
+  uclan globalff show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error to use globaff.
+  uclan globalff show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_globalff}
   uclan delete show on_help: <click:suggest_command:"/{_uclan} {_delete} "><hover:show_text:'<green>Click to delete a clan.'> <aqua>/{_uclan} {_delete} <red><player|tag> <gray>-<yellow> Delete a clan.</hover></click>
-  uclan delete show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have deleted a clan!'
-  uclan delete show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error deleting the clan.'
-  uclan delete show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_delete} <red><player|tag>'
+  uclan delete show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have deleted a clan!
+  uclan delete show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error deleting the clan.
+  uclan delete show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_delete} <red><player|tag>
   uclan forcejoin show on_help: <click:suggest_command:"/{_uclan} {_forcejoin} "><hover:show_text:'<green>Click to add a player to a clan.'> <aqua>/{_uclan} {_forcejoin} <red><player> <player|tag> <gray>-<yellow> Add a player to a clan.</hover></click>
-  uclan forcejoin show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You added the player!'
-  uclan forcejoin show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error adding player.'
-  uclan forcejoin show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_forcejoin} <red><player> <player|tag>'
+  uclan forcejoin show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You added the player!
+  uclan forcejoin show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error adding player.
+  uclan forcejoin show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_forcejoin} <red><player> <player|tag>
   uclan verify show on_help: <click:suggest_command:"/{_uclan} {_verify} "><hover:show_text:'<green>Click to verify a clan.'> <aqua>/{_uclan} {_verify} <red><player|tag> <gray>-<yellow> Verify a clan.</hover></click>
-  uclan verify show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>You have toggled clan verification!'
-  uclan verify show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error checking the clan.'
-  uclan verify show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_verify} <red><player|tag>'
+  uclan verify show on_success: <aqua><bold>Clanes</bold> <gray>| <green>You have toggled clan verification!
+  uclan verify show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error checking the clan.
+  uclan verify show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_verify} <red><player|tag>
   uclan reload show on_help: <click:suggest_command:"/{_uclan} {_reload} "><hover:show_text:'<green>Click to reload plugin configurations.'> <aqua>/{_uclan} {_reload} <gray>-<yellow> Reload the settings.</hover></click>
-  uclan reload show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Plugin reloaded successfully <gray>(%time%).'
-  uclan reload show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error reloading settings.'
-  uclan reload show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_reload}'
+  uclan reload show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Plugin reloaded successfully <gray>(%time%).
+  uclan reload show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error reloading settings.
+  uclan reload show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_reload}
   uclan emptyclans show on_help: <click:suggest_command:"/{_uclan} {_emptyclans} "><hover:show_text:'<green>Click to start.'> <aqua>/{_uclan} {_emptyclans} <red><-arg:value> <gray>-<yellow> Clear server clans.</hover></click>
-  uclan emptyclans show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Verification of player and clan data has started, follow below.'
+  uclan emptyclans show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Verification of player and clan data has started, follow below.
   uclan emptyclans show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred, maybe you didnt specify the arguments correctly. <red>Keys: {keys}'
-  uclan emptyclans show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_emptyclans} <red><-arg:value>'
+  uclan emptyclans show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_emptyclans} <red><-arg:value>
   uclan kick show on_help: <click:suggest_command:"/{_uclan} {_kick} "><hover:show_text:'<green>Click to start.'> <aqua>/{_uclan} {_kick} <red><TAG> <Player> <gray>-<yellow> Remove a clan player.</hover></click>
-  uclan kick show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The player has been successfully removed.'
-  uclan kick show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while removing the player from the clan.'
-  uclan kick show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_kick} <red><TAG> <Player>'
+  uclan kick show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The player has been successfully removed.
+  uclan kick show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while removing the player from the clan.
+  uclan kick show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_kick} <red><TAG> <Player>
   uclan setleader show on_help: <click:suggest_command:"/{_uclan} {_setleader} "><hover:show_text:'<green>Click to start.'> <aqua>/{_uclan} {_setleader} <red><TAG> <Player> <gray>-<yellow> Set a clan leader.</hover></click>
-  uclan setleader show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The new leader has been successfully changed.'
-  uclan setleader show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while set the new clan leader.'
-  uclan setleader show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_setleader} <red><TAG> <Player>'
+  uclan setleader show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The new leader has been successfully changed.
+  uclan setleader show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while set the new clan leader.
+  uclan setleader show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_setleader} <red><TAG> <Player>
   uclan bank show on_help: <click:run_command:"/{_uclan} {_bank} "><hover:show_text:'<green>Click to expand bank commands.'> <aqua>/{_uclan} {_bank} <gray>-<yellow> Change clan bank.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  uclan bank show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>success'
-  uclan bank show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing uclan bank.'
-  uclan bank show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_bank}'
+  uclan bank show on_success: <aqua><bold>Clanes</bold> <gray>| <green>success
+  uclan bank show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing uclan bank.
+  uclan bank show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_bank}
   uclan bank subcommands view: <click:suggest_command:"/{_uclan} {_bank} {_view} "><hover:show_text:'<green>Click to view a bank.'> <aqua>/{_uclan} {_bank} {_view} <red><tag|player> <gray>-<yellow> View a clan bank.</hover></click>
-  uclan bank subcommands view show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>This clans bank has <green>{value}.'
-  uclan bank subcommands view show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>Error when viewing a clans bank.'
-  uclan bank subcommands view show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_bank} {_view} <red><tag|player>'
+  uclan bank subcommands view show on_success: <aqua><bold>Clanes</bold> <gray>| <green>This clans bank has <green>{value}.
+  uclan bank subcommands view show on_error: <aqua><bold>Clanes</bold> <gray>| <red>Error when viewing a clans bank.
+  uclan bank subcommands view show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_bank} {_view} <red><tag|player>
   uclan bank subcommands set: <click:suggest_command:"/{_uclan} {_bank} {_set} "><hover:show_text:'<green>Click to set the bank.'> <aqua>/{_uclan} {_bank} {_set} <gray>-<yellow> Set the clan bank.</hover></click>
-  uclan bank subcommands set show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The clan bank has been set to <green>{value}'
-  uclan bank subcommands set show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing the bank.'
-  uclan bank subcommands set show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_bank} {_set} <red><tag|player> <value>'
+  uclan bank subcommands set show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The clan bank has been set to <green>{value}
+  uclan bank subcommands set show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing the bank.
+  uclan bank subcommands set show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_bank} {_set} <red><tag|player> <value>
   uclan bank subcommands remove: <click:suggest_command:"/{_uclan} {_bank} {_remove} "><hover:show_text:'<green>Click to remove bank.'> <aqua>/{_uclan} {_bank} {_remove} <red><tag|player> <value> <gray>-<yellow> Remove from a clan bank.</hover></click>
-  uclan bank subcommands remove show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The clan bank has been changed to <green>{value}'
-  uclan bank subcommands remove show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing the bank.'
-  uclan bank subcommands remove show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_bank} {_remove} <red><tag|player> <value>'
+  uclan bank subcommands remove show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The clan bank has been changed to <green>{value}
+  uclan bank subcommands remove show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing the bank.
+  uclan bank subcommands remove show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_bank} {_remove} <red><tag|player> <value>
   uclan bank subcommands add: <click:suggest_command:"/{_uclan} {_bank} {_add} "><hover:show_text:'<green>Click to add bank.'> <aqua>/{_uclan} {_bank} {_add} <red><tag|player> <value> <gray>-<yellow> Add to a clan bank.</hover></click>
-  uclan bank subcommands add show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The clan bank has been changed to <green>{value}'
-  uclan bank subcommands add show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing the bank.'
-  uclan bank subcommands add show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_bank} {_add} <red><tag|player> <value>'
+  uclan bank subcommands add show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The clan bank has been changed to <green>{value}
+  uclan bank subcommands add show on_error: <aqua><bold>Clanes</bold> <gray>| <red>An error occurred while changing the bank.
+  uclan bank subcommands add show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_bank} {_add} <red><tag|player> <value>
   uclan extension show on_help: <click:run_command:"/{_uclan} {_extension} "><hover:show_text:'<green>Click to view and edit.'> <aqua>/{_uclan} {_extension} <gray>-<yellow> View and Edit extensions.</hover></click> <hover:show_text:'<green>With sub commands.'><green>[!]</hover>
-  uclan extension show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>The extension was successfully changed.'
-  uclan extension show on_error: '<aqua><bold>Clanes</bold> <gray>| <red>There was an error changing extension.'
-  uclan extension show on_usage: '<aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_extension}'
+  uclan extension show on_success: <aqua><bold>Clanes</bold> <gray>| <green>The extension was successfully changed.
+  uclan extension show on_error: <aqua><bold>Clanes</bold> <gray>| <red>There was an error changing extension.
+  uclan extension show on_usage: <aqua><bold>Clanes</bold> <gray>| <red>Use <aqua>/{_uclan} {_extension}
   uclan extension subcommands download: <click:suggest_command:"/{_uclan} {_extension} {_download}"><hover:show_text:'<green>Click to change.'> <aqua>/{_uclan} {_extension} {_download} <red><name> <gray>-<yellow> Download an extension.</hover></click>
-  uclan extension subcommands download show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Download process started, wait....'
-  uclan extension subcommands download show on_error: '<aqua><bold>Clanes</bold> <gray>| <aqua>There was an error downloading the extension.'
-  uclan extension subcommands download show on_usage: '<aqua><bold>Clanes</bold> <gray>| <aqua>Use <aqua>/{_uclan} {_extension} {_download} <red><name>'
+  uclan extension subcommands download show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Download process started, wait....
+  uclan extension subcommands download show on_error: <aqua><bold>Clanes</bold> <gray>| <aqua>There was an error downloading the extension.
+  uclan extension subcommands download show on_usage: <aqua><bold>Clanes</bold> <gray>| <aqua>Use <aqua>/{_uclan} {_extension} {_download} <red><name>
   uclan extension subcommands update: <click:suggest_command:"/{_uclan} {_extension} {_update}"><hover:show_text:'<green>Click to update extension.'> <aqua>/{_uclan} {_extension} {_update} <red><name> <gray>-<yellow> Update an extension.</hover></click>
-  uclan extension subcommands update show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Update process started, wait...'
-  uclan extension subcommands update show on_error: '<aqua><bold>Clanes</bold> <gray>| <aqua>There was an error update the extension.'
-  uclan extension subcommands update show on_usage: '<aqua><bold>Clanes</bold> <gray>| <aqua>Use <aqua>/{_uclan} {_extension} {_update} <red><name>'
+  uclan extension subcommands update show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Update process started, wait...
+  uclan extension subcommands update show on_error: <aqua><bold>Clanes</bold> <gray>| <aqua>There was an error update the extension.
+  uclan extension subcommands update show on_usage: <aqua><bold>Clanes</bold> <gray>| <aqua>Use <aqua>/{_uclan} {_extension} {_update} <red><name>
   uclan extension subcommands list: <click:suggest_command:"/{_uclan} {_extension} {_list}"><hover:show_text:'<green>Click to list installed extensions.'> <aqua>/{_uclan} {_extension} {_list} <gray>-<yellow> List installed extensions.</hover></click>
-  uclan extension subcommands list show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Extension has been listed.'
-  uclan extension subcommands list show on_error: '<aqua><bold>Clanes</bold> <gray>| <aqua>There was an error listing extensions.'
-  uclan extension subcommands list show on_usage: '<aqua><bold>Clanes</bold> <gray>| <aqua>Use <aqua>/{_uclan} {_extension} {_list}'
+  uclan extension subcommands list show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Extension has been listed.
+  uclan extension subcommands list show on_error: <aqua><bold>Clanes</bold> <gray>| <aqua>There was an error listing extensions.
+  uclan extension subcommands list show on_usage: <aqua><bold>Clanes</bold> <gray>| <aqua>Use <aqua>/{_uclan} {_extension} {_list}
   uclan extension subcommands all: <click:suggest_command:"/{_uclan} {_extension} {_all}"><hover:show_text:'<green>Click to view all extension.'> <aqua>/{_uclan} {_extension} {_all} <gray>-<yellow> List available extensions.</hover></click>
-  uclan extension subcommands all show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Extensions successfully listed.'
-  uclan extension subcommands all show on_error: '<aqua><bold>Clanes</bold> <gray>| <aqua>There was an error listing the extensions.'
-  uclan extension subcommands all show on_usage: '<aqua><bold>Clanes</bold> <gray>| <aqua>Use <aqua>/{_uclan} {_extension} {_all}'
+  uclan extension subcommands all show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Extensions successfully listed.
+  uclan extension subcommands all show on_error: <aqua><bold>Clanes</bold> <gray>| <aqua>There was an error listing the extensions.
+  uclan extension subcommands all show on_usage: <aqua><bold>Clanes</bold> <gray>| <aqua>Use <aqua>/{_uclan} {_extension} {_all}
   uclan extension subcommands reload: <click:suggest_command:"/{_uclan} {_extension} {_reload}"><hover:show_text:'<green>Click to reload extensions.'> <aqua>/{_uclan} {_extension} {_reload}<gray>-<yellow> Reload extensions.</hover></click>
-  uclan extension subcommands reload show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Extensions have been reloaded successfully <gray>(%time%).'
-  uclan extension subcommands reload show on_error: '<aqua><bold>Clanes</bold> <gray>| <aqua>There was an error reloading extensions.'
-  uclan extension subcommands reload show on_usage: '<aqua><bold>Clanes</bold> <gray>| <aqua>Use <aqua>/{_uclan} {_extension} reload'
+  uclan extension subcommands reload show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Extensions have been reloaded successfully <gray>(%time%).
+  uclan extension subcommands reload show on_error: <aqua><bold>Clanes</bold> <gray>| <aqua>There was an error reloading extensions.
+  uclan extension subcommands reload show on_usage: <aqua><bold>Clanes</bold> <gray>| <aqua>Use <aqua>/{_uclan} {_extension} reload
   uclan extension subcommands view: <click:suggest_command:"/{_uclan} {_extension} {_view}"><hover:show_text:'<green>Click to view extensions.'> <aqua>/{_uclan} {_extension} {_view} <red><name> <gray>-<yellow> View extension.</hover></click>
-  uclan extension subcommands view show on_success: '<aqua><bold>Clanes</bold> <gray>| <green>Success.'
-  uclan extension subcommands view show on_error: '<aqua><bold>Clanes</bold> <gray>| <aqua>There was an error viewing extensions.'
-  uclan extension subcommands view show on_usage: '<aqua><bold>Clanes</bold> <gray>| <aqua>Use <aqua>/{_uclan} {_extension} {_view} <red><name>'
+  uclan extension subcommands view show on_success: <aqua><bold>Clanes</bold> <gray>| <green>Success.
+  uclan extension subcommands view show on_error: <aqua><bold>Clanes</bold> <gray>| <aqua>There was an error viewing extensions.
+  uclan extension subcommands view show on_usage: <aqua><bold>Clanes</bold> <gray>| <aqua>Use <aqua>/{_uclan} {_extension} {_view} <red><name>
  
  
  # TRANSLATIONS OF THE CHAT ACTIONS
@@ -991,7 +991,7 @@ CHAT:
     bossbar: <red><bold>!</bold> <yellow>Type your nickname in the chat! <red>({time})
   commandunknownplayer:
     message:
-    - '<aqua><bold>Clanes</bold> <gray>| <red>Unknown command, <aqua><click:run_command:"/{_clan} {_help}"><hover:show_text:"<green>Click here to view Help."><red>[CLICK HERE]</red></hover></click> <red>or use <light_purple>/{_clan} {_help} <red>to see the list of available commands.'
+    - <aqua><bold>Clanes</bold> <gray>| <red>Unknown command, <aqua><click:run_command:"/{_clan} {_help}"><hover:show_text:"<green>Click here to view Help."><red>[CLICK HERE]</red></hover></click> <red>or use <light_purple>/{_clan} {_help} <red>to see the list of available commands.
     actionbar: <light_purple>/{_clan} {_help} <red>to see available commands.
     title:
       line: <red>! <light_purple>/{_clan} {_help}
@@ -999,7 +999,7 @@ CHAT:
     bossbar: <light_purple>/{_clan} {_help} <red>to see available commands. <red>({time})
   commandunknownadmin:
     message:
-    - '<aqua><bold>Clanes</bold> <gray>| <red>Unknown command, <aqua><click:run_command:"/uclan help"><hover:show_text:"<green>Click here to view Help."><red>[CLICK HERE]</red></hover></click> <red>or use <light_purple>/uclan help <red>to see the list of available commands.'
+    - <aqua><bold>Clanes</bold> <gray>| <red>Unknown command, <aqua><click:run_command:"/uclan help"><hover:show_text:"<green>Click here to view Help."><red>[CLICK HERE]</red></hover></click> <red>or use <light_purple>/uclan help <red>to see the list of available commands.
     actionbar: <light_purple>/uclan help <red>to see available commands.
     title:
       line: <red>! <light_purple>/uclan help
@@ -1007,7 +1007,7 @@ CHAT:
     bossbar: <light_purple>/uclan help <red>to see available commands. <red>({time})
   clanlevelreceived:
     message:
-    - '<aqua><bold>Clanes</bold> <gray>| <yellow>The <aqua>%uclans_tag_color% <yellow>clan is now at level <aqua>%uclans_level%'
+    - <aqua><bold>Clanes</bold> <gray>| <yellow>The <aqua>%uclans_tag_color% <yellow>clan is now at level <aqua>%uclans_level%
     actionbar: <aqua>%uclans_tag_color% <yellow>clan is now at level <aqua>%uclans_level%
     title:
       line: <green>+ Level
@@ -1015,7 +1015,7 @@ CHAT:
     bossbar: <aqua>%uclans_tag_color% <yellow>clan is now at level <aqua>%uclans_level% <red>({time})
   clanpatentreceived:
     message:
-    - '<aqua><bold>Clanes</bold> <gray>| <yellow>The <aqua>%uclans_tag_color% <yellow>changed patent to <aqua>%uclans_patent_formated%'
+    - <aqua><bold>Clanes</bold> <gray>| <yellow>The <aqua>%uclans_tag_color% <yellow>changed patent to <aqua>%uclans_patent_formated%
     actionbar: <aqua>%uclans_tag_color% <yellow>has new patent <aqua>%uclans_patent_formated%
     title:
       line: <green>+ Patent
