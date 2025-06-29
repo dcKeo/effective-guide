@@ -11,7 +11,7 @@ skills:
     xp: 91.33180000000003
   auraskills/mining:
     level: 0
-    xp: 0.2
+    xp: 5.600000000000002
   auraskills/defense:
     level: 0
     xp: 0.0
@@ -23,17 +23,17 @@ skills:
     xp: 0.0
   auraskills/excavation:
     level: 0
-    xp: 0.7
+    xp: 1.4
   auraskills/foraging:
     level: 0
-    xp: 0.0
+    xp: 30.400000000000006
   auraskills/farming:
     level: 0
     xp: 0.0
   auraskills/alchemy:
     level: 100
     xp: 1.7E29
-mana: 147.88000000000278
+mana: 222.0
 action_bar:
   idle: true
 last_job_select_time: 1751165632363
