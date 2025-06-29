@@ -1481,3 +1481,97 @@ Caused by: java.lang.NullPointerException: Cannot invoke "Object.hashCode()" bec
 [02:56:05] [Server thread/INFO]: KeitoC died
 [03:08:27] [Server thread/INFO]: KeitoC lost connection: Disconnected
 [03:08:27] [Server thread/INFO]: - (-) KeitoC
+[03:21:53] [Server thread/INFO]: Stopping the server
+[03:21:53] [Server thread/INFO]: Stopping server
+[03:21:53] [Server thread/INFO]: [UltimateClans] Disabling UltimateClans v8.2.1
+[03:21:53] [Server thread/INFO]: [UltimateClans] Starting shutdown ...
+[03:21:53] [Server thread/INFO]: [UltimateClans] Stoping thread...
+[03:21:53] [Server thread/INFO]: [UltimateClans] Closing storage...
+[03:21:53] [Server thread/INFO]: [UltimateClans] Disabling addons...
+[03:21:53] [Server thread/INFO]: [UltimateClans] Disabling extensions...
+[03:21:53] [Server thread/INFO]: [UltimateClans] Disabling Adventure...
+[03:21:53] [Server thread/INFO]: [UltimateClans] Unregister Listeners...
+[03:21:53] [Server thread/INFO]: [UltimateClans] Unregister Papi...
+[03:21:53] [Server thread/INFO]: [UltimateClans] Canceling Tasks...
+[03:21:53] [Server thread/INFO]: [UltimateClans] Disabling Redis...
+[03:21:53] [Server thread/INFO]: [UltimateClans] Goodbye!
+[03:21:53] [Server thread/INFO]: [FancyHolograms] Disabling FancyHolograms v2.5.0
+[03:21:53] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully disabled FancyHolograms version 2.5.0
+[03:21:53] [Server thread/INFO]: [EzChat] Disabling EzChat v3.1.0
+[03:21:53] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.3
+[03:21:53] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v5.0.2
+[03:21:53] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[03:21:53] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.72-baa3d91
+[03:21:53] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[03:21:53] [Server thread/INFO]: [LPC] Disabling LPC v3.6.2
+[03:21:53] [Server thread/INFO]: [SkBee] Disabling SkBee v3.11.3
+[03:21:53] [Server thread/INFO]: [TAB] Disabling TAB v5.2.2
+[03:21:53] [Server thread/INFO]: [TAB] Disabled in 1ms
+[03:21:53] [Server thread/INFO]: [NextRTP] Disabling NextRTP v1.0.0-beta.4
+[03:21:53] [Server thread/INFO]: [NextRTP] Disabling SignModule
+[03:21:53] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.14.1-Release
+[03:21:53] [Server thread/INFO]: [VoidWorldGenerator] Disabling VoidWorldGenerator v1.3.0
+[03:21:53] [Server thread/INFO]: [packetevents] Disabling packetevents v2.8.0
+[03:21:53] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.3
+[03:21:53] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.6.0
+[03:21:53] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs has been disabled.
+[03:21:53] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v5.0.3
+[03:21:53] [Server thread/INFO]: [ItemsAdder] Disabling ItemsAdder v4.0.11
+[03:21:53] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.0.2
+[03:21:53] [Server thread/INFO]: [Skript] Disabling Skript v2.11.2
+[03:21:53] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-750
+[03:21:53] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v7.5.2-Premium
+[03:21:53] [Server thread/INFO]: [PlotSquared/SQLManager] All DB transactions during this session are being validated (This may take a while if corrections need to be made)
+[03:21:53] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
+[03:21:53] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[03:21:53] [Server thread/INFO]: [XConomy] Disabling XConomy v2.26.3
+[03:21:53] [Server thread/INFO]: [XConomy] XConomy está deshabilitado
+[03:21:53] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[03:21:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[03:21:53] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1120;3dc41d8
+[03:21:53] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[03:21:53] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[03:21:53] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[03:21:53] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.8
+[03:21:53] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[03:21:53] [Server thread/INFO]: [LuckPerms] Closing storage...
+[03:21:53] [Server thread/INFO]: [LuckPerms] Goodbye!
+[03:21:54] [Server thread/INFO]: Saving players
+[03:21:54] [Server thread/INFO]: Saving worlds
+[03:21:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spawn]'/minecraft:overworld
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spawn'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spawn'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spawn'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Spawn' in 0.00s
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Spawn'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Spawn'
+[03:21:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spawn_nether]'/minecraft:the_nether
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spawn_nether'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spawn_nether'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spawn_nether'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'Spawn_nether' in 0.00s
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Spawn_nether'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Spawn_nether'
+[03:21:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spawn_the_end]'/minecraft:the_end
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spawn_the_end'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spawn_the_end'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spawn_the_end'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'Spawn_the_end' in 0.00s
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Spawn_the_end'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Spawn_the_end'
+[03:21:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Atlantis]'/minecraft:atlantis
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Atlantis'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Atlantis'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Atlantis'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 0 entity chunks, 0 poi chunks in world 'Atlantis' in 0.31s
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Atlantis'
+[03:21:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Atlantis'
+[03:21:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (Spawn): All chunks are saved
+[03:21:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:21:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:21:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (Atlantis): All chunks are saved
+[03:21:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:21:54] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[03:21:54] [Server thread/INFO]: All I/O tasks to complete
+[03:21:54] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[03:21:54] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
