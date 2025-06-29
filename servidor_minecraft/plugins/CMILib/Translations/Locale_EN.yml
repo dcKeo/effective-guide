@@ -390,48 +390,48 @@ info:
     zombified_piglin: Zombified piglin
   # Avoid adding color codes to the enchant name
   EnchantNames:
-    luck: Luck
-    protection_explosions: Protection_explosions
-    thorns: Thorns
-    dig_speed: Dig_speed
-    breach: Breach
-    depth_strider: Depth_strider
-    protection_fall: Protection_fall
-    impaling: Impaling
-    silk_touch: Silk_touch
-    oxygen: Oxygen
+    soul_speed: Soul_speed
+    arrow_fire: Arrow_fire
+    lure: Lure
+    multishot: Multishot
+    loot_bonus_blocks: Loot_bonus_blocks
+    piercing: Piercing
     loyalty: Loyalty
-    protection_projectile: Protection_projectile
-    damage_undead: Damage_undead
+    water_worker: Water_worker
+    damage_all: Damage_all
     protection_fire: Protection_fire
     knockback: Knockback
-    multishot: Multishot
-    arrow_infinite: Arrow_infinite
-    wind_burst: Wind_burst
-    swift_sneak: Swift_sneak
-    loot_bonus_mobs: Loot_bonus_mobs
-    arrow_knockback: Arrow_knockback
-    mending: Mending
-    arrow_damage: Arrow_damage
-    riptide: Riptide
-    soul_speed: Soul_speed
-    loot_bonus_blocks: Loot_bonus_blocks
-    binding_curse: Binding_curse
-    protection_environmental: Protection_environmental
-    water_worker: Water_worker
+    dig_speed: Dig_speed
     sweeping_edge: Sweeping_edge
-    lure: Lure
-    vanishing_curse: Vanishing_curse
-    fire_aspect: Fire_aspect
-    arrow_fire: Arrow_fire
-    piercing: Piercing
-    quick_charge: Quick_charge
-    damage_all: Damage_all
+    protection_fall: Protection_fall
+    protection_projectile: Protection_projectile
     density: Density
-    damage_arthropods: Damage_arthropods
+    depth_strider: Depth_strider
+    breach: Breach
+    arrow_damage: Arrow_damage
+    vanishing_curse: Vanishing_curse
+    arrow_knockback: Arrow_knockback
+    protection_environmental: Protection_environmental
+    fire_aspect: Fire_aspect
+    mending: Mending
+    loot_bonus_mobs: Loot_bonus_mobs
+    quick_charge: Quick_charge
+    thorns: Thorns
     frost_walker: Frost_walker
-    durability: Durability
+    damage_arthropods: Damage_arthropods
+    silk_touch: Silk_touch
+    damage_undead: Damage_undead
+    impaling: Impaling
+    arrow_infinite: Arrow_infinite
+    riptide: Riptide
+    protection_explosions: Protection_explosions
+    binding_curse: Binding_curse
+    luck: Luck
+    wind_burst: Wind_burst
     channeling: Channeling
+    swift_sneak: Swift_sneak
+    oxygen: Oxygen
+    durability: Durability
   PotionEffectAliases:
     instanthealth:
     - Instant health
