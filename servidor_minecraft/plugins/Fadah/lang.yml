@@ -1,0 +1,199 @@
+# #########################################
+# #                  Fadah                #
+# #          Language Configuration       #
+# #########################################
+
+prefix: '&#9555FF&lCasa de Subastas &r'
+category-selected: '&e&lSELECCIONADO'
+notifications:
+  advert:
+  - '&f--------------------------------------------------'
+  - '&f%player% &eacaba de crear una nueva oferta en la casa de subastas!'
+  - '&fÍtem: &e%item%'
+  - '&fPrecio: &a$%price%'
+  - '&7&n<click:run_command:''/ah view-listing %listing_id%''><hover:show_text:''Haz
+    clic para ver!''>(¡Haz clic aquí para ver la oferta!)</hover></click>'
+  - '&f--------------------------------------------------'
+  new-listing:
+  - '&f------------------------------------------------'
+  - '&e¡Has publicado exitosamente un artículo a la venta!'
+  - '&fÍtem: &e%item%'
+  - '&fPrecio: &a$%price%'
+  - '&fFinaliza en: &6%time%'
+  - '&fOfertas activas: &d%current_listings%&f/&5%max_listings%'
+  - '&fHas sido gravado con: &9%tax%% &7(&a$%price_after_tax%&7)'
+  - '&f------------------------------------------------'
+  new-item:
+  - '&f-------------------------------------------'
+  - '&e¡Tienes un nuevo ítem en tu caja de colección!'
+  - '&f             /ah redeem!'
+  - '&f-------------------------------------------'
+  expired-item:
+  - '&f-----------------------------------'
+  - '&e¡Tienes ítems expirados por reclamar!'
+  - '&f          /ah expired!'
+  - '&f-----------------------------------'
+  bid-placed:
+  - '&f-------------------------'
+  - '&e¡Has hecho una oferta!'
+  - '&fÍtem: &e%item%'
+  - '&fMonto de la oferta: &a$%price%'
+  - '&f-------------------------'
+  out-bid:
+  - '&f-------------------------'
+  - '&e¡Alguien ha superado tu oferta!'
+  - '&fÍtem: &e%item%'
+  - '&fOferta actual: &a$%price%'
+  - '&f-------------------------'
+  sale:
+  - '&f----------------------------------------------'
+  - '&e¡Has vendido un artículo en la Casa de Subastas!'
+  - '&fÍtem: &e%item%'
+  - '&fGanancia: &a$%price%'
+  - '&fComprador: &a$%buyer%'
+  - '&f----------------------------------------------'
+  watched:
+  - '&f-------------------------------------------------------'
+  - '&e¡Un artículo que coincide con tus criterios ha sido listado!'
+  - '&fÍtem: &e%item%'
+  - '&fPrecio: &a$%price%'
+  - '&7&n<click:run_command:''/ah view-listing %listing_id%''><hover:show_text:''Haz
+    clic para ver!''>(¡Haz clic aquí para ver la oferta!)</hover></click>'
+  - '&f-------------------------------------------------------'
+  cancelled: '&c¡Oferta cancelada!'
+commands:
+  main:
+    description: Abre el navegador de ofertas
+    aliases:
+    - casa
+    - ah
+    - subastas
+    - subasta
+  sell:
+    description: Crea una nueva oferta en la casa de subastas
+    aliases:
+    - nueva-oferta
+    - crear-oferta
+    must-hold-item: '&c¡Debes tener un ítem en la mano para venderlo!'
+    must-be-number: '&c¡El precio debe ser un número!'
+    max-listings: '&c¡Has alcanzado tu límite de ofertas! (%current%/%max%)'
+    listing-price:
+      max: '&fEl precio debe ser menor a &a$%price%'
+      min: '&fEl precio debe ser al menos &a$%price%'
+  view:
+    description: Ver ofertas activas de otro jugador
+    aliases:
+    - visitar
+  watch:
+    description: Vigilar artículos y recibir notificaciones al listar
+    aliases:
+    - escuchar
+  profile:
+    description: Ver tu perfil de subastas
+    aliases: []
+  active-listings:
+    description: Ver tus ofertas activas
+    aliases:
+    - activas
+  expired-items:
+    description: Ver tus artículos expirados
+    aliases:
+    - expirados
+  collection-box:
+    description: Ver tu caja de colección
+    aliases:
+    - reclamar
+  history:
+    description: Ver tu historial de ofertas
+    aliases:
+    - historial
+  help:
+    description: ¡Este comando!
+    aliases: []
+    primary-color: '#9555FF'
+    highlight-color: '#9be0af'
+    alternative-highlight-color: '#bba4e0'
+    text-color: '#7c7a80'
+    accent-color: '#525254'
+  reload:
+    description: Recargar Casa de Subastas
+    aliases:
+    - rl
+    success: '&a¡Todas las configuraciones se recargaron correctamente!'
+    fail: '&c¡Algunas configuraciones fallaron al recargar! &7(Revisa la consola)'
+    remote: '&a¡Se ha recibido una recarga global de configuración!'
+  toggle:
+    description: Alternar si las personas pueden usar la casa de subastas
+    aliases: []
+    message: '&f¡Casa de Subastas ha sido %status%&r&f!'
+    remote: '&f¡La Casa de Subastas ha sido %status%&r&f desde otro servidor!'
+    enabled: '&a&lHABILITADA'
+    disabled: '&c&lDESHABILITADA'
+  about:
+    description: Obtener información sobre Casa de Subastas
+    aliases: []
+  view-listing:
+    description: Ver una oferta específica
+    aliases: []
+  search:
+    description: Buscar ofertas activas
+    aliases:
+    - buscar
+advert-actions:
+  post: Publicar Anuncio
+  silent: Sin Anuncio
+log-actions:
+  listing-started: Oferta Creada
+  listing-purchased: Oferta Comprada
+  listing-sold: Oferta Vendida
+  listing-cancelled: Oferta Cancelada
+  listing-expired: Oferta Expirada
+  expired-item-claimed: Ítem Expirado Reclamado
+  collection-box-claimed: Ítem Reclamado de la Caja
+  listing-cancelled-admin: Oferta Cancelada por Admin
+  expired-item-claimed-admin: Ítem Expirado Reclamado por Admin
+  collection-box-claimed-admin: Ítem de la Caja Reclamado por Admin
+sort:
+  age:
+    name: Ordenar por Antigüedad
+    descending: Más Antiguas Primero
+    ascending: Más Nuevas Primero
+  name:
+    name: Ordenar Alfabéticamente por Nombre
+    descending: Descendente (Z-A)
+    ascending: Ascendente (A-Z)
+  price:
+    name: Ordenar por Precio
+    descending: Más Baratas Primero
+    ascending: Más Caras Primero
+  mode:
+    name: Ordenar por Modo
+    descending: Subastas Primero
+    ascending: Compra Directa Primero
+errors:
+  disabled: '&c¡La Casa de Subastas está deshabilitada actualmente!'
+  command-not-found: '&c¡Ese comando no existe!'
+  must-be-player: '&c¡Solo los jugadores pueden usar este comando!'
+  restricted: '&c¡No puedes vender este ítem!'
+  no-permission: '&c¡No tienes permiso para usar este comando!'
+  player-not-found: '&c¡No se encontró a %player%!'
+  invalid-usage: '&cUso: /%syntax%'
+  invalid-argument: '&cArgumento inválido: %cause%'
+  does-not-exist: '&c¡Esta oferta no existe!'
+  own-listings: '&c¡No puedes comprar tu propia oferta!'
+  too-expensive: '&c¡No puedes pagar este ítem!'
+  inventory-full: '&c¡No tienes espacio en tu inventario!'
+  advert-expense: '&c¡El anuncio falló porque no tienes suficiente dinero!'
+  database-loading: '&c¡La base de datos no está conectada! Por favor espera'
+  cooldown: '&c¡Espera &f%time%&c antes de intentarlo de nuevo!'
+  other: '&c¡Fallo al listar el ítem! (%ex%)'
+  already-highest-bidder: '&c¡Ya eres el mejor postor!'
+  bid-too-low: '&c¡Tu oferta es menor que la actual!'
+  mcmmo-blocking: '&c¡No puedes listar ítems mientras usas una habilidad de mcMMO!'
+words:
+  your: tu
+  none: Ninguno
+  starting-bid: Oferta Inicial
+  modes:
+    buy-it-now: COMPRA
+    bidding: SUBASTA

@@ -1,0 +1,95 @@
+title: '&9&lCasa de Subastas &8> &3Nuevo Listado'
+
+lang:
+  create:
+    icon: EMERALD
+    model-data: 0
+    name: '&aClick para crear una lista!'
+    lore:
+      - '&cAl hacer click en este botón se publicará inmediatamente'
+      - '&ctu objeto en la casa de subastas por &a$%price%'
+  time:
+    icon: CLOCK
+    model-data: 0
+    name: '&aMomento en que la lista estará activa'
+    lore:
+      - '&fActual: &6%time%'
+      - '&7Click Izquierdo para añadir 1 Hora'
+      - '&7Click Derecho para remover 1 Hora'
+      - '&7Shift + Click Izquierdo para añadir 30 Minutos'
+      - '&7Shift + Click Derecho para remover 30 Minutos'
+  advert:
+    icon: OAK_SIGN
+    model-data: 0
+    name: "&eAnunciar el anuncio"
+    lore:
+      - '&fPrecio del anuncio: &a$%cost%'
+      - '&7Click para Alternar'
+      - '&8-------------------------'
+      - '%first%'
+      - '%second%'
+      - '&8-------------------------'
+    options:
+      selected: '&8> &e%option%'
+      not-selected: '&f%option%'
+  currency:
+    icon: GOLD_INGOT
+    model-data: 0
+    name: '&aCurrencia'
+    lore:
+      - '&7Click Izquierdo para subir'
+      - '&7Click Derecho para bajar'
+      - '&8-------------------------'
+      - '&f%previous%'
+      - '&8> &e%current%'
+      - '&f%next%'
+      - '&8-------------------------'
+  mode:
+    icon: HOPPER
+    model-data: 0
+    name: '&bModo de Lista'
+    lore:
+      - '&7Click para Alternar'
+      - '&8-------------------------'
+      - '%first%'
+      - '%second%'
+      - '&8-------------------------'
+    options:
+      selected: '&8> &e%option%'
+      not-selected: '&f%option%'
+
+size: 6
+
+layout:
+  '0': "FILLER"
+  '1': "FILLER"
+  '2': "FILLER"
+  '3': "FILLER"
+  '4': "FILLER"
+  '5': "FILLER"
+  '6': "FILLER"
+  '7': "FILLER"
+  '8': "FILLER"
+  '9': "FILLER"
+  '13': "LISTING_ITEM"
+  '17': "FILLER"
+  '18': "FILLER"
+  '26': "FILLER"
+  '27': "FILLER"
+  '31': "LISTING_START"
+  '35': "FILLER"
+  '36': "FILLER"
+  '38': "LISTING_MODE"
+  '39': "CURRENCY"
+  '41': "LISTING_TIME"
+  '42': "LISTING_ADVERT"
+  '44': "FILLER"
+  '45': "FILLER"
+  '46': "FILLER"
+  '47': "FILLER"
+  '48': "FILLER"
+  '49': "CLOSE"
+  '50': "FILLER"
+  '51': "FILLER"
+  '52': "FILLER"
+  '53': "FILLER"

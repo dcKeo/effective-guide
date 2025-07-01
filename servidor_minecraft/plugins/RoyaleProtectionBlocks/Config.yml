@@ -1,0 +1,254 @@
+#--------------------------------------------------------------------------#
+#                                                                          #
+#              _____ _____         _   _____ _         _                   #
+#             | __  |  _  |___ ___| |_| __  | |___ ___| |_ ___             #
+#             |    -|   __|  _| . |  _| __ -| | . |  _| '_|_ -|            #
+#             |__|__|__|  |_| |___|_| |_____|_|___|___|_,_|___|            #
+#                                                                          #
+#        _          ____          _   _____           _     ___ ___        #
+#       | |_ _ _   |    \ ___ ___| |_|  _  |___ ___ _| |___|_  |_  |       #
+#       | . | | |  |  |  | .'|  _| '_|   __| .'|   | . | .'| | |_  |       #
+#       |___|_  |  |____/|__,|_| |_,_|__|  |__,|_|_|___|__,| |_|___|       #
+#           |___|                                                          #
+#                                                                          #
+#--------------------------------------------------------------------------#
+
+#---{File version}
+#
+# DON'T TOUCH THIS SECTION! You can move it, but you can't remove this sections
+# or change its values. This values are used to manage the different versions of
+# this file. New files with newer versions uses this part to check if the file is
+# new or old, and change the format to the new one.
+#
+#---
+
+Version: 7
+
+#---
+# MySQL database
+# If MySQL is active, SQLite is automatically disabled.
+# WARNING
+# Currently the information is NOT automatically transferred from SQLite to MySQL
+#---
+
+MySQL: 
+  Enable: false
+  Protocol: "jdbc:mysql:"
+  Hostname: "localhost"
+  Port: 3306
+  Database: "database"
+  Username: "username"
+  Password: "password"
+  Parameters: "sslMode=DISABLED&connectionTimeout=3000&socketTimeout=3000"
+  Table-prefix: ""
+  
+Settings: 
+  
+  #---
+  # Enable if you wish to get a notification on the console if there's a new update
+  # available. Also you can enable if you wish to get the notification in-game.
+  # Only you'll receive the notification if you have OP.
+  #---
+  
+  Update-checker: 
+    Enabled: true
+    Join-message: true
+    
+  #---
+  # If enabled, the plugin will start showing the enabled debug messages. On the
+  # section below, you can allow the log of some specific messages in console.
+  #---
+  
+  Debug: 
+    Enabled: false
+    Messages: 
+      Block-place: true
+      Oraxen-block-place: true
+      Itemsadder-block-place: true
+      Block-place-not-protection-block: true
+      Block-place-is-protection-block: true
+      Block-place-cancelled-build: true
+      Block-place-cancelled: true
+      Block-break: true
+      Oraxen-block-break: true
+      Itemsadder-block-break: true
+      Block-break-cancelled: true
+      Protection-creation-attempt: true
+      Protection-creation: true
+      Protection-removal-attempt: true
+      Protection-removal: true
+      
+      Protection-creation-attempt-cancelled: true
+      Protection-removal-attempt-cancelled: true
+      Player-teleport-to-protection-attempt: true
+      Player-teleport-to-protection-attempt-cancelled: true
+  #---
+  # Specify if the right click should open the management inventory.
+  #---
+  
+  Protection: 
+    
+    #---
+    # Define a minimum distance between protections. If set to '-1', it'll be disabled.
+    #---
+    
+    Minimum-distance-between-protections: -1
+    
+    #---
+    # Define a default message to show up in chat after entering or exiting a protection.
+    #---
+    
+    Message-on-enter-region: "&eWelcome &7{player_name} &eto &a{protection_name}&e!"
+    Message-on-exit-region: "&eSee you later! :D"
+    
+    #---
+    # Define a default message to show up on the action bar after entering or exiting a protection.
+    #---
+    
+    Actionbar-message-on-enter-region: ""
+    Actionbar-message-on-exit-region: ""
+    
+    #---
+    # Define a default message to show up on screen after entering or exiting a protection.
+    #---
+    
+    Title-on-enter-region: ""
+    Subtitle-on-enter-region: ""
+    Title-on-exit-region: ""
+    Subtitle-on-exit-region: ""
+    
+    #---
+    # Add here all the worlds you don't wish people to be able to use protection blocks
+    #---
+    
+    Banned-worlds: 
+    - "World1"
+    - "World2"
+    - "World3"
+    
+    #---
+    # Specify the ID of the block you wish to give people the first time they join the server.
+    #---
+    
+    Starter-block: ""
+    
+    #---
+    # Specify amount of time in seconds which will last the /pb view command. This command can be
+    # cancelled by executing /pb view again, the timer is only made to remove the boundaries
+    # after a while.
+    #---
+    
+    Boundaries-view-duration-in-seconds: 30
+    
+    #---
+    # Specifies the time to wait between executions of this command.
+    #---
+    
+    Teleport-cooldown: 30
+    
+    #---
+    # Define the amount of seconds a player must stay still before getting teleported.
+    #---
+    
+    Teleport-stay-still-for-seconds: 0.0
+    
+    #---
+    # Specify if the home os a protection should be the position of the player after placing it.
+    #---
+    
+    Set-player-position-as-home-on-creation: true
+    
+    #---
+    # Specify if the right click should open the management inventory.
+    #---
+    
+    Open-inventory-on-interact: true
+    
+    #---
+    # Specify if an owner can place another proection inside of its own protections.
+    #---
+    
+    Allow-regions-inside-another-from-same-owner: true
+    
+    #---
+    # Set the purge settings to it will start removing the protections older than
+    # a specified amount of time.
+    #---
+    
+    Auto-purge: 
+      
+      #---
+      # Set a certain amount of time which will be used to define a protection as expired.
+      #
+      # - 's': seconds
+      # - 'm': minutes
+      # - 'h': hours
+      # - 'd': days
+      # - 'w': weeks
+      # - 'M': months (30 days)
+      # - 'y': years
+      #---
+      
+      Purge-older-than: "7d"
+      
+      #---
+      # Set a certain amount of time which the plugin will check for expired protections.
+      # Leave empty to disable the auto-purge
+      #
+      # - 's': seconds
+      # - 'm': minutes
+      # - 'h': hours
+      # - 'd': days
+      # - 'w': weeks
+      # - 'M': months (30 days)
+      # - 'y': years
+      #---
+      
+      Execute-every: ""
+      
+    Maximum-display-name-length: 255
+    Must-be-close-for-merge: true
+    Default-display-name: "{protection_world}_{protection_location_x}_{protection_location_y}_{protection_location_z}"
+    Default-priority: 0
+    Radius-for-search-cache: 50.0
+    Drop-item-on-full-inventory: false
+    Allow-multi-thread-searching: false
+  #---
+  # Change the settings of the hook between RoyaleProtectionBlocks and DeluxeCombat.
+  #---
+  
+  Deluxe-combat: 
+    
+    #---
+    # Disable or enable certain actions to become available while players are in combat.
+    #---
+    
+  Message-listener: 
+    Listener-priority: "LOWEST"
+  Protection-block: 
+    Open-shop-on-empty-list: false
+  Combat-log-hook: 
+    Deluxe-combat-enabled: true
+    Combat-log-X-enabled: true
+    PvP-manager-enabled: true
+    Cancel-protection-creation-in-combat: true
+    Cancel-protection-removal-in-combat: true
+    Cancel-protection-teleport-in-combat: true
+Logging: 
+  Enabled: false
+  Show-on-console: 
+  - "DEBUG"
+  - "INFO"
+  - "WARNING"
+  - "ERROR"
+  - "NONE"
+  Show-on-logs: 
+  - "DEBUG"
+  - "INFO"
+  - "WARNING"
+  - "ERROR"
+  - "NONE"
+  Console-format: "{prefix}{message}"
+  Logs-format: "[{level}][{class}.{method}()] {datetime} {message}"
+SQL: 
+  Print-queries-in-console: false

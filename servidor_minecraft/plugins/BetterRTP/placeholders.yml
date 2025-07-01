@@ -1,0 +1,39 @@
+# # These are a list of placeholders for your use, Editting these will do nothing!
+betterrtp_count: Get total amount of rtp's done
+betterrtp_cooldown: Get cooldown in current world
+betterrtp_cooldown_<world_name>: Get cooldown of a specified world
+betterrtp_cooldowntime: Get cooldown time subject to in current world
+betterrtp_cooldowntime_<world_name>: Get cooldown time subject to in specified world
+betterrtp_canrtp: Get the reason or yes output if player can rtp in current world
+betterrtp_canrtp_<world_name>: Get the reason or yes output if player can rtp in set
+  world
+betterrtp_canrtpcooldown: Get if a player can rtp just based off their cooldown
+betterrtp_canrtpcooldown_<world_name>: Get if a player can rtp just based off their
+  cooldown for this world
+betterrtp_canrtpprice: Get if a player can rtp just based off their bank account
+betterrtp_canrtpprice_<world_name>: Get if a player can rtp just based off their bank
+  account for this world
+betterrtp_canrtphunger: Get if a player can rtp just based off their hunger
+betterrtp_canrtphunger_<world_name>: Get if a player can rtp just based off their
+  hunger for this world
+betterrtp_price: Get the price of rtp'ing in current world
+betterrtp_price_<world_name>: Get the price of rtp'ing in specified world
+
+# #Config section for placeholder outputs
+Config:
+  TimeFormat:
+    Days: '{0} Día(s)'
+    Hours: '{0} Hora(s)'
+    Minutes: '{0} Minuto(s)'
+    Seconds: '{0} Segundo(s)'
+    ZeroAll: Ninguno
+    Infinite: Infinito
+    Separator:
+      Middle: ', ' # Ex: 1 Days, 5 Hours, 2 mins and 5 secs
+      Last: ' y ' # Ex: 1 Mins and 10 Secs
+  CanRTP:
+    Success: '&8[&a&l!&r&8] &aSi'
+    NoPermission: '&8[&c&l!&r&8] &cSin Permisos'
+    Cooldown: '&8[&e&l!&r&8] &fRefrescando'
+    Price: '&8[&c&l!&r&8] &cNo. &7Razón: &eBancarrota'
+    Hunger: '&8[&c&l!&r&8] &cNo. &7Razón: &3Hambruna'

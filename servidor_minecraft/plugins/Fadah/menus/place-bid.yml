@@ -1,0 +1,59 @@
+title: '&9&lCasa de Subastas &8> &aRealizar Ofertas'
+
+lang:
+  input:
+    title: "&9&lCasa de Subastas &8> &fMonto de la Oferta"
+    placeholder: "Ejemplo: 10k"
+  adjust-bid:
+    icon: ANVIL
+    model-data: 0
+    name: '&3Ajustar el Importe de tu Oferta'
+    lore:
+      - '&fOferta Actual: &3$%current%'
+      - '&fTu Oferta: &a$%bid%'
+      - ''
+      - '&7Click para cambiar'
+  confirm:
+    icon: LIME_CONCRETE
+    model-data: 0
+    name: '&a&lCONFIRMAR'
+    lore:
+      - '&7Click para colocar la oferta por &a$%price%'
+  cancel:
+    icon: RED_CONCRETE
+    model-data: 0
+    name: '&c&lCANCELAR'
+    lore:
+      - '&7Click para cancelar'
+
+size: 5
+
+layout:
+  '0': "FILLER"
+  '1': "FILLER"
+  '2': "FILLER"
+  '3': "FILLER"
+  '4': "FILLER"
+  '5': "FILLER"
+  '6': "FILLER"
+  '7': "FILLER"
+  '8': "FILLER"
+  '9': "FILLER"
+  '13': "ITEM_TO_PURCHASE"
+  '17': "FILLER"
+  '18': "FILLER"
+  '20': "CANCEL"
+  '24': "CONFIRM"
+  '26': "FILLER"
+  '27': "FILLER"
+  '31': "ADJUST_BID"
+  '35': "FILLER"
+  '36': "FILLER"
+  '37': "FILLER"
+  '38': "FILLER"
+  '39': "FILLER"
+  '40': "FILLER"
+  '41': "FILLER"
+  '42': "FILLER"
+  '43': "FILLER"
+  '44': "FILLER"

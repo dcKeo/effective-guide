@@ -1,0 +1,31 @@
+SEASON-TO-WINTER: '&aHa empezado el &3&lInvierno&r&a!'
+SEASON-TO-FALL: '&aHa empezado el &6&lOtoño&r&a!'
+SEASON-TO-SPRING: '&aHa empezado la &d&lPrimavera&r&a!'
+SEASON-TO-SUMMER: '&aHa empezado el &e&lVerano&r&a!'
+NO-PERMISSION-MESSAGE: '&cNo tienes permisos para hacer esto!'
+WINTER-DISPLAY-NAME: '&3&lInvierno'
+FALL-DISPLAY-NAME: '&6&lOtoño'
+SPRING-DISPLAY-NAME: '&d&lPrimavera'
+SUMMER-DISPLAY-NAME: '&e&lVerano'
+SEASONCOMMAND-DISABLED: '&cLas temporadas están desactivadas en este mundo'
+SEASONCOMMAND-RESTORING: '&cSe está restaurando este mundo actualmente!'
+SEASONCOMMAND-CURRENTDATE: '&aFecha actual: &2$current_weekday$, $current_month$ $current_day$,
+  del año $current_year$'
+SEASONSCOMMAND-CURRENTSEASON: '&aTemporada actual: &2$current_season$'
+SEASONSCOMMAND-AIRTEMPERATURE: '&aTemperatura actual del aire: $air_temperature$'
+SEASONSCOMMAND-DAYSUNTILNEXTSEASON: '&aDías faltantes para la próxima temporada (&2$next_season$&a):
+  &7$days_until_next_season$'
+SEASONSCOMMAND-DAYSUNTILNEXTEVENT: '&aDías faltantes para el próximo evento (&2$next_event$&a):
+  &7$days_until_next_event$'
+SEASONCOMMAND-TIME: '&aTiempo actual: &2$time$'
+SEASONCOMMAND-EVENTS: '&aEventos activos: &2$events$'
+TOGGLESEASONSCOMMAND-MESSAGE: '&aColores de temporadas están &2$status$ &apara ti'
+TOGGLETEMPERATURECOMMAND-MESSAGE: '&aEl sistema de temperatura está &2$status$ &apara
+  ti'
+TOGGLEPARTICLESCOMMAND-MESSAGE: '&aLas particulas de las temporadas están &2$status$
+  &apara ti'
+TOGGLEFAHRENHEITCOMMAND-TOFAHRENHEIT: '&aTu temperatura se muestra ahora en &2Fahrenheit'
+TOGGLEFAHRENHEITCOMMAND-TOCELCIUS: '&aTu temperatura se muestra ahora en &2Celcius'
+ENABLED: activado
+DISABLED: desactivado
+CURRENTBIOME-MESSAGE: '&aBioma actual: $biome$'

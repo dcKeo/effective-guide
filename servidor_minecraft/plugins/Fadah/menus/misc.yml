@@ -1,0 +1,41 @@
+search-title: '&9&lAuction House &8> &fBuscar'
+no-item-found:
+  material: BARRIER
+  model-data: 0
+  name: '&c&lNo se encontraron items!'
+  lore: []
+back-button:
+  material: FEATHER
+  model-data: 0
+  name: '&cVolver Atrás'
+  lore: []
+previous-button:
+  material: ARROW
+  model-data: 0
+  name: '&c&lPágina Previa'
+  lore: []
+next-button:
+  material: ARROW
+  model-data: 0
+  name: '&a&lPágina Siguiente'
+  lore: []
+scroll-next-button:
+  material: ARROW
+  model-data: 0
+  name: '&a&lDesplazar Categorías Abajo'
+  lore: []
+scroll-previous-button:
+  material: ARROW
+  model-data: 0
+  name: '&a&lDesplazar Categorías Arriba'
+  lore: []
+close-button:
+  material: BARRIER
+  model-data: 0
+  name: '&c&l✗ Cerrar'
+  lore: []
+border:
+  material: BLACK_STAINED_GLASS_PANE
+  model-data: 0
+  name: '&r '
+  lore: []

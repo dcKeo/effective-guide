@@ -1,0 +1,14 @@
+30.06.2025 - 04:51:35 - [TAB v5.2.2] An error was thrown when executing task
+30.06.2025 - 04:51:35 - java.util.ConcurrentModificationException: null
+30.06.2025 - 04:51:35 - 	at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1605)
+30.06.2025 - 04:51:35 - 	at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1628)
+30.06.2025 - 04:51:35 - 	at TAB v5.2.2.jar//me.neznamy.tab.shared.placeholders.types.PlayerPlaceholderImpl.updateValue(PlayerPlaceholderImpl.java:53)
+30.06.2025 - 04:51:35 - 	at TAB v5.2.2.jar//me.neznamy.tab.shared.FeatureManager.onWorldChange(FeatureManager.java:240)
+30.06.2025 - 04:51:35 - 	at TAB v5.2.2.jar//me.neznamy.tab.shared.platform.EventListener.lambda$worldChange$2(EventListener.java:54)
+30.06.2025 - 04:51:35 - 	at TAB v5.2.2.jar//me.neznamy.tab.shared.cpu.CaughtTask.run(CaughtTask.java:18)
+30.06.2025 - 04:51:35 - 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+30.06.2025 - 04:51:35 - 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+30.06.2025 - 04:51:35 - 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+30.06.2025 - 04:51:35 - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+30.06.2025 - 04:51:35 - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+30.06.2025 - 04:51:35 - 	at java.base/java.lang.Thread.run(Thread.java:1583)

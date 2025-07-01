@@ -1,0 +1,8 @@
+Name: '&a&lLlave Poco Común'
+Virtual: true
+ItemData:
+  Type: VANILLA
+  Tag:
+    Value: '{components:{"minecraft:custom_name":''{"extra":["poco-comun Key"],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+    DataVersion: 4189
+ItemStackable: false

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.91.176.189
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751233286096
+  login: 1751228139975
+money: '500.0'
+last-account-name: picoflaite
+logoutlocation:
+  world: bfbbb231-09ff-4fec-90a3-24dedac11704
+  world-name: Spawn
+  x: 5.774875626900508
+  y: 46.0
+  z: 16.799742412164626
+  yaw: -0.875106692314148
+  pitch: 1.5583871603012085
+lastlocation:
+  world: af6482e6-7bbe-44e3-a4c1-a17439a19da9
+  world-name: Survival
+  x: -2352.5
+  y: 78.0
+  z: 1422.5
+  yaw: -167.61904907226562
+  pitch: 3.238024950027466

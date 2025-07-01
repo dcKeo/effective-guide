@@ -1,0 +1,354 @@
+#--------------------------------------------------------------------------#
+#                                                                          #
+#              _____ _____         _   _____ _         _                   #
+#             | __  |  _  |___ ___| |_| __  | |___ ___| |_ ___             #
+#             |    -|   __|  _| . |  _| __ -| | . |  _| '_|_ -|            #
+#             |__|__|__|  |_| |___|_| |_____|_|___|___|_,_|___|            #
+#                                                                          #
+#        _          ____          _   _____           _     ___ ___        #
+#       | |_ _ _   |    \ ___ ___| |_|  _  |___ ___ _| |___|_  |_  |       #
+#       | . | | |  |  |  | .'|  _| '_|   __| .'|   | . | .'| | |_  |       #
+#       |___|_  |  |____/|__,|_| |_,_|__|  |__,|_|_|___|__,| |_|___|       #
+#           |___|                                                          #
+#                                                                          #
+#--------------------------------------------------------------------------#
+
+#---{File version}
+#
+# DON'T TOUCH THIS SECTION! You can move it, but you can't remove this sections
+# or change its values. This values are used to manage the different versions of
+# this file. New files with newer versions uses this part to check if the file is
+# new or old, and change the format to the new one.
+#
+#---
+
+Version: 2
+
+#--- How it works
+#
+# This file will allow you to define which flags are registered on the plugin, which ones
+# can be modified by the players and which ones are set by default after creating a new
+# protection. All the flags follow the next structure:
+#
+#     <flag-id>: #1
+#       Editable: true #2
+#       Hidden: false #3
+#       Display-item: #4
+#         ...
+#       Default-value: "DENY" #5
+#       Default-group: "ALL" #6
+#       Permission: "protectionblocks.flag.<flag-id>" #7
+#       Hide-if-no-permission: false #8
+#       Hide-if-no-value: false #9
+#
+#   #1 ID of the flag to be used, which is the name used on WorldGuard.
+#
+#   #2 (Optional) If the flag is editable or not by the player. By default it'll be non-editable.
+#
+#   #3 (Optional) If the flag is hidden or not to the player. Hidden flags can't be modified or seen by
+#      players, this setting is intendend for default flags to prevent players from seeing them.
+#      By default, flags are shown.
+#
+#   #4 (Optional) The item to be used on the GUI. It follows the item definition standard*. If there's
+#      No item, the flag is not shown up on the GUI, but on the command only.
+#
+#   #5 (Optional) The default value it'll apply to new protections. The value may vary depending
+#      on the flag type, as every flag requires its own type of value. Check the WorldGuard flag information.
+#      It's case insensitive. By default, it'll not apply any value.
+#
+#   #6 (Optional) The default group to apply when applying the flag to new protections or modifying them.
+#      The allowed values are: ALL, MEMBERS, OWNERS, NON_MEMBERS, NON_OWNERS. It's case insensitive.
+#      By default, it'll use the default group of the flag.
+#
+#   #7 (Optional) Permission required to be able to modify the flag. By default, it'll not require any permission.
+#
+#   #8 (Optional) Hide the flag if the player does not have permissions to modify this plag. By default,
+#      it's set on false.
+#
+#   #9 (Optional) Hide the flag if the protection doesn't have any value specified for this flag yet.
+#      By default, it's set on false.
+#
+# * Item standard: (Wiki in progress)
+#---
+
+Settings: 
+  Flags: 
+    tnt: 
+      Editable: true
+      Display-item: 
+        Type: "PLAYER_HEAD"
+        Name: "&eCan TnT explode?"
+        Lore: 
+        - "&0"
+        - "&7Value: &8[{value}&8]"
+        Skin: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU0MzUyNjgwZDBiYjI5YjkxMzhhZjc4MzMwMWEzOTFiMzQwOTBjYjQ5NDFkNTJjMDg3Y2E3M2M4MDM2Y2I1MSJ9fX0="
+      Default-value: "DENY"
+      Default-group: "ALL"
+      
+    chest-access: 
+      Editable: true
+      Display-item: 
+        Type: "PLAYER_HEAD"
+        Name: "&eCan chests be opened by others?"
+        Lore: 
+        - "&0"
+        - "&7Value: &8[{value}&8]"
+        Skin: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRjMzZjOWNiNTBhNTI3YWE1NTYwN2EwZGY3MTg1YWQyMGFhYmFhOTAzZThkOWFiZmM3ODI2MDcwNTU0MGRlZiJ9fX0="
+      Default-value: "DENY"
+      Default-group: "NON_MEMBERS"
+      
+    pvp: 
+      Editable: true
+      Display-item: 
+        Type: "PLAYER_HEAD"
+        Name: "&eIs PvP allowed?"
+        Lore: 
+        - "&0"
+        - "&7Value: &8[{value}&8]"
+        Skin: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2NTM0MTM1M2MwMjllOWI2NTVmNGY1NzkzMWFlNmFkYzJjN2E3M2M2NTc5NDVkOTQ1YTMwNzY0MWQzNzc4In19fQ=="
+      Default-value: "DENY"
+      Default-group: "ALL"
+      Permission: "protectionblocks.flag.pvp"
+      Hide-if-no-permission: true
+Message: 
+  Helper: 
+    Available-left-arrow: "&e«"
+    Unavailable-left-arrow: "&r«"
+    Available-right-arrow: "&e»"
+    Unavailable-right-arrow: "&r»"
+    Header: 
+    - " "
+    - "&c・。・。・。・。・。・。・。%left_arrow%&r %current_page%/%max_page% %right_arrow%&c。・。・。・。・。・。・。・"
+    - " "
+    Body: 
+    - "&6%command_usage%"
+    - "  &8%command_description%"
+    Footer: 
+    - " "
+    - "&c・。・。・。・。・。・。・。・。・。・。・。・。・。・。・。・。・"
+    - " "
+    Error: 
+      Not-a-number: "&cYou must specify a valid number!"
+  Update-checker: 
+    Outdated-version: "&cHey! You're currently using an outdated version of the plugin!
+      &8(&aCurrent: &e%current_version%&a, New: &e%new_version%&8)"
+  Protection: 
+    Info: 
+      General-information: 
+      - ""
+      - "&a&lProtection Information"
+      - "&f&l|&r ID: &a{protection_id}"
+      - "&f&l|&r Name: &a{protection_name}"
+      - "&f&l|&r Size: &a{protection_size_x}x{protection_size_y}x{protection_size_z}"
+      - "&f&l|&r Owner: &a{protection_owner}"
+      - "&f&l|&r Members: &a{protection_members}"
+      - "&f&l|&r Owners: &a{protection_owners}"
+      Members-information: 
+      - ""
+      - "&a&lMembers"
+      - "{protection_members}"
+      - ""
+      - "{previous_page} {current_page} {next_page}"
+      Owners-information: 
+      - ""
+      - "&a&lOwners"
+      - "{protection_owners}"
+      - ""
+      - "{previous_page} {current_page} {next_page}"
+    Priority: 
+      Set-successfully: "&aPriority has been set successfully."
+      Multiple-protections-found: "&7Multiple protections has been found in the current location. Please
+        select the protection you want to edit its priority:"
+      Multiple-protections-found-line: "&8  * &e{protection_name}"
+      Multiple-protections-found-line-hover: "&eClick me!"
+    Blocks: 
+      Charged-successfully: "&aYou've been charged a total amount of &e{amount}$"
+    Flags: 
+      Charged-successfully: "&aYou've been charged a total amount of &e{amount}$"
+  Teleport: 
+    Stay-on-site: "&7Stay still for at least &e%seconds% seconds &7to get teleported..."
+  Reload: "&aThe plugin has been reloaded successfully."
+  Set-spawn-successfully: "&aA new spawn has ben set successfully."
+  General: 
+    No-limit: "No limit"
+  Protections: 
+    Created-successfully: "&aThe protection has been created successfully!"
+    Removed-successfully: "&aThe protection has been removed successfully!"
+    Home-set-successfully: "&aThe protection's home has been set successfully!"
+    ID-set-successfully: "&aThe protection's custom ID has been set successfully!"
+    Renamed-successfully: "&aThe protection's name has been changed successfully!"
+    Display-item-changed-successfully: "&aThe protection's display item has been changed successfully!"
+    Hidden-successfully: "&aThe protection block has been hidden successfully!"
+    Shown-successfully: "&aThe protection block has been shown successfully!"
+    Player-not-in-protection: "&cThis player is not currently inside this protection."
+    Left-successfully: "&aYou have left the protection successfully!"
+    Members: 
+      Added-successfully: "&aThe new member has been added to the protection successfully!"
+      Removed-successfully: "&aThe member has been removed to the protection successfully!"
+    Owners: 
+      Added-successfully: "&aThe new owner has been added to the protection successfully!"
+      Removed-successfully: "&aThe owner has been removed to the protection successfully!"
+    Blocks: 
+      Created-successfully: "&aThe protection block has been created successfully!"
+      Saved-successfully: "&aThe protection block changes has been saved successfully!"
+      Removed-successfully: "&aThe protection block has been removed successfully!"
+    Flags: 
+      Allow-value-name: "&aAllow"
+      Deny-value-name: "&cDeny"
+      String-value-name: "&b{text}"
+      Not-defined-name: "&7Not defined"
+  Purge: 
+    Search: "&7Searching matching protections..."
+    Start: "&7Starting purge process..."
+    End: "&aPurge finished! A total amount of &e{amount} &aprotection(s) has
+      been purged."
+    Error: "&7A total amount of &e{amount} &7protection(s) couldn't be purged.
+      Check the console to see the related errors."
+Error: 
+  Commands: 
+    Permission-denied: "&cYou don't have permissions to use this command!"
+    Pending-command: "&cYou have a command still executing!"
+    Cooldown-active: "&cYou have to wait for the next &e%seconds% seconds &cto execute
+      this command again!"
+  Exception: 
+    protection: 
+      PermissionDenied: "&cYou aren't allowed to do this in this protection!"
+      NotFound: "&cThe requested protection could not be found!"
+      InCombat: "&cYou can't do this while in combat!"
+      PriorityTooHigh: "&cYou aren't allowed to use higher prorities! &8(&eLimit: &7{max}&8)"
+      PriorityBelowZero: "&cYou must provide a number higher or equal to zero!"
+      BlockAlreadyShown: "&cThe protection block is already shown!"
+      BlockAlreadyShownMultiple: "&cAll the protection blocks in this protection are already shown!"
+      BlockAlreadyHidden: "&cThe protection block is already hidden!"
+      BlockAlreadyHiddenMultiple: "&cAll the protection blocks in this protection are already hidden!"
+      BlockOverlaping: "&cYou can't show the protection block if there's a block placed where
+        the protection block should be located!"
+      BlockOverlapingMultiple: "&cYou can't show the protection blocks if one or more protection
+        blocks in this protection has a block placed where the protection
+        block should be located!"
+      Unknown: "&cThere was an unexpected error. Please contact with an administrator!"
+      Cancelled: "&cAnother plugin has cancelled this action over this protection!"
+      blocks: 
+        GenerateItem: "&cAn unknown error happened while trying to generate the item. Please
+          contact with an administrator!"
+        delete: 
+          PermissionDenied: "&cYou aren't allowed to remove this protection block!"
+          SQL: "&cThere was an error trying to delete this protection block from
+            the database. Please contact with an administrator!"
+          Unknown: "&cAn unknown error happened while trying to remove this protection
+            block. Please contact with an administrator!"
+        save: 
+          PermissionDenied: "&cYou aren't allowed to save this protection block!"
+          IdInUse: "&cThere's already a protection block using this ID!"
+          IdNull: "&cThere's no ID specified for this protection block!"
+          ItemNull: "&cThere's no item specified for this protection block!"
+          MaximumAchieved: "&cYou've achieved the maximum amount of protections available! &8(&e{amount}&8)"
+          SQL: "&cThere was an error trying to save this protection block in the
+            database. Please contact with an administrator!"
+          Unknown: "&cAn unknown error happened while trying to save this protection
+            block. Please contact with an administrator!"
+      delete: 
+        PermissionDenied: "&cYou aren't allowed to delete this protection!"
+        SQL: "&cThere was an error trying to delete this protection in the database.
+          Please contact with an administrator!"
+        Unknown: "&cAn unknown error happened while trying to delete this protection.
+          Please contact with an administrator!"
+        InProgress: "&cThere's already a removal of a protection in this location in progress!"
+        ViewActive: "&cTo remove the protection, first turn off the view!"
+        BlockShown: "&cTo remove the protection, first hide the block!"
+        Cancelled: "&cAnother plugin has cancelled the removal of this protection!"
+      flags: 
+        PermissionDenied: "&cYou don't have permissions to modify this flag!"
+        Unknown: "&cAn unknown error happened while trying to modify the flag. Please
+          contact with an administrator!"
+      members: 
+        delete: 
+          PermissionDenied: "&cYou aren't allowed to remove this member!"
+          Unknown: "&cAn unknown error happened while trying to remove this member. Please
+            contact with an administrator!"
+        save: 
+          CannotAddProtectionOwner: "&cYou can't add the owner of this protection as a member!"
+          CannotAddYourself: "&cYou can't add yourself as a member!"
+          PermissionDenied: "&cYou aren't allowed to add members in this protection!"
+          Unknown: "&cAn unknown error happened while trying to add this member. Please
+            contact with an administrator!"
+      owners: 
+        delete: 
+          CannotDeleteProtectionOwner: "&cYou can't remove the owner of this protection from the owners list!"
+          PermissionDenied: "&cYou aren't allowed to remove this owner!"
+          Unknown: "&cAn unknown error happened while trying to remove this owner. Please
+            contact with an administrator!"
+        save: 
+          CannotAddProtectionOwner: "&cYou can't add the owner of this protection as an owner!"
+          CannotAddYourself: "&cYou can't add yourself as an owner!"
+          PermissionDenied: "&cYou aren't allowed to add owners in this protection!"
+          Unknown: "&cAn unknown error happened while trying to add this owner. Please
+            contact with an administrator!"
+      save: 
+        PermissionDenied: "&cYou aren't allowed to save this protection!"
+        MaxReached: "&cYou've reached the maximum amount of protections allowed!"
+        BlockMaxReached: "&cYou've reached the maximum amount of protections allowed with this
+          protection block!"
+        NameInUse: "&cThere's already a protection using this name!"
+        NameTooLong: "&cThe specified name is too long! &8(&eCurrent: &7{current}&e, Limit:
+          &7{max}&8)"
+        Overlaps: "&cYou can't put protections inside other existing ones!"
+        OverlapsOffset: "&cYou can't put protections close to other protections which are
+          &e%offset% blocks&c from here!"
+        OverlapsWorldguard: "&cYou can't put protections on protected areas!"
+        AlreadyOccupied: "&cThere's already a protection placed on this location!"
+        SQL: "&cThere was an error trying to save this protection in the database.
+          Please contact with an administrator!"
+        Unknown: "&cAn unknown error happened while trying to save this protection.
+          Please contact with an administrator!"
+        NoVisibleText: "&cThe text you're typing must be visible!"
+        InProgress: "&cThere's already a creation of a protection in this location in
+          progress!"
+        Cancelled: "&cAnother plugin has cancelled the creation of this protection!"
+      teleport: 
+        NoHomeSet: "&cThis protection does not have a home set!"
+        CooldownActive: "&cYou have to wait &e%seconds% seconds &cto teleport again!"
+        Unknown: "&cAn unknown error happened while trying to teleport. Please contact
+          with an administrator!"
+        CancelledDueMovement: "&cThe teleportation has been cancelled due a detected movement!"
+  Error: "&cError!"
+  Console-denied: "&cYou can't use this commands in console!"
+  Player-not-found: "&cThe specified player couldn't be found!"
+  No-item-in-hand: "&cYou must have an item in your hand!"
+  Not-a-block: "&cThe item must be a block!"
+  Inventory-full: "&cYou don't have enough space on your inventory!"
+  Invalid-number: "&cYou must specify a valid number!"
+  Number-below-zero: "&cYou must specify a number higher than or equal to zero!"
+  Set-spawn-error: "&cThere was an error trying to specify a new spawn. Check the console!"
+  Chat-prompt: 
+    Already-prompted: "&cYou've already a pending type operation!"
+  Files: 
+    Export: "&cThere was an issue trying to export the data! Check the console
+      for more information."
+    Import: "&cThere was an issue trying to import the data! Check the console
+      for more information."
+  Protections: 
+    Not-found: "&cThe specified protection could not be found!"
+    Not-inside-protection: "&cYou're not inside any protection!"
+    Banned-world: "&cYou can't use protection blocks in this world!"
+    Not-allowed-world: "&cYou can't use this protection block in this world!"
+    Not-main-owner: "&cYou're not the main owner of this protection!"
+    Not-owner: "&cYou're not an owner of this protection!"
+    Not-owner-any-protection: "&cYou're not an owner in any of the current protections!"
+    Not-member: "&cYou're not a member of this protection!"
+    Permission-denied: "&cYou don't have permissions to use this protection block!"
+    Block-already-hidden: "&cThe protection block is already hidden!"
+    Block-already-shown: "&cThe protection block is already shown!"
+    Blocked-by-block: "&cThere's another block where the protection block should be placed!"
+    Same-item-as-protection: "&cYou can't place items of the same type as the protection block
+      where the protection block is originally placed!"
+    Leave-denied-to-main-owner: "&cYou can't leave your own protection!"
+    Blocks: 
+      Not-found: "&cThere's no protection block with this ID!"
+      Not-for-sale: "&cThis protection block is currently not for sale!"
+Prefix: "&d&lRoyale&fProtectionBlocks &5FREE &f>>&r&7 "
+Inventory: 
+  Protection: 
+    Flags: 
+      Numeric-value-name: "&b{number}"
+      Unknown-value-name: "&7???"

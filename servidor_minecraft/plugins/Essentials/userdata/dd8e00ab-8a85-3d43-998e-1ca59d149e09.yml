@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.229.174.33
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751232861900
+  login: 1751227658238
+money: '1739.0'
+last-account-name: mwarrii
+logoutlocation:
+  world: af6482e6-7bbe-44e3-a4c1-a17439a19da9
+  world-name: Survival
+  x: 678.6999999880791
+  y: -12.0
+  z: -578.3000000119209
+  yaw: 105.29888153076172
+  pitch: 55.2000617980957
+lastlocation:
+  world: bfbbb231-09ff-4fec-90a3-24dedac11704
+  world-name: Spawn
+  x: 0.5
+  y: 45.0000001
+  z: 0.5
+  yaw: 6.024898052215576
+  pitch: 11.158388137817383

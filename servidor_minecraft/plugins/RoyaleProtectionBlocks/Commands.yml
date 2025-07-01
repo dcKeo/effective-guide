@@ -1,0 +1,239 @@
+#--------------------------------------------------------------------------#
+#                                                                          #
+#              _____ _____         _   _____ _         _                   #
+#             | __  |  _  |___ ___| |_| __  | |___ ___| |_ ___             #
+#             |    -|   __|  _| . |  _| __ -| | . |  _| '_|_ -|            #
+#             |__|__|__|  |_| |___|_| |_____|_|___|___|_,_|___|            #
+#                                                                          #
+#        _          ____          _   _____           _     ___ ___        #
+#       | |_ _ _   |    \ ___ ___| |_|  _  |___ ___ _| |___|_  |_  |       #
+#       | . | | |  |  |  | .'|  _| '_|   __| .'|   | . | .'| | |_  |       #
+#       |___|_  |  |____/|__,|_| |_,_|__|  |__,|_|_|___|__,| |_|___|       #
+#           |___|                                                          #
+#                                                                          #
+#--------------------------------------------------------------------------#
+
+#---{File version}
+#
+# DON'T TOUCH THIS SECTION! You can move it, but you can't remove this sections
+# or change its values. This values are used to manage the different versions of
+# this file. New files with newer versions uses this part to check if the file is
+# new or old, and change the format to the new one.
+#
+#---
+
+Version: 1
+
+Commands: 
+  Protection-blocks: 
+    Name: "protectionblocks"
+    Description: "Open the GUI or execute commands"
+    Permission: ""
+    Usage: "[help|subcommand]"
+    Aliases: 
+    - "pb"
+    Subcommands: 
+      Help: 
+        Name: "help"
+        Description: "Get all the commands"
+        Permission: ""
+        Usage: "[page]"
+        Aliases: 
+        - "h"
+      Info: 
+        Name: "info"
+        Description: "Show the information of a protection"
+        Permission: ""
+        Usage: "[members|owners|banneds]"
+        Aliases: 
+        - "i"
+        Cooldown: 0
+        Subcommands: 
+          Help: 
+            Name: "help"
+            Description: "Get all the commands"
+            Permission: ""
+            Usage: "[page]"
+            Aliases: 
+            - "h"
+          Members: 
+            Name: "members"
+            Description: "Get the members from the current protection"
+            Permission: ""
+            Usage: "[page]"
+            Aliases: 
+            - "m"
+          Owners: 
+            Name: "owners"
+            Description: "Get the owners from the current protection"
+            Permission: ""
+            Usage: "[page]"
+            Aliases: 
+            - "o"
+      Blocks: 
+        Name: "blocks"
+        Description: "Open a list with all the blocks"
+        Permission: "protectionblocks.blocks"
+        Usage: "[help|subcommand]"
+        Aliases: 
+        - "b"
+        Subcommands: 
+          Help: 
+            Name: "help"
+            Description: "Get all the commands"
+            Permission: ""
+            Usage: "[page]"
+            Aliases: 
+            - "h"
+          Remove: 
+            Name: "remove"
+            Description: "Remove an existing block"
+            Permission: "protectionblocks.blocks.remove"
+            Usage: "<id>"
+            Aliases: 
+            - "r"
+            Cooldown: 0
+          Add: 
+            Name: "add"
+            Description: "Create a new block"
+            Permission: "protectionblocks.blocks.create"
+            Usage: "<id> <x> <y> <z> [permission]"
+            Aliases: 
+            - "a"
+            Cooldown: 0
+          Give: 
+            Name: "give"
+            Description: "Give an existing block to yourself or a player"
+            Permission: "protectionblocks.blocks.give"
+            Usage: "<id> [player]"
+            Aliases: 
+            - "g"
+            Cooldown: 0
+      Admin: 
+        Name: "admin"
+        Description: "Commands used to manage staff commands"
+        Permission: "protectionblocks.admin"
+        Usage: "[help|subcommand]"
+        Aliases: 
+        - "a"
+        Subcommands: 
+          Help: 
+            Name: "help"
+            Description: "Get all the commands"
+            Permission: ""
+            Usage: "[page]"
+            Aliases: 
+            - "h"
+          Reload: 
+            Name: "reload"
+            Description: "Reload the plugin"
+            Permission: "protectionblocks.admin.reload"
+            Aliases: 
+            - "r"
+            Cooldown: 0
+      Leave: 
+        Name: "leave"
+        Description: "Leave a protection, stop being an owner or a member"
+        Permission: ""
+        Aliases: 
+        - "l"
+        Cooldown: 0
+      View: 
+        Name: "view"
+        Description: "Show the boundaries of your current protection for a certain time"
+        Permission: ""
+        Aliases: 
+        - "v"
+        Cooldown: 0
+      Hide: 
+        Name: "hide"
+        Description: "Hide the protection block on your current protection"
+        Permission: ""
+        Aliases: 
+        - "h"
+        Cooldown: 0
+      Remove-owner: 
+        Name: "removeowner"
+        Description: "Remove an owner on your current protection"
+        Permission: ""
+        Usage: "<username>"
+        Aliases: 
+        - "ro"
+        Cooldown: 0
+      List: 
+        Name: "list"
+        Description: "Open a list with all your protections"
+        Permission: ""
+        Usage: "[username]"
+        Aliases: 
+        - "l"
+        Cooldown: 0
+      Remove-member: 
+        Name: "removemember"
+        Description: "Remove a member on your current protection"
+        Permission: ""
+        Usage: "<username>"
+        Aliases: 
+        - "rm"
+        Cooldown: 0
+      Add-owner: 
+        Name: "addowner"
+        Description: "Add an owner on your current protection"
+        Permission: ""
+        Usage: "<username>"
+        Aliases: 
+        - "ao"
+        Cooldown: 0
+      Unclaim: 
+        Name: "unclaim"
+        Description: "Remove the protection you're currently in"
+        Permission: ""
+        Aliases: 
+        - "uc"
+        Cooldown: 0
+      Set-home: 
+        Name: "sethome"
+        Description: "Set the home on your current protection"
+        Permission: ""
+        Aliases: 
+        - "sh"
+        Cooldown: 0
+      Rename: 
+        Name: "rename"
+        Description: "Rename your current protection name"
+        Permission: ""
+        Usage: "<new name>"
+        Aliases: 
+        - "rn"
+        Cooldown: 0
+      Add-member: 
+        Name: "addmember"
+        Description: "Add a member on your current protection"
+        Permission: ""
+        Usage: "<username>"
+        Aliases: 
+        - "am"
+        Cooldown: 0
+      Show: 
+        Name: "show"
+        Description: "Show the protection block on your current protection"
+        Permission: ""
+        Aliases: 
+        - "sw"
+        Cooldown: 0
+      Home: 
+        Name: "home"
+        Description: "Teleport to the home of the specified protection."
+        Permission: ""
+        Usage: "[region id]"
+        Aliases: 
+        - "l"
+        Cooldown: 0
+      Priority: 
+        Name: "priority"
+        Description: "Set the priority of the current protection"
+        Permission: "protectionblocks.priority"
+        Usage: "<priority> [protection id]"
+        Aliases: 
+        - "p"
+        Cooldown: 0

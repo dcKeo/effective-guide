@@ -1,0 +1,46 @@
+backup_version: 2
+users:
+    f18cf099-7166-3f91-9757-a415658b6bad:
+        skills:
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 1, xp: 53.750290751457214}
+            auraskills/agility: {level: 2, xp: 446.60550000000006}
+            auraskills/foraging: {level: 1, xp: 23.79999999999999}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 3, xp: 105.44999999999999}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 87.0}
+            auraskills/farming: {level: 0, xp: 8.5}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/excavation: {level: 0, xp: 7.1}
+        mana: 22.0
+    77e29f63-5a2a-336c-8810-59740188291b:
+        skills:
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 0, xp: 95.8794515132904}
+            auraskills/agility: {level: 2, xp: 337.62814}
+            auraskills/mining: {level: 1, xp: 142.3}
+            auraskills/foraging: {level: 0, xp: 48.8}
+            auraskills/alchemy: {level: 100, xp: 1.7E29}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 86.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/excavation: {level: 0, xp: 3.8}
+        mana: 222.0
+    dd8e00ab-8a85-3d43-998e-1ca59d149e09:
+        skills:
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 1, xp: 185.48038148880005}
+            auraskills/agility: {level: 2, xp: 385.76231999999993}
+            auraskills/foraging: {level: 1, xp: 128.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 4, xp: 1226.570000000004}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 1, xp: 146.0}
+            auraskills/farming: {level: 0, xp: 44.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/excavation: {level: 0, xp: 1.4}
+        mana: 22.0
+        stat_modifiers:
+        - {name: mining-stamina, stat: auraskills/toughness, operation: ADD, value: 1.0}

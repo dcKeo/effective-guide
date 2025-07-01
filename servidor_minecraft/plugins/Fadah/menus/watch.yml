@@ -1,0 +1,64 @@
+title: "&9&lCasa de Subastas &8> &bVer"
+
+lang:
+  search:
+    icon: OAK_SIGN
+    model-data: 0
+    placeholder: 'Consulta de Busqueda...'
+    name: '&3Buscar'
+    lore:
+      - '&fClick para hacer una búsqueda!'
+      - '&7Actual: &e%current%'
+  min-price:
+    icon: IRON_NUGGET
+    model-data: 0
+    placeholder: 'Ejemplo: 100'
+    name: '&3Precio Mínimo'
+    lore:
+      - '&fClick para añadir un precio mínimo'
+      - '&7Actual: &e$%current%'
+  max-price:
+    icon: GOLD_NUGGET
+    model-data: 0
+    placeholder: 'Ejemplo: 10k'
+    name: '&3Precio Máximo'
+    lore:
+      - '&fClick para añadir un precio máximo'
+      - '&7Actual: &e$%current%'
+  start:
+    icon: EMERALD
+    model-data: 0
+    name: "&aComenzar a Ver"
+    lore:
+      - "&fClick para ver estos ajustes."
+
+size: 3
+
+layout:
+  '0': "FILLER"
+  '1': "FILLER"
+  '2': "FILLER"
+  '3': "FILLER"
+  '4': "FILLER"
+  '5': "FILLER"
+  '6': "FILLER"
+  '7': "FILLER"
+  '8': "FILLER"
+  '9': "FILLER"
+  '10': "FILLER"
+  '11': "SEARCH"
+  '12': "MIN_PRICE"
+  '13': "MAX_PRICE"
+  '14': "FILLER"
+  '15': "LISTING_START"
+  '16': "FILLER"
+  '17': "FILLER"
+  '18': "FILLER"
+  '19': "FILLER"
+  '20': "FILLER"
+  '21': "FILLER"
+  '22': "FILLER"
+  '23': "FILLER"
+  '24': "FILLER"
+  '25': "FILLER"
+  '26': "FILLER"

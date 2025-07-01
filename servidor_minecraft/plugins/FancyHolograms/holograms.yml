@@ -1,0 +1,108 @@
+version: 2 # DO NOT CHANGE
+holograms:
+  spawnbienvenida:
+    type: TEXT
+    location:
+      world: Spawn
+      x: 0.5
+      y: 45.5126838684082
+      z: 9.5
+      yaw: -179.35283
+      pitch: 1.0
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#FF0000&lS&#FF0404&lU&#FF0808&lR&#FF0B0B&lV&#FF0F0F&lI&#FF1313&lV&#FF1717&lA&#FF1B1B&lL
+      &#FF2222&lP&#FF2626&lA&#FF2A2A&lR&#FF2E2E&lC&#FF3232&lE&#FF3535&lL&#FF3939&lA&#FF3D3D&lS'
+    - ''
+    - '&f¡Bienvenido &e%player_name% &fal &eSurvival Parcelas&f!'
+    - '&fesperamos disfrutes de la modalidad'
+    - '&ediviertete&f, &ecompite &fy &edomina &fel servidor.'
+    - ''
+    - ''
+    - '&7ℹ ¿Necesitas ayuda con algo?'
+    - '&#6EB4EC&lD&#74B9EF&lI&#7ABDF2&lS&#81C2F6&lC&#87C6F9&lO&#8DCBFC&lR&#93CFFF&lD
+      &8- &fdsc.gg/nayeland'
+    - '&#FF0000&lT&#FF0C0C&lI&#FF1818&lE&#FF2525&lN&#FF3131&lD&#FF3D3D&lA &8- &fnayeland.tebex.io'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: fixed
+  menuprincipalholograma:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -6.5
+      y: 48.11630630493164
+      z: 6.5
+      yaw: -89.72026
+      pitch: -18.626225
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&8(&7☀&8) &#FF0000&lM&#FF0505&lE&#FF0909&lN&#FF0E0E&lÚ &#FF1717&lP&#FF1C1C&lR&#FF2121&lI&#FF2626&lN&#FF2A2A&lC&#FF2F2F&lI&#FF3434&lP&#FF3838&lA&#FF3D3D&lL
+      &8(&7☀&8)'
+    - ''
+    - '&bℹ &f¡Encuentra todo'
+    - '&fsobre la modalidad!'
+    - ''
+    - ''
+    - '&e⏵ ¡Click para abrir! ⏴'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  mundosrtpholograma:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -5.5
+      y: 48.11630630493164
+      z: 17.5
+      yaw: -67.93493
+      pitch: 33.787846
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&8(&7🌲&8) &#56FF00&lE&#55FF05&lL&#55FF09&lI&#54FF0E&lG&#54FF13&lE &#53FF1C&lU&#52FF21&lN
+      &#51FF2A&lM&#51FF2F&lU&#50FF34&lN&#50FF38&lD&#4FFF3D&lO &8(&7🌲&8)'
+    - '&7&o/mundos'
+    - ''
+    - '&bℹ &f¡Elige tu mundo y viaja'
+    - '&fpor el aleatoriamente!'
+    - ''
+    - '&e⏵ ¡Click para abrir! ⏴'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent

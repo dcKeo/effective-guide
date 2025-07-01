@@ -1,0 +1,187 @@
+# =====================[ CONFIGURACIÓN ]=====================
+options:
+    prefix: &8[&aNayeLand&8] &7
+    successfully: &8[&a&l!&8] &r
+    error: &8[&c&l!&8] &r
+    waiting: &8[&e&l!&8] &r
+    spawnonjoin: true
+    spawndelay: true
+    spawndelaytime: 5
+
+# =====================[ VARIABLES AL CARGAR ]=====================
+on load:
+    if {spawnset} is not set:
+        set {spawnset} to false
+
+# =====================[ ENTRADA Y SALIDA DE JUGADORES ]=====================
+on first join:
+    broadcast "&e%player% ha entrado por primera vez, bienvenido a la modalidad &aSurvival Parcelas&e, usa &6/menu &epara ver las funcionalidades del servidor."
+    set join message to ""
+    teleport player to {spawn}
+
+on join:
+    set join message to ""
+    broadcast "&8- &7(&a&l+&7) &f%player%"
+    delete {teleportlock::%uuid of player%}
+    delete {teleportcombatlock::%uuid of player%}
+    if {@spawnonjoin} is true:
+        teleport player to {spawn}
+
+on quit:
+    set quit message to ""
+    broadcast "&8- &7(&c&l-&7) &f%player%"
+
+on respawn:
+    teleport player to {spawn}
+
+# =====================[ COMANDO /setspawn ]=====================
+command /setspawn:
+    permission: admin.spawn.setspawn
+    permission message: {@error}Comando denegado.
+    trigger:
+        set metadata tag "setspawn" of player to chest inventory with 3 rows named "&8ꜱᴇᴛ ꜱᴘᴀᴡɴ"
+        set slot 11 of metadata tag "setspawn" of player to red stained glass pane named "&cᴄᴀɴᴄᴇʟ"
+        set slot 13 of metadata tag "setspawn" of player to grass block named "&aꜱᴇᴛ ɴᴇᴡ ꜱᴘᴀᴡɴ ᴀᴛ:" with lore "&f%player's location%" and "&cꜱᴘᴀᴡɴ ɪꜱ ᴄᴜʀʀᴇɴᴛʟʏ ꜱᴇᴛ ᴀᴛ: &f%{spawn}%"
+        set slot 15 of metadata tag "setspawn" of player to lime stained glass pane named "&aᴄᴏɴꜰɪʀᴍ ᴄʜᴀɴɢᴇ"
+        open (metadata tag "setspawn" of player) to player
+
+# =====================[ COMANDO /deletespawn ]=====================
+command /deletespawn:
+    aliases: /delspawn
+    permission: spawn.deletespawn
+    trigger:
+        if {spawnset} is true:
+            set {_inv} to chest inventory with 3 rows named "&8ᴅᴇʟᴇᴛᴇ ꜱᴘᴀᴡɴ"
+            set slot 11 of {_inv} to red stained glass pane named "&cᴄᴀɴᴄᴇʟ"
+            set slot 13 of {_inv} to grass block named "&aꜱᴇᴛ ɴᴇᴡ ꜱᴘᴀᴡɴ ᴀᴛ:" with lore "&cᴅᴇʟᴇᴛᴇ ꜱᴘᴀᴡɴ ꜱᴇᴛ ᴀᴛ: &f%{spawn}%"
+            set slot 15 of {_inv} to lime stained glass pane named "&aᴄᴏɴꜰɪʀᴍ ᴄʜᴀɴɢᴇ"
+            set metadata tag "deletespawn" of player to {_inv}
+            open {_inv} to player
+        else:
+            send "{@error}&cNo hay spawn establecido. Usa &a/setspawn &cprimero." to player
+            play sound "entity.villager.no"
+
+# =====================[ COMANDO /locatespawn ]=====================
+command /locatespawn:
+    permission: spawn.locatespawn
+    trigger:
+        if {spawnset} is true:
+            send "{@successfully}&aSpawn actual: &f%{spawn}%" to player
+        else:
+            send "{@error}&cSpawn no encontrado." to player
+            play sound "entity.villager.no"
+
+# =====================[ COMANDO /spawnhelp ]=====================
+command /spawnhelp:
+    permission: spawn.spawnhelp
+    trigger:
+        send " "
+        send "  &aꜱᴘᴀᴡɴ - ʜᴇʟᴘ ᴍᴇɴᴜ"
+        send "   &a/setspawn &7→ Establece el spawn"
+        send "   &a/deletespawn &7→ Elimina el spawn"
+        send "   &a/locatespawn &7→ Muestra el spawn actual"
+        send "   &a/spawn &7→ Te lleva al spawn"
+        send "   &a/spawnsettings &7→ Abre ajustes de spawn"
+        send "   &a/spawnhelp &7→ Muestra este menú"
+        send " "
+
+# =====================[ COMANDO /spawn ]=====================
+command /spawn:
+    permission: spawn.spawn
+    trigger:
+        if {teleportlock::%uuid of player%} is set:
+            send "{@error}&cYa estás en proceso de teletransportación. Espera que termine." to player
+            stop
+        if {spawnset} is false:
+            send "{@error}&cSpawn no configurado. Contacta a un admin." to player
+            play sound "entity.villager.no"
+            stop
+        if {@spawndelay} is true:
+            set {teleportcombatlock::%uuid of player%} to true
+            set {_startblock} to block at location of player
+            set {teleportlock::%uuid of player%} to {_startblock}
+            loop {@spawndelaytime} times:
+                send "{@waiting}&7Teleportando en: &e%{@spawndelaytime} + 1 - loop-value%&7s." to player
+                play sound "entity.experience_orb.pickup"
+                wait 1 second
+                if block at location of player is not {_startblock}:
+                    send "{@error}&7Teleportación cancelada (te moviste)." to player
+                    play sound "entity.villager.no"
+                    delete {teleportlock::%uuid of player%}
+                    stop
+                if {teleportcombatlock::%uuid of player%} is not true:
+                    send "{@error}&7Teleportación cancelada (daño recibido)." to player
+                    play sound "entity.villager.no"
+                    delete {teleportlock::%uuid of player%}
+                    stop
+            teleport player to {spawn}
+            send "{@successfully}&a¡Teleportación exitosa!" to player
+            play sound "entity.experience_orb.pickup"
+            delete {teleportlock::%uuid of player%}
+        else:
+            teleport player to {spawn}
+            send "{@successfully}&a¡Teleportación exitosa!" to player
+
+# =====================[ BLOQUEAR DAÑO DURANTE DELAY ]=====================
+on damage:
+    attacker is player
+    victim is player
+    if {teleportcombatlock::%uuid of victim%} is set:
+        send "&7Teleportación cancelada (daño recibido)." to victim
+        play sound "entity.villager.no" to victim
+        delete {teleportlock::%uuid of victim%}
+        delete {teleportcombatlock::%uuid of victim%}
+
+# =====================[ COMANDO /spawnsettings ]=====================
+command /spawnsettings:
+    permission: spawn.spawnsettings
+    trigger:
+        set metadata tag "spawn" of player to chest inventory with 3 rows named "&8ꜱᴘᴀᴡɴ"
+        set slot 10 of metadata tag "spawn" of player to glow item frame named "&aꜱᴇᴛ &f+ &cᴅᴇʟᴇᴛᴇ &fꜱᴘᴀᴡɴ" with lore "&fᴄʟɪᴄᴋ ᴛᴏ ꜱᴇᴛ + ᴅᴇʟᴇᴛᴇ ꜱᴇʀᴠᴇʀ ꜱᴘᴀᴡɴ"
+        set slot 12 of metadata tag "spawn" of player to ender pearl named "&9ᴛᴇʟᴇᴘᴏʀᴛ" with lore "&fᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ꜱᴘᴀᴡɴ"
+        set slot 14 of metadata tag "spawn" of player to command block named "&eᴄᴏɴꜰɪɢ ꜱᴇᴛᴛɪɴɢꜱ" with lore "&f→ ᴇɴᴀʙʟᴇ / ᴅɪꜱᴀʙʟᴇ ʙᴇɪɴɢ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ ᴛᴏ ꜱᴘᴀᴡɴ ᴏɴ ᴊᴏɪɴ", "&f→ ᴇɴᴀʙʟᴇ / ᴅɪꜱᴀʙʟᴇ ᴄᴏᴜɴᴛᴅᴏᴡɴ ꜰᴏʀ /ꜱᴘᴀᴡɴ", "&f→ ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴄᴏᴜɴᴛᴅᴏᴡɴ ᴛɪᴍᴇʀ" and "&7ᴇᴅɪᴛ ᴛʜᴇ ꜱᴄʀɪᴘᴛ ꜰɪʟᴇ ᴛᴏ ᴅᴏ ᴛʜɪꜱ"
+        set slot 16 of metadata tag "spawn" of player to paper named "&dꜱᴜᴘᴘᴏʀᴛ" with lore "&fᴄʟɪᴄᴋ ꜰᴏʀ ꜱᴜᴘᴘᴏʀᴛ ʟɪɴᴋꜱ"
+        open (metadata tag "spawn" of player) to player
+
+# =====================[ CLICKS DE INVENTARIOS ]=====================
+on inventory click:
+    if event-inventory = (metadata tag "spawn" of player):
+        cancel event
+        if index of event-slot is 10:
+            set metadata tag "setdeletespawn" of player to chest inventory with 3 rows named "&8ꜱᴇᴛ + ᴅᴇʟᴇᴛᴇ ꜱᴘᴀᴡɴ"
+            set slot 11 of metadata tag "setdeletespawn" of player to red stained glass pane named "&cᴅᴇʟᴇᴛᴇ ꜱᴘᴀᴡɴ"
+            set slot 13 of metadata tag "setdeletespawn" of player to barrier named "&f← ɢᴏ ʙᴀᴄᴋ"
+            set slot 15 of metadata tag "setdeletespawn" of player to lime stained glass pane named "&aꜱᴇᴛꜱᴘᴀᴡɴ"
+            open (metadata tag "setdeletespawn" of player) to player
+        if index of event-slot is 12:
+            close player's inventory
+            teleport player to {spawn}
+        if index of event-slot is 16:
+            close player's inventory
+            send " "
+            send "&dꜱᴜᴘᴘᴏʀᴛ &r→ &b&n<link:https://discord.gg/2H4WGzeNud>ᴄʟɪᴄᴋ ʜᴇʀᴇ<link>"
+            send " "
+
+on inventory click:
+    if event-inventory = (metadata tag "setdeletespawn" of player):
+        cancel event
+        if index of event-slot is 11:
+            make player execute command "/deletespawn"
+        if index of event-slot is 13:
+            make player execute command "/spawnsettings"
+        if index of event-slot is 15:
+            make player execute command "/setspawn"
+
+# =====================[ COMANDO /clearchat ]=====================
+command /clearchat:
+    permission: admin.chat.clearchat
+    permission message: {@error}Comando denegado.
+    trigger:
+        loop all players:
+            loop 100 times:
+                send " " to loop-player
+        broadcast "&c&m-----------------------------------------"
+        broadcast "         &cEl chat ha sido limpiado por &a%player%&c!"
+        broadcast "&c&m-----------------------------------------"
+        play sound "entity.player.levelup" to player
+        send "{@prefix}&7Chat limpiado exitosamente!" to player
