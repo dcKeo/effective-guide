@@ -4,7 +4,7 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 127.190.144.61
-afk: true
+afk: false
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751280104648
+  logout: 1751330879571
   login: 1751330229855
 money: '0'
 last-account-name: KeitoC
 logoutlocation:
   world: bfbbb231-09ff-4fec-90a3-24dedac11704
   world-name: Spawn
-  x: 1.4270422139950136
-  y: 45.0
-  z: 19.432108491558896
-  yaw: -178.6939697265625
-  pitch: 55.948638916015625
+  x: 4.127001122543303
+  y: 47.868419444532215
+  z: 4.7118850501695535
+  yaw: 84.88264465332031
+  pitch: 13.332562446594238
 lastlocation:
   world: bfbbb231-09ff-4fec-90a3-24dedac11704
   world-name: Spawn

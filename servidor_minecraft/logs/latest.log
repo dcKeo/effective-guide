@@ -829,3 +829,152 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [00:39:28] [Server thread/WARN]: Nag author(s): '[DarkPanda73]' of 'RoyaleProtectionBlocks v0.1.6.1 Alpha FREE Fix1' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
 [00:39:28] [Server thread/INFO]: [RoyaleProtectionBlocks] [STDOUT] [PandaUtilities] Initialized PersistentDataContainer methods for itemstack data persistance successfully.
 [00:39:44] [Server thread/INFO]: KeitoC issued server command: /spawn
+[00:47:59] [Server thread/INFO]: KeitoC lost connection: Disconnected
+[00:47:59] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> [PandaPlayerDataEvents] Removing player cache data. [0/32767]
+[00:47:59] [Server thread/INFO]: - (-) KeitoC
+[00:48:25] [Server thread/INFO]: Stopping the server
+[00:48:25] [Server thread/INFO]: Stopping server
+[00:48:25] [Server thread/INFO]: [Jobs] Disabling Jobs v5.2.6.1
+[00:48:25] [Server thread/INFO]: ------------- Jobs -------------
+[00:48:25] [Server thread/INFO]: Cleared boss bar cache
+[00:48:25] [Server thread/INFO]: Saved player data
+[00:48:25] [Jobs-BufferedPaymentThread/INFO]: Buffered payment thread shutdown.
+[00:48:25] [Server thread/INFO]: Closed database connection
+[00:48:25] [Server thread/INFO]: ------------------------------------
+[00:48:25] [Jobs-DatabaseSaveTask/INFO]: Database save task shutdown!
+[00:48:25] [Server thread/INFO]: [UltimateClans] Disabling UltimateClans v8.2.1
+[00:48:25] [Server thread/INFO]: [UltimateClans] Starting shutdown ...
+[00:48:25] [Server thread/INFO]: [UltimateClans] Stoping thread...
+[00:48:25] [Server thread/INFO]: [UltimateClans] Closing storage...
+[00:48:25] [Server thread/INFO]: [UltimateClans] Disabling addons...
+[00:48:25] [Server thread/INFO]: [UltimateClans] Disabling extensions...
+[00:48:25] [Server thread/INFO]: [UltimateClans] Disabling Adventure...
+[00:48:25] [Server thread/INFO]: [UltimateClans] Unregister Listeners...
+[00:48:25] [Server thread/INFO]: [UltimateClans] Unregister Papi...
+[00:48:25] [Server thread/INFO]: [UltimateClans] Canceling Tasks...
+[00:48:25] [Server thread/INFO]: [UltimateClans] Disabling Redis...
+[00:48:25] [Server thread/INFO]: [UltimateClans] Goodbye!
+[00:48:25] [Server thread/INFO]: [FancyHolograms] Disabling FancyHolograms v2.5.0
+[00:48:25] [Server thread/INFO]: [EzChat] Disabling EzChat v3.1.0
+[00:48:25] [Server thread/INFO]: [ExcellentCrates] Disabling ExcellentCrates v6.2.2
+[00:48:25] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully disabled FancyHolograms version 2.5.0
+[00:48:25] [Server thread/INFO]: [RealisticSeasons] Disabling RealisticSeasons v11.7.0
+[00:48:25] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.3
+[00:48:25] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v5.0.2
+[00:48:25] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[00:48:25] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.72-baa3d91
+[00:48:25] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[00:48:25] [Server thread/INFO]: [RoyaleProtectionBlocks] Disabling RoyaleProtectionBlocks v0.1.6.1 Alpha FREE Fix1
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'ProtectionSettingsService' successfully. (0 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'ProtectionFlagsService' successfully. (0 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'ProtectionsService' successfully. (0 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> [PandaCommandsService] Unregistered command with name 'royaleprotectionblocks:protectionblocks'
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> [PandaCommandsService] Unregistered command with name 'protectionblocks'
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> [PandaCommandsService] Unregistered command with name 'royaleprotectionblocks:pb'
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> [PandaCommandsService] Unregistered command with name 'pb'
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'PandaCommandsService' successfully. (6 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'ProtectionBlocksService' successfully. (0 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'SQLService' successfully. (1 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'PlayerDataService' successfully. (1 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'OraxenAPI' successfully. (0 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'PvPManagerAPI' successfully. (1 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'CombatLogXAPI' successfully. (0 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'ItemsAdderAPI' successfully. (0 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'DeluxeCombatAPI' successfully. (1 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'WorldGuardAPI' successfully. (0 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'PlaceholderAPI' successfully. (1 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Unloaded service 'PermissionsService' successfully. (1 ms)
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> 
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> Plugin unloaded successfully!
+[00:48:25] [Server thread/INFO]: RoyaleProtectionBlocks FREE >> 
+[00:48:25] [Server thread/INFO]: [SkBee] Disabling SkBee v3.11.3
+[00:48:25] [Server thread/INFO]: [TAB] Disabling TAB v5.2.2
+[00:48:25] [Server thread/INFO]: [TAB] Disabled in 2ms
+[00:48:25] [Server thread/INFO]: [ItemTag] Disabling ItemTag v3.7.3
+[00:48:25] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion itemtag
+[00:48:25] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin ItemTag was disabled.
+[00:48:25] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.14.1-Release
+[00:48:25] [Server thread/INFO]: [VoidWorldGenerator] Disabling VoidWorldGenerator v1.3.0
+[00:48:25] [Server thread/INFO]: [CMILib] Disabling CMILib v1.5.5.0
+[00:48:25] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.3
+[00:48:25] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.6.0
+[00:48:25] [Server thread/INFO]: [packetevents] Disabling packetevents v2.8.0
+[00:48:25] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs has been disabled.
+[00:48:25] [Server thread/INFO]: [EconomyBridge] Disabling EconomyBridge v1.2.1
+[00:48:25] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v5.0.3
+[00:48:25] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v3.7.2
+[00:48:25] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion itemedit
+[00:48:25] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin ItemEdit was disabled.
+[00:48:25] [Server thread/INFO]: [ItemsAdder] Disabling ItemsAdder v4.0.11
+[00:48:25] [Server thread/INFO]: [nightcore] Disabling nightcore v2.7.8
+[00:48:25] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.0.2
+[00:48:25] [Server thread/INFO]: [Skript] Disabling Skript v2.11.2
+[00:48:25] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-750
+[00:48:25] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v7.5.2-Premium
+[00:48:25] [Server thread/INFO]: [PlotSquared/SQLManager] All DB transactions during this session are being validated (This may take a while if corrections need to be made)
+[00:48:25] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
+[00:48:25] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[00:48:25] [Server thread/INFO]: [XConomy] Disabling XConomy v2.26.3
+[00:48:25] [Server thread/INFO]: [XConomy] XConomy está deshabilitado
+[00:48:25] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[00:48:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[00:48:25] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1120;3dc41d8
+[00:48:25] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:48:25] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[00:48:25] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[00:48:25] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.8
+[00:48:25] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:48:25] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:48:25] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:48:25] [Server thread/INFO]: [Fadah] Disabling Fadah v3.1.3-HOTFIX
+[00:48:25] [Server thread/INFO]: [Fadah] Disabling hooks...
+[00:48:25] [Server thread/INFO]: [Fadah] Disabled hook: luckperms
+[00:48:25] [Server thread/INFO]: [Fadah] Disabled 1 hooks!
+[00:48:25] [Server thread/INFO]: [Fadah] [Services] [CommandService] Shutdown in 0ms.
+[00:48:25] [Server thread/INFO]: [Fadah] [Services] [LayoutService] Shutdown in 0ms.
+[00:48:25] [Server thread/INFO]: [Fadah] [Services] [MigrationService] Shutdown in 0ms.
+[00:48:25] [Server thread/INFO]: [Fadah] [Services] [CurrencyService] Shutdown in 0ms.
+[00:48:25] [Server thread/INFO]: [Fadah] [Services] [JSProcessorService] Shutdown in 0ms.
+[00:48:25] [Server thread/INFO]: [Fadah] [Services] [UpdateService] Shutdown in 0ms.
+[00:48:25] [Server thread/INFO]: [Fadah] [Services] [LoggingService] Shutdown in 0ms.
+[00:48:25] [Server thread/INFO]: [Fadah] [Services] [MetricsService] Shutdown in 0ms.
+[00:48:25] [Server thread/INFO]: [Fadah] [Services] [DataService] Shutdown in 5ms.
+[00:48:25] [Server thread/INFO]: Saving players
+[00:48:26] [Server thread/INFO]: Saving worlds
+[00:48:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Survival]'/minecraft:overworld
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Survival'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Survival'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Survival'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 24 entity chunks, 0 poi chunks in world 'Survival' in 0.01s
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Survival'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Survival'
+[00:48:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Survival_nether]'/minecraft:the_nether
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Survival_nether'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Survival_nether'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Survival_nether'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Survival_nether' in 0.00s
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Survival_nether'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Survival_nether'
+[00:48:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Survival_the_end]'/minecraft:the_end
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Survival_the_end'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Survival_the_end'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Survival_the_end'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'Survival_the_end' in 0.01s
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Survival_the_end'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Survival_the_end'
+[00:48:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spawn]'/minecraft:spawn
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Spawn'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Spawn'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Spawn'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Saved 25 block chunks, 0 entity chunks, 0 poi chunks in world 'Spawn' in 0.04s
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Spawn'
+[00:48:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Spawn'
+[00:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (Survival): All chunks are saved
+[00:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (Spawn): All chunks are saved
+[00:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:48:26] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[00:48:26] [Server thread/INFO]: All I/O tasks to complete
+[00:48:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[00:48:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
