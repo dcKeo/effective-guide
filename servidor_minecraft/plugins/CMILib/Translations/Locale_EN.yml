@@ -391,47 +391,47 @@ info:
   # Avoid adding color codes to the enchant name
   EnchantNames:
     quick_charge: Quick_charge
-    binding_curse: Binding_curse
-    frost_walker: Frost_walker
-    loot_bonus_blocks: Loot_bonus_blocks
-    knockback: Knockback
-    protection_explosions: Protection_explosions
-    protection_environmental: Protection_environmental
-    damage_all: Damage_all
-    channeling: Channeling
-    fire_aspect: Fire_aspect
-    lure: Lure
     mending: Mending
-    soul_speed: Soul_speed
     arrow_knockback: Arrow_knockback
-    silk_touch: Silk_touch
+    binding_curse: Binding_curse
+    depth_strider: Depth_strider
+    dig_speed: Dig_speed
+    knockback: Knockback
+    damage_all: Damage_all
+    protection_projectile: Protection_projectile
     thorns: Thorns
+    swift_sneak: Swift_sneak
+    breach: Breach
+    protection_explosions: Protection_explosions
+    protection_fire: Protection_fire
+    multishot: Multishot
+    sweeping_edge: Sweeping_edge
+    protection_fall: Protection_fall
+    frost_walker: Frost_walker
+    damage_arthropods: Damage_arthropods
+    protection_environmental: Protection_environmental
+    durability: Durability
+    impaling: Impaling
+    channeling: Channeling
     density: Density
+    loot_bonus_mobs: Loot_bonus_mobs
+    lure: Lure
+    loot_bonus_blocks: Loot_bonus_blocks
+    arrow_infinite: Arrow_infinite
+    loyalty: Loyalty
     vanishing_curse: Vanishing_curse
+    wind_burst: Wind_burst
+    luck: Luck
+    silk_touch: Silk_touch
     water_worker: Water_worker
     arrow_fire: Arrow_fire
     arrow_damage: Arrow_damage
-    swift_sneak: Swift_sneak
-    breach: Breach
-    riptide: Riptide
-    protection_projectile: Protection_projectile
-    oxygen: Oxygen
-    sweeping_edge: Sweeping_edge
-    luck: Luck
-    wind_burst: Wind_burst
-    multishot: Multishot
     damage_undead: Damage_undead
-    damage_arthropods: Damage_arthropods
-    protection_fall: Protection_fall
-    durability: Durability
-    arrow_infinite: Arrow_infinite
     piercing: Piercing
-    loot_bonus_mobs: Loot_bonus_mobs
-    loyalty: Loyalty
-    protection_fire: Protection_fire
-    dig_speed: Dig_speed
-    depth_strider: Depth_strider
-    impaling: Impaling
+    soul_speed: Soul_speed
+    fire_aspect: Fire_aspect
+    riptide: Riptide
+    oxygen: Oxygen
   PotionEffectAliases:
     instanthealth:
     - Instant health

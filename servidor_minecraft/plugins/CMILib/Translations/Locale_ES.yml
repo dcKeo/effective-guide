@@ -393,47 +393,47 @@ info:
   # Avoid adding color codes to the enchant name
   EnchantNames:
     quick_charge: Carga Rápida
-    binding_curse: Maldición de Ligamiento
-    frost_walker: Paso helado
-    loot_bonus_blocks: Fortuna
-    knockback: Empuje
-    protection_explosions: Protección Contra Explosiones
-    protection_environmental: Protección
-    damage_all: Filo
-    channeling: Conductividad
-    fire_aspect: Aspecto Ígneo
-    lure: Suerte Marina
     mending: Reparación
-    soul_speed: Velocidad del Alma
     arrow_knockback: Retroceso
-    silk_touch: Toque de Seda
+    binding_curse: Maldición de Ligamiento
+    depth_strider: Agilidad Acuática
+    dig_speed: Eficiencia
+    knockback: Empuje
+    damage_all: Filo
+    protection_projectile: Protección Contra Proyectiles
     thorns: Espinas
+    swift_sneak: SWIFTSNEAK
+    breach: Breach
+    protection_explosions: Protección Contra Explosiones
+    protection_fire: Protección contra el Fuego
+    multishot: Disparo Múltiple
+    sweeping_edge: Filo Arrasador
+    protection_fall: Caída de Pluma
+    frost_walker: Paso helado
+    damage_arthropods: Perdición de los Artrópodos
+    protection_environmental: Protección
+    durability: Irrompibilidad
+    impaling: Empalamiento
+    channeling: Conductividad
     density: Density
+    loot_bonus_mobs: Botín
+    lure: Suerte Marina
+    loot_bonus_blocks: Fortuna
+    arrow_infinite: Infinidad
+    loyalty: Lealtad
     vanishing_curse: Maldición de Desaparición
+    wind_burst: Wind_burst
+    luck: Suerte
+    silk_touch: Toque de Seda
     water_worker: Afinidad Acuática
     arrow_fire: Fuego
     arrow_damage: Poder
-    swift_sneak: SWIFTSNEAK
-    breach: Breach
-    riptide: Propulsión Acuática
-    protection_projectile: Protección Contra Proyectiles
-    oxygen: Respiración
-    sweeping_edge: Filo Arrasador
-    luck: Suerte
-    wind_burst: Wind_burst
-    multishot: Disparo Múltiple
     damage_undead: Golpeo
-    damage_arthropods: Perdición de los Artrópodos
-    protection_fall: Caída de Pluma
-    durability: Irrompibilidad
-    arrow_infinite: Infinidad
     piercing: Perforación
-    loot_bonus_mobs: Botín
-    loyalty: Lealtad
-    protection_fire: Protección contra el Fuego
-    dig_speed: Eficiencia
-    depth_strider: Agilidad Acuática
-    impaling: Empalamiento
+    soul_speed: Velocidad del Alma
+    fire_aspect: Aspecto Ígneo
+    riptide: Propulsión Acuática
+    oxygen: Respiración
   PotionEffectAliases:
     instanthealth:
     - Instant health
